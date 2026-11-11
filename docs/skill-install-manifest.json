@@ -1,0 +1,98 @@
+[
+  {
+    "name": "remotion-best-practices",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 148
+  },
+  {
+    "name": "remotion-captions",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 6
+  },
+  {
+    "name": "remotion-create",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 5
+  },
+  {
+    "name": "remotion-docs",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 3
+  },
+  {
+    "name": "remotion-interactivity",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 5
+  },
+  {
+    "name": "remotion-license",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 3
+  },
+  {
+    "name": "remotion-maps",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 32
+  },
+  {
+    "name": "remotion-markup",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 69
+  },
+  {
+    "name": "remotion-multimedia",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 6
+  },
+  {
+    "name": "remotion-render",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 4
+  },
+  {
+    "name": "remotion-saas",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 6
+  },
+  {
+    "name": "remotion-studio",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 3
+  },
+  {
+    "name": "remotion-upgrade",
+    "source": "remotion-dev/skills",
+    "commit": "1af7e69a2a613437d46095924057970a6a7df40d",
+    "files": 3
+  },
+  {
+    "name": "playwright-cli",
+    "source": "microsoft/playwright",
+    "commit": "c6c86f7e7b95f66c2f92d68f635b7ecdd7b33279",
+    "files": 11
+  },
+  {
+    "name": "playwright-component-testing",
+    "source": "microsoft/playwright",
+    "commit": "c6c86f7e7b95f66c2f92d68f635b7ecdd7b33279",
+    "files": 10
+  },
+  {
+    "name": "playwright-trace",
+    "source": "microsoft/playwright",
+    "commit": "c6c86f7e7b95f66c2f92d68f635b7ecdd7b33279",
+    "files": 1
+  }
+]

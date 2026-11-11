@@ -1,0 +1,6 @@
+**/node_modules/
+**/.remotion/
+.npm-cache/
+.venv*/
+artifacts/
+**/.cache/

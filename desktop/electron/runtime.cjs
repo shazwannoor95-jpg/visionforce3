@@ -1,0 +1,3 @@
+const {spawnSync}=require('node:child_process');
+function health(){const probes={};for(const name of ['ffmpeg','ffprobe']){const r=spawnSync(name,['-version'],{encoding:'utf8',windowsHide:true,timeout:10000});probes[name]={available:!r.error&&r.status===0,version:r.status===0?(r.stdout||'').split('\n')[0]:null};}return {status:probes.ffmpeg.available&&probes.ffprobe.available?'MEDIA_TOOLS_AVAILABLE':'NOT_READY_FOR_RENDER',platform:process.platform,node:process.versions.node,electron:process.versions.electron,probes,details:'Ini pemeriksaan binary sahaja. Worker Cloud dan composition desktop masih perlu disambungkan sebelum penjanaan video melalui aplikasi.'};}
+module.exports={health};

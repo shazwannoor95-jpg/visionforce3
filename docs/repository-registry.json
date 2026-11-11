@@ -8,7 +8,10 @@
     "installed": true,
     "scope": "13 project skills",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "remotion-dev/remotion",
@@ -19,7 +22,10 @@
     "installed": true,
     "scope": "npm Remotion 4.0.542, not monorepo build",
     "tested": true,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "motion-canvas/motion-canvas",
@@ -30,7 +36,10 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "FFmpeg/FFmpeg",
@@ -41,7 +50,10 @@
     "installed": true,
     "scope": "preinstalled FFmpeg/FFprobe 7.1.5",
     "tested": true,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "microsoft/playwright",
@@ -52,7 +64,10 @@
     "installed": true,
     "scope": "npm Playwright 1.56.1 plus 3 project skills",
     "tested": true,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "Zulko/moviepy",
@@ -63,7 +78,10 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "ManimCommunity/manim",
@@ -74,7 +92,10 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "Comfy-Org/ComfyUI",
@@ -85,7 +106,10 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "lllyasviel/FramePack",
@@ -96,7 +120,10 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   },
   {
     "repository": "Wan-Video/Wan2.2",
@@ -107,6 +134,9 @@
     "installed": false,
     "scope": "OPTIONAL / NOT INSTALLED",
     "tested": false,
-    "gpu_models_downloaded": false
+    "gpu_models_downloaded": false,
+    "windows_runtime_status": "NOT_TESTED",
+    "desktop_instruction_registry": "REGISTERED",
+    "audit": "docs/v41-skill-audit.json"
   }
 ]

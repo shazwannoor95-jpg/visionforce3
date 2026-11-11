@@ -1,0 +1,65 @@
+name: Publish Approved Stable Release
+on:
+  workflow_dispatch:
+    inputs:
+      source_commit:
+        description: 'SHA yang telah lulus semua ujian Windows'
+        required: true
+      run_id:
+        description: 'Run Windows Desktop yang lulus'
+        required: true
+      artifact_name:
+        description: 'Nama artifact Windows Desktop'
+        required: true
+      approve_unsigned:
+        description: 'Saya meluluskan penerbitan UNSIGNED selepas semakan acceptance'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: read
+jobs:
+  release:
+    if: inputs.approve_unsigned
+    environment: stable-release
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_commit }}
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.run_id }}
+          name: ${{ inputs.artifact_name }}
+          path: approved-artifacts
+      - name: Verify and publish immutable assets
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_SHA: ${{ inputs.source_commit }}
+        run: |
+          $ErrorActionPreference='Stop'
+          $v=Get-Content version.json|ConvertFrom-Json
+          $build=Get-ChildItem approved-artifacts -Recurse -Filter build.json | Select-Object -First 1
+          $tests=Get-ChildItem approved-artifacts -Recurse -Filter windows-tests.json | Select-Object -First 1
+          $video=Get-ChildItem approved-artifacts -Recurse -Filter windows-video-probe.json | Select-Object -First 1
+          $sum=Get-ChildItem approved-artifacts -Recurse -Filter SHA256SUMS.txt | Select-Object -First 1
+          if (!$build -or !$tests -or !$video -or !$sum) { throw 'Acceptance evidence incomplete' }
+          if ((Get-Content $build.FullName|ConvertFrom-Json).sourceCommit -ne $env:EXPECTED_SHA) { throw 'Source commit mismatch' }
+          if ((Get-Content $tests.FullName|ConvertFrom-Json).status -ne 'PASS') { throw 'Native Windows tests failed' }
+          foreach($line in Get-Content $sum.FullName) {
+            $hash,$name=$line -split '  ',2
+            $file=Join-Path $sum.DirectoryName $name
+            if ((Get-FileHash $file -Algorithm SHA256).Hash.ToLower() -ne $hash) { throw 'Checksum mismatch' }
+          }
+          git config user.name 'VISIONFORGE Release'
+          git config user.email 'release@users.noreply.github.com'
+          git tag $v.display $env:EXPECTED_SHA
+          if ($LASTEXITCODE -ne 0) { throw 'Version tag exists; refusing overwrite' }
+          git push origin $v.display
+          if ($LASTEXITCODE -ne 0) { throw 'Tag push failed' }
+          $files=Get-ChildItem $sum.DirectoryName -Filter '*.exe'|Select-Object -ExpandProperty FullName
+          gh release create $v.display @files $sum.FullName --verify-tag --title "VISIONFORGE 3 $($v.display) — UNSIGNED" --notes-file docs/V41-RELEASE-NOTES-MS.md
+          if ($LASTEXITCODE -ne 0) { throw 'Publication failed; no overwrite attempted' }

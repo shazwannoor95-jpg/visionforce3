@@ -9,3 +9,7 @@ artifacts/
 **/.bundle-extract.lock
 **/.bundle-ready.json
 .data/
+desktop/dist/
+desktop/release/
+desktop/resources/
+*.tsbuildinfo

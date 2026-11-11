@@ -1,0 +1,62 @@
+name: Windows Desktop VISIONFORGE 3
+on:
+  push:
+    branches: ['feat/v41-*']
+  pull_request:
+    paths: ['desktop/**', 'version.json', '.agents/skills/**', '.github/workflows/windows-desktop.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: windows-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build-and-smoke:
+    runs-on: windows-2025
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.22.1'
+          cache: npm
+          cache-dependency-path: desktop/package-lock.json
+      - name: Dependency terkunci
+        working-directory: desktop
+        run: npm ci
+      - name: Ujian unit dan typecheck
+        working-directory: desktop
+        run: |
+          npm test
+          npm run typecheck
+      - name: Build Installer dan Portable UNSIGNED
+        working-directory: desktop
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+        run: npm run pack:win
+      - name: Native Electron development smoke
+        working-directory: desktop
+        run: npm run smoke
+      - name: Ujian NSIS ruang, tanpa ruang, portable dan metadata
+        shell: pwsh
+        run: ./desktop/scripts/windows-acceptance.ps1
+      - name: Remotion MP4 sebenar pada Windows
+        shell: pwsh
+        run: ./desktop/scripts/windows-video.ps1
+      - name: SHA-256
+        working-directory: desktop
+        run: node scripts/checksums.cjs
+      - name: Simpan bukti walaupun ujian gagal
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VISIONFORGE3-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            desktop/release/**/*Setup-x64.exe
+            desktop/release/**/*Portable-x64.exe
+            desktop/release/**/SHA256SUMS.txt
+            artifacts/desktop/**
+            desktop/release/**/windows-tests.json
+            desktop/release/**/build.json
+          if-no-files-found: warn
+          retention-days: 30

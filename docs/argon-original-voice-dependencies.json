@@ -1,0 +1,10 @@
+{
+  "ready": true,
+  "offline": true,
+  "prefix": "/workspace/argon-runtime/vo-original-cp31118",
+  "target": "Linux x86_64/glibc>=2.35, CPython 3.11, CPU",
+  "espeak_voices": "Pty Language       Age/Gender VoiceName          File                 Other Languages\n 1  ms              --/F      malay-mbrola-1     mb/mb-ma1            \n 5  ms              --/M      Malay              poz/ms               \n",
+  "versions": "{'torch': '2.5.1+cpu', 'torchaudio': '2.5.1+cpu', 'transformers': '4.38.2', 'malaya': '5.1.1', 'malaya-speech': '1.4.0rc2', 'phonemizer': '3.3.0', 'melotts': '0.1.2+geminims2'}",
+  "tts_inference_required": true,
+  "runtime_env": "/workspace/argon-runtime/vo-original-cp31118/runtime-env.json"
+}

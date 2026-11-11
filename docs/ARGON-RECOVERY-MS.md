@@ -1,3 +1,5 @@
+> Status terkini: CPython asal 3.11.18 turut dipulihkan dan ujian suara lulus. Lihat [ARGON-CP31118-MS.md](ARGON-CP31118-MS.md).
+
 # Pemulihan bundle Argon — status terkini
 
 12 fail upload gantian semuanya sepadan SHA-256 manifest asal. Bukti: argon-replacement-verification.json. Status dalam laporan terdahulu adalah sejarah sebelum pemulihan ini.

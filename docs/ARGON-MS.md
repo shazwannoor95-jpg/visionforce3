@@ -1,3 +1,5 @@
+> Status terkini: CPython asal 3.11.18 turut dipulihkan dan ujian suara lulus. Lihat [ARGON-CP31118-MS.md](ARGON-CP31118-MS.md).
+
 > Kemas kini: sekatan fail gantian di bawah telah dipulihkan. Lihat [ARGON-RECOVERY-MS.md](ARGON-RECOVERY-MS.md) untuk status terkini dan ujian suara berjaya. CPython 3.11.18 asal masih belum dipulihkan.
 
 # Pemasangan Skill Argon

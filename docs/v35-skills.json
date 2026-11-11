@@ -1,0 +1,128 @@
+[
+  {
+    "id": "buat-video-motion-grafik",
+    "source": ".agents/skills/buat-video-motion-grafik/SKILL.md",
+    "sha256": "680232cfb308bd616b3bbdd67b929e65668a12661441a6f2d697479825ddc2f9",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "buat-video-motion-grafik-gemini",
+    "source": ".agents/skills/buat-video-motion-grafik-gemini/SKILL.md",
+    "sha256": "de3156162a5c8f8dfb6f40be912cd66441f3a625d78f6572be3648cc2f39e970",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "playwright-cli",
+    "source": ".agents/skills/playwright-cli/SKILL.md",
+    "sha256": "cecf861d397b97d7f4a7339d60d3d8e9e4a405567a34eccdb77285f92b7a91dd",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "playwright-component-testing",
+    "source": ".agents/skills/playwright-component-testing/SKILL.md",
+    "sha256": "60f57b31767d562c30cc5332081418c2945f4d9c998efa6e09191333654dd429",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "playwright-trace",
+    "source": ".agents/skills/playwright-trace/SKILL.md",
+    "sha256": "c76d28244c05a6474f6030213127cd62253208b06430ea2378576f0669db2c9a",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-best-practices",
+    "source": ".agents/skills/remotion-best-practices/SKILL.md",
+    "sha256": "fe799aec97385b4bdffca66fd083b20b067a54da83a4c361c8e0e4f685f214ee",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-captions",
+    "source": ".agents/skills/remotion-captions/SKILL.md",
+    "sha256": "b5b948b47b051f741e06dc4163a541ddac107af33673ac79eab53756b8710213",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-create",
+    "source": ".agents/skills/remotion-create/SKILL.md",
+    "sha256": "a8ff961b4810ba906bef4a5316096cce63cd758e2a09fdc3eba4e384ff3c16ae",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-docs",
+    "source": ".agents/skills/remotion-docs/SKILL.md",
+    "sha256": "1494451bbc739fb6ccd30d4b01ddf6bafef311c3134a70046f9812e8bd9a66e9",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-interactivity",
+    "source": ".agents/skills/remotion-interactivity/SKILL.md",
+    "sha256": "6ae45244b9f0cb1bc6cea5aa679865fef5e32a0cdabe3ec32580e563a3d127ea",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-license",
+    "source": ".agents/skills/remotion-license/SKILL.md",
+    "sha256": "1219dffccbbdf38a3b5e11d6b49529fb38c668ff829249e3f811947df628aa63",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-maps",
+    "source": ".agents/skills/remotion-maps/SKILL.md",
+    "sha256": "e00dc2cb2958d0c915b819ccb66f366d86f10cbb4008e52fbae69d8fd4176fca",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-markup",
+    "source": ".agents/skills/remotion-markup/SKILL.md",
+    "sha256": "0173346133bacf0cfa9399389c61757994f3f6b63a87eb2e3637ee4dd3dbe05a",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-multimedia",
+    "source": ".agents/skills/remotion-multimedia/SKILL.md",
+    "sha256": "4792269101762d4e1d340d7ab6d85e5dec71545a0944fc57fe06e214d9b53144",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-render",
+    "source": ".agents/skills/remotion-render/SKILL.md",
+    "sha256": "bf7a58459ef0689112868dd1b34bc7e56f68d722b9e60409368c88b1735771f8",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-saas",
+    "source": ".agents/skills/remotion-saas/SKILL.md",
+    "sha256": "fee02191cb953542eca2fc925945dbef7b93a748d1cb7ffa97f21618a805d4b8",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-studio",
+    "source": ".agents/skills/remotion-studio/SKILL.md",
+    "sha256": "d192aa4ce0894e4d1a934ba049bc52afae49a3c1849d5d343cc8a3f3f4e19db6",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  },
+  {
+    "id": "remotion-upgrade",
+    "source": ".agents/skills/remotion-upgrade/SKILL.md",
+    "sha256": "fd8f8cd72d36f108ca9f72e04433c17e17df5f654c742ebe3a6060f163da4d61",
+    "status": "VERIFIED",
+    "scope": "Fail arahan sahaja; runtime mesti diuji untuk job."
+  }
+]

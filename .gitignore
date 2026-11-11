@@ -8,3 +8,4 @@ artifacts/
 **/*.pyc
 **/.bundle-extract.lock
 **/.bundle-ready.json
+.data/

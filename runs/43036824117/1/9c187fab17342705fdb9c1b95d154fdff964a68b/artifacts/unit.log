@@ -1,0 +1,51 @@
+
+> visionforge3-desktop@0.0.2 test
+> node --test tests/*.test.cjs
+
+✔ Windows tilde literal dan percent-encoded merujuk path yang sama (1.5031ms)
+✔ POSIX filepath yang sama (0.3671ms)
+✔ IPC menolak sender lain (0.2682ms)
+✔ IPC menolak iframe (0.1819ms)
+✔ IPC menolak HTTPS (0.2319ms)
+✔ IPC menolak HTML lain (0.2308ms)
+✔ IPC menolak UNC (0.1918ms)
+✔ IPC menolak query (0.1148ms)
+✔ IPC menolak encoded separator (0.3782ms)
+✔ IPC menolak URL tidak sah (0.3316ms)
+✔ LF (10.3172ms)
+✔ CRLF (0.9046ms)
+✔ UTF-8 BOM LF (0.5519ms)
+✔ UTF-8 BOM CRLF (0.4241ms)
+✔ ID skill tidak sepadan (0.9256ms)
+✔ frontmatter tidak sah "---\nname: remotion-create\ndescription: x" (0.2396ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.1813ms)
+✔ frontmatter tidak sah "---\n- a\n- b\n---" (0.6996ms)
+✔ frontmatter tidak sah "---\nname: [\ndescription: x\n---" (1.7062ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.7995ms)
+✔ frontmatter tidak sah "ate\ndescription: !!js/function \"bad\"\n---" (0.8655ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: []\n---" (0.6531ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: \"\"\n---" (0.4251ms)
+✔ frontmatter tidak sah "ion-create\nx: &x abc\ndescription: *x\n---" (1.2413ms)
+✔ metadata dalam body tidak boleh menggantikan header (0.4155ms)
+✔ UTF-8 rosak ditolak (0.3153ms)
+✔ SKILL.md tiada menghasilkan diagnostic ID dan sebab (2.3219ms)
+✔ 18 folder asal sah LF (142.0025ms)
+✔ 18 folder asal sah CRLF (47.2359ms)
+✔ 18 folder asal sah BOM_CRLF (107.8454ms)
+✔ projek dan mesej kekal selepas restart (143.5531ms)
+✔ backup, approval, checksum dan restore tidak memadam projek (219.5966ms)
+✔ schema masa depan tidak dibuka untuk downgrade (48.0847ms)
+✔ ID dan file import dihadkan (47.5052ms)
+✔ 18 skills dipadankan kepada ID sebenar dan katalog diasingkan (15.9519ms)
+✔ API key ditolak jika OS tidak menyulitkannya (1.0177ms)
+✔ Windows artifact names dan SemVer mengikut versi tugasan (0.9146ms)
+✔ migrasi schema membuat backup sebelum ALTER dan draf boleh dipulihkan (98.4284ms)
+✔ endpoint Cloud menolak HTTP luar, credentials dan redirect berparameter (1.1711ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 756.9413

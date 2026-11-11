@@ -3,6 +3,6 @@ const invoke=(name,...args)=>ipcRenderer.invoke('vf:'+name,...args);
 contextBridge.exposeInMainWorld('visionforge',Object.freeze({
  saveCloud:origin=>invoke('saveCloud',origin),generate:(id,prompt)=>invoke('generate',id,prompt),pollRender:id=>invoke('pollRender',id),saveDraft:(id,text)=>invoke('saveDraft',id,text),bootstrap:()=>invoke('bootstrap'),createProject:name=>invoke('createProject',name),openProject:id=>invoke('openProject',id),
  send:(id,text)=>invoke('send',id,text),attach:id=>invoke('attach',id),backup:()=>invoke('backup'),restorePlan:id=>invoke('restorePlan',id),restore:id=>invoke('restore',id),
- testProvider:id=>invoke('testProvider',id),saveProvider:(id,key)=>invoke('saveProvider',id,key),exportProject:id=>invoke('exportProject',id),openBackup:()=>invoke('openBackup'),
+ testProvider:id=>invoke('testProvider',id),saveProvider:(id,key)=>invoke('saveProvider',id,key),exportResult:id=>invoke('exportResult',id),exportProject:id=>invoke('exportProject',id),openBackup:()=>invoke('openBackup'),
  health:()=>invoke('health')
 }));

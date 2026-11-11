@@ -39,9 +39,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           EXPECTED_SHA: ${{ inputs.source_commit }}
+          APPROVED_RUN_ID: ${{ inputs.run_id }}
+          VF_REPOSITORY: ${{ github.repository }}
         run: |
           $ErrorActionPreference='Stop'
           $v=Get-Content version.json|ConvertFrom-Json
+          if ($env:EXPECTED_SHA -notmatch '^[a-f0-9]{40}$' -or $env:APPROVED_RUN_ID -notmatch '^\d+$') { throw 'Invalid source/run' }
+          $run=gh api "repos/$env:VF_REPOSITORY/actions/runs/$env:APPROVED_RUN_ID" | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0 -or $run.conclusion -ne 'success' -or $run.head_sha -ne $env:EXPECTED_SHA) { throw 'Successful matching CI run required' }
           $build=Get-ChildItem approved-artifacts -Recurse -Filter build.json | Select-Object -First 1
           $tests=Get-ChildItem approved-artifacts -Recurse -Filter windows-tests.json | Select-Object -First 1
           $video=Get-ChildItem approved-artifacts -Recurse -Filter windows-video-probe.json | Select-Object -First 1

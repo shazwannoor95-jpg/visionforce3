@@ -1,11 +1,11 @@
 {
-  "task": "vf41-desktop-versioning-20261111",
-  "build": 1,
-  "display": "v0.0.0.1",
-  "semver": "0.0.1",
-  "fileVersion": "0.0.0.1",
-  "title": "Asas Windows dan versi automatik V4.1",
-  "baseCommit": "025cb3858384725310664afd7b39c68e509c83cd",
-  "createdAt": "2026-11-11T13:00:42.200437+00:00",
+  "task": "windows-ci-recovery-20261111",
+  "build": 2,
+  "display": "v0.0.0.2",
+  "semver": "0.0.2",
+  "fileVersion": "0.0.0.2",
+  "title": "Pulihkan CI Windows, audit frontmatter dan build EXE",
+  "baseCommit": "859139c20da908e473b7b74ba9285db0abbb19b2",
+  "createdAt": "2026-11-11T13:57:22.702628+00:00",
   "status": "DRAFT"
 }

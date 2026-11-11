@@ -1,0 +1,6 @@
+const {spawn}=require('node:child_process');const fs=require('node:fs');const path=require('node:path');
+const root=path.resolve(__dirname,'../..');const name=process.argv[2];
+const commands={unit:['npm','test'],typecheck:['npm','run','typecheck'],build:['npm','run','pack:win'],development:['npm','run','smoke'],acceptance:['pwsh','-NoProfile','-File',path.join(__dirname,'windows-acceptance.ps1')],video:['pwsh','-NoProfile','-File',path.join(__dirname,'windows-video.ps1')],checksums:[process.execPath,path.join(__dirname,'checksums.cjs')]};
+if(!commands[name])throw Error('Nama langkah CI tidak sah');let [command,...args]=commands[name];if(process.platform==='win32'&&command==='npm'){command='cmd.exe';args=['/d','/s','/c',commands[name].join(' ')];}
+const dir=path.join(root,'artifacts/desktop');fs.mkdirSync(dir,{recursive:true});const log=fs.createWriteStream(path.join(dir,name+'.log'),{flags:'w'});const child=spawn(command,args,{cwd:path.join(root,'desktop'),env:process.env,windowsHide:true});
+child.stdout.on('data',data=>{process.stdout.write(data);log.write(data);});child.stderr.on('data',data=>{process.stderr.write(data);log.write(data);});child.on('error',e=>{log.end(String(e));console.error(e);process.exitCode=1;});child.on('close',code=>{log.end();process.exitCode=code??1;});

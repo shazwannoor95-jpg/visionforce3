@@ -6,7 +6,7 @@ on:
     paths: ['desktop/**', 'version.json', '.agents/skills/**', '.github/workflows/windows-desktop.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: windows-${{ github.ref }}
   cancel-in-progress: false
@@ -24,30 +24,56 @@ jobs:
       - name: Sahkan peruntukan versi
         run: python tools/validate_version.py
       - name: Dependency terkunci
+        id: dependencies
         working-directory: desktop
         run: npm ci
-      - name: Ujian unit dan typecheck
+      - name: Diagnostic 18 skills dan newline Windows
+        id: diagnostic
         working-directory: desktop
-        run: |
-          npm test
-          npm run typecheck
+        run: node scripts/diagnose-skills.cjs
+      - name: Ujian unit
+        id: unit
+        working-directory: desktop
+        run: node scripts/run-ci-step.cjs unit
+      - name: Typecheck
+        id: typecheck
+        working-directory: desktop
+        run: node scripts/run-ci-step.cjs typecheck
       - name: Build Installer dan Portable UNSIGNED
+        id: build
         working-directory: desktop
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
-        run: npm run pack:win
+        run: node scripts/run-ci-step.cjs build
       - name: Native Electron development smoke
+        id: development
         working-directory: desktop
-        run: npm run smoke
+        run: node scripts/run-ci-step.cjs development
       - name: Ujian NSIS ruang, tanpa ruang, portable dan metadata
+        id: acceptance
         shell: pwsh
-        run: ./desktop/scripts/windows-acceptance.ps1
+        run: node desktop/scripts/run-ci-step.cjs acceptance
       - name: Remotion MP4 sebenar pada Windows
+        id: video
         shell: pwsh
-        run: ./desktop/scripts/windows-video.ps1
+        run: node desktop/scripts/run-ci-step.cjs video
       - name: SHA-256
+        id: checksums
         working-directory: desktop
-        run: node scripts/checksums.cjs
+        run: node scripts/run-ci-step.cjs checksums
+      - name: Terbit bukti CI ke branch laporan (bukan main)
+        if: always()
+        env:
+          VF_DEPENDENCIES: ${{ steps.dependencies.outcome }}
+          VF_DIAGNOSTIC: ${{ steps.diagnostic.outcome }}
+          VF_UNIT: ${{ steps.unit.outcome }}
+          VF_TYPECHECK: ${{ steps.typecheck.outcome }}
+          VF_BUILD: ${{ steps.build.outcome }}
+          VF_DEVELOPMENT: ${{ steps.development.outcome }}
+          VF_ACCEPTANCE: ${{ steps.acceptance.outcome }}
+          VF_VIDEO: ${{ steps.video.outcome }}
+          VF_CHECKSUMS: ${{ steps.checksums.outcome }}
+        run: node desktop/scripts/publish-ci-evidence.cjs
       - name: Simpan bukti walaupun ujian gagal
         if: always()
         uses: actions/upload-artifact@v4
@@ -60,5 +86,6 @@ jobs:
             artifacts/desktop/**
             desktop/release/**/windows-tests.json
             desktop/release/**/build.json
+            artifacts/desktop/ci-summary.json
           if-no-files-found: warn
           retention-days: 30

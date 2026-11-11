@@ -1,6 +1,6 @@
-const fs=require('node:fs');const path=require('node:path');const crypto=require('node:crypto');const {discover,EXPECTED}=require('../electron/skills.cjs');
-const root=path.resolve(__dirname,'../..');const skills=path.join(root,'.agents/skills');const rows=discover(skills);
-if(rows.length!==18||rows.some(r=>r.status!=='VERIFIED')||fs.readdirSync(skills,{withFileTypes:true}).filter(x=>x.isDirectory()).length!==18)throw Error('Audit 18 skills gagal');
+const fs=require('node:fs');const path=require('node:path');const crypto=require('node:crypto');const {audit,EXPECTED}=require('../electron/skills.cjs');
+const root=path.resolve(__dirname,'../..');const skills=path.join(root,'.agents/skills');const report=audit(skills);const rows=report.rows;
+if(!report.ok){console.error(JSON.stringify({folders:report.folders,unexpected:report.unexpected,failed:report.failed},null,2));throw Error('Audit 18 skills gagal: '+report.failed.map(r=>r.id+': '+r.reason).join('; '));}
 const resources=path.join(root,'desktop/resources');fs.mkdirSync(resources,{recursive:true});
 for(const id of EXPECTED){const dest=path.join(resources,'skills',id);fs.mkdirSync(dest,{recursive:true});for(const file of ['SKILL.md','references','scripts','agents']){const src=path.join(skills,id,file);if(fs.existsSync(src))fs.cpSync(src,path.join(dest,file),{recursive:true,filter:p=>!p.includes('__pycache__')});}const lock=path.join(skills,id,'assets/runtime-lock.json');if(fs.existsSync(lock)){fs.mkdirSync(path.join(dest,'assets'),{recursive:true});fs.copyFileSync(lock,path.join(dest,'assets/runtime-lock.json'));}}
 const version=JSON.parse(fs.readFileSync(path.join(root,'version.json'),'utf8'));fs.writeFileSync(path.join(resources,'version.json'),JSON.stringify(version,null,2));

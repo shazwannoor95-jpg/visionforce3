@@ -9,3 +9,7 @@
 - Ujian Linux lulus. Windows cross-build gagal pada Wine/rcedit; installer/portable/native CI belum disahkan. Tiada Stable Release diterbitkan.
 
 Kerja sebelum ledger versi ini kekal dalam sejarah Git sedia ada; tidak diberi nombor rekaan secara retrospektif.
+
+## v0.0.0.2 — DRAFT
+
+Pulihkan CI Windows, audit frontmatter dan build EXE

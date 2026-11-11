@@ -1,7 +1,7 @@
 {
   "name": "visionforge3-desktop",
   "productName": "VISIONFORGE 3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Studio video VISIONFORGE 3",
   "author": "VISIONFORGE 3",
@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "yaml": "2.8.2"
   },
   "devDependencies": {
     "@types/react": "19.2.2",
@@ -27,14 +28,14 @@
     "@vitejs/plugin-react": "5.1.0",
     "electron": "39.2.0",
     "electron-builder": "26.0.12",
+    "playwright": "1.56.1",
     "typescript": "5.9.3",
-    "vite": "7.2.2",
-    "playwright": "1.56.1"
+    "vite": "7.2.2"
   },
   "build": {
     "appId": "com.visionforge3.studio",
     "productName": "VISIONFORGE 3",
-    "buildVersion": "0.0.0.1",
+    "buildVersion": "0.0.0.2",
     "asar": true,
     "directories": {
       "output": "release"
@@ -68,11 +69,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "artifactName": "VISIONFORGE-3-v0.0.0.1-Setup-x64.exe",
+      "artifactName": "VISIONFORGE-3-v0.0.0.2-Setup-x64.exe",
       "deleteAppDataOnUninstall": false
     },
     "portable": {
-      "artifactName": "VISIONFORGE-3-v0.0.0.1-Portable-x64.exe"
+      "artifactName": "VISIONFORGE-3-v0.0.0.2-Portable-x64.exe"
     },
     "linux": {
       "target": "dir"

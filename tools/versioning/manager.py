@@ -18,6 +18,7 @@ class VersionManager:
                               capture_output=True, check=check)
 
     def reserve(self, task, title, remote='origin'):
+        if remote not in self.git('remote').stdout.splitlines():raise ValueError('Gunakan remote Git yang dikonfigurasi')
         if not re.fullmatch(r'[a-zA-Z0-9_-]{1,100}',task): raise ValueError('ID tugasan tidak sah')
         for attempt in range(20):
             result = self.git('ls-remote',remote,LEDGER,'refs/tags/vf-reservation-*','refs/tags/v0.0.0.*')
@@ -30,9 +31,9 @@ class VersionManager:
                 state=json.loads(self.git('show',parent+':ledger.json').stdout)
             if task in state['tasks']: return state['tasks'][task]
             number=max(high,state['counter'])+1
-            if number>=65536: raise ValueError('Julat versi Windows pertama penuh; perlukan migrasi format sebelum 65536')
-            record={'task':task,'build':number,'display':f'v0.0.0.{number}', 'semver':f'0.0.{number}',
-                    'fileVersion':f'0.0.0.{number}','title':title,'baseCommit':self.git('rev-parse','HEAD').stdout.strip(),
+            if number>=2**32: raise ValueError('Julat FileVersion penuh; nombor tidak direset atau diguna semula')
+            record={'task':task,'build':number,'display':f'v0.0.0.{number}', 'semver':f'0.{number//65536}.{number%65536}',
+                    'fileVersion':f'0.0.{number//65536}.{number%65536}','title':title,'baseCommit':self.git('rev-parse','HEAD').stdout.strip(),
                     'createdAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'DRAFT'}
             state['counter']=number;state['tasks'][task]=record
             blob=self.git('hash-object','-w','--stdin',data=json.dumps(state,sort_keys=True)+'\n').stdout.strip()
@@ -50,16 +51,20 @@ class VersionManager:
 
     def checkpoint(self, tag, commit='HEAD'):
         # Git menolak tag yang sedia ada; tiada -f/reset.
-        self.git('tag',tag,commit)
+        self.git('check-ref-format','refs/tags/'+tag)
+        resolved=self.git('rev-parse','--verify','--end-of-options',commit+'^{commit}').stdout.strip()
+        self.git('tag','--',tag,resolved)
         return self.git('rev-parse',tag).stdout.strip()
 
     def compare(self, old, new='HEAD'):
-        return self.git('diff','--stat',old,new,'--').stdout
+        old_sha=self.git('rev-parse','--verify','--end-of-options',old+'^{commit}').stdout.strip()
+        new_sha=self.git('rev-parse','--verify','--end-of-options',new+'^{commit}').stdout.strip()
+        return self.git('diff','--stat',old_sha,new_sha,'--').stdout
 
     def restore_source(self, commit, destination):
         destination=Path(destination).resolve()
         if destination.exists():raise ValueError('Destinasi mesti baharu; sumber semasa tidak ditimpa')
-        resolved=self.git('rev-parse','--verify',commit+'^{commit}').stdout.strip()
+        resolved=self.git('rev-parse','--verify','--end-of-options',commit+'^{commit}').stdout.strip()
         # Clone berasingan, bukan reset/checkout destruktif.
         subprocess.run(['git','clone','--no-hardlinks','--no-checkout',str(self.repo.resolve()),str(destination)],check=True,capture_output=True)
         subprocess.run(['git','-C',str(destination),'checkout','--detach',resolved],check=True,capture_output=True)
@@ -101,8 +106,13 @@ def record_result(directory, record, status, checks, source_commit, approved=Fal
         raise ValueError('STABLE memerlukan kelulusan serta semua ujian penerimaan Windows')
     if (status=='TESTED' and not checks) or (any(v=='FAIL' for v in checks.values()) and status in ('TESTED','STABLE')):
         raise ValueError('Ujian gagal/tidak tersedia; gunakan FAILED/DRAFT')
-    record={**record,'status':status,'checks':checks,'sourceCommit':source_commit}
+    record={**record,'status':status,'checks':checks,'sourceCommit':source_commit,'eventAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
     dest=Path(directory)/record['display']/'events';dest.mkdir(parents=True,exist_ok=True)
-    out=dest/(datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S')+'-'+uuid.uuid4().hex+'.json')
+    out=dest/(datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S%f')+'-'+uuid.uuid4().hex+'.json')
     with out.open('x') as f:json.dump(record,f,indent=2);f.write('\n')
+    history_file=Path(directory)/'history.json'
+    history=json.loads(history_file.read_text()) if history_file.exists() else []
+    history=[r for r in history if r.get('display')!=record['display']]+[record]
+    history.sort(key=lambda r:r.get('build',0),reverse=True)
+    temp=history_file.with_suffix('.'+uuid.uuid4().hex+'.tmp');temp.write_text(json.dumps(history,indent=2)+'\n');temp.replace(history_file)
     return out

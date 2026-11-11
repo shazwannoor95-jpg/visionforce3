@@ -33,3 +33,13 @@ class ReleaseStateTests(unittest.TestCase):
    old=mod.record_result(d,record,'FAILED',{'unit':'FAIL'},'sha');raw=old.read_bytes()
    with self.assertRaises(ValueError):mod.record_result(d,record,'STABLE',{'unit':'PASS'},'sha',True)
    mod.record_result(d,record,'DRAFT',{},'next');self.assertEqual(old.read_bytes(),raw)
+
+class RolloverTests(unittest.TestCase):
+ setUp=VersionTests.setUp
+ tearDown=VersionTests.tearDown
+ def test_counter_rollover_preserves_windows_four_words(self):
+  first=self.m.reserve('old','Lama')
+  sha=self.m.git('ls-remote','origin','refs/heads/vf-version-ledger').stdout.split()[0]
+  self.m.git('push','origin',sha+':refs/tags/vf-reservation-65535')
+  next=self.m.reserve('new','Baharu')
+  self.assertEqual(next['build'],65536);self.assertEqual(next['display'],'v0.0.0.65536');self.assertEqual(next['semver'],'0.1.0');self.assertEqual(next['fileVersion'],'0.0.1.0')

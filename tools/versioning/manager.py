@@ -71,6 +71,9 @@ def main():
     s=p.add_subparsers(dest='command',required=True)
     r=s.add_parser('reserve');r.add_argument('--task',required=True);r.add_argument('--title',required=True);r.add_argument('--remote',default='origin');r.add_argument('--output')
     c=s.add_parser('checkpoint');c.add_argument('tag');c.add_argument('--commit',default='HEAD')
+    h=s.add_parser('history');h.add_argument('--remote',default='origin')
+    d=s.add_parser('compare');d.add_argument('old');d.add_argument('--new',default='HEAD')
+    r=s.add_parser('restore-source');r.add_argument('commit');r.add_argument('destination');r.add_argument('--approve',action='store_true')
     a=p.parse_args();m=VersionManager(a.repo)
     if a.command=='reserve':
         result=m.reserve(a.task,a.title,a.remote)
@@ -79,7 +82,13 @@ def main():
             if out.exists():raise ValueError('Rekod tempatan sedia ada; jangan overwrite')
             out.write_text(json.dumps(result,indent=2)+'\n')
         print(json.dumps(result,indent=2))
-    else:print(m.checkpoint(a.tag,a.commit))
+    elif a.command=='checkpoint':print(m.checkpoint(a.tag,a.commit))
+    elif a.command=='compare':print(m.compare(a.old,a.new))
+    elif a.command=='restore-source':
+        if not a.approve:raise ValueError('Semak compare dan beri --approve untuk salinan baharu')
+        print(m.restore_source(a.commit,a.destination))
+    else:
+        m.git('fetch','--quiet',a.remote,LEDGER);print(m.git('show','FETCH_HEAD:ledger.json').stdout)
 
 if __name__=='__main__':main()
 
@@ -90,7 +99,7 @@ def record_result(directory, record, status, checks, source_commit, approved=Fal
     if status not in ('DRAFT','BUILDING','FAILED','TESTED','STABLE','ARCHIVED'):raise ValueError('Status versi tidak sah')
     if status=='STABLE' and (not approved or any(checks.get(k)!='PASS' for k in REQUIRED_STABLE_CHECKS)):
         raise ValueError('STABLE memerlukan kelulusan serta semua ujian penerimaan Windows')
-    if status=='TESTED' and not checks or any(v=='FAIL' for v in checks.values()) and status in ('TESTED','STABLE'):
+    if (status=='TESTED' and not checks) or (any(v=='FAIL' for v in checks.values()) and status in ('TESTED','STABLE')):
         raise ValueError('Ujian gagal/tidak tersedia; gunakan FAILED/DRAFT')
     record={**record,'status':status,'checks':checks,'sourceCommit':source_commit}
     dest=Path(directory)/record['display']/'events';dest.mkdir(parents=True,exist_ok=True)

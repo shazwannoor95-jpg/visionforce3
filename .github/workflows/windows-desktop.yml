@@ -21,6 +21,8 @@ jobs:
           node-version: '24.22.1'
           cache: npm
           cache-dependency-path: desktop/package-lock.json
+      - name: Sahkan peruntukan versi
+        run: python tools/validate_version.py
       - name: Dependency terkunci
         working-directory: desktop
         run: npm ci

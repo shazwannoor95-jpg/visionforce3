@@ -1,0 +1,15 @@
+{
+  "platform": "linux",
+  "app": "/workspace/visionforce3/desktop/node_modules/electron/dist/electron",
+  "status": "PASS",
+  "checks": [
+    "Electron sebenar",
+    "cipta projek",
+    "mesej/chat autosave",
+    "restart recovery",
+    "18 skills",
+    "Version History",
+    "backup data",
+    "renderer tiada Node integration"
+  ]
+}

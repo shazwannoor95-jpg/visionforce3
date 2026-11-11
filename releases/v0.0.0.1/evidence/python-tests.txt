@@ -1,0 +1,16 @@
+test_one_claim_per_job (test_core.ConcurrencyTests.test_one_claim_per_job) ... ok
+test_invalid_and_scanned_pdf_rejected (test_core.CoreTests.test_invalid_and_scanned_pdf_rejected) ... ok
+test_queue_retry_and_failure (test_core.CoreTests.test_queue_retry_and_failure) ... ok
+test_registry_does_not_claim_ready (test_core.CoreTests.test_registry_does_not_claim_ready) ... ok
+test_source_quotes_not_instructions (test_core.CoreTests.test_source_quotes_not_instructions) ... ok
+test_upload_and_download_guards (test_core.CoreTests.test_upload_and_download_guards) ... ok
+test_failed_is_never_stable_and_old_record_immutable (test_versioning.ReleaseStateTests.test_failed_is_never_stable_and_old_record_immutable) ... ok
+test_counter_rollover_preserves_windows_four_words (test_versioning.RolloverTests.test_counter_rollover_preserves_windows_four_words) ... ok
+test_parallel_branches_unique (test_versioning.VersionTests.test_parallel_branches_unique) ... ok
+test_restore_source_never_overwrites (test_versioning.VersionTests.test_restore_source_never_overwrites) ... ok
+test_sequence_idempotent_and_failed_not_reused (test_versioning.VersionTests.test_sequence_idempotent_and_failed_not_reused) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.024s
+
+OK

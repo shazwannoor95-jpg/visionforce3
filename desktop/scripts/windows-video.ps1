@@ -16,6 +16,7 @@ if ($LASTEXITCODE -ne 0) { throw 'FFprobe gagal' }
 $probe = $json | ConvertFrom-Json
 $video = $probe.streams | Where-Object { $_.codec_type -eq 'video' } | Select-Object -First 1
 if ($video.width -ne 1920 -or $video.height -ne 1080 -or $video.avg_frame_rate -ne '30/1' -or $video.nb_read_frames -ne '120') { throw 'Dimensi/FPS/frame gagal' }
-& $ffmpeg.FullName -v error -i "$root/artifacts/desktop/windows-remotion.mp4" -f null -
+& $ffmpeg.FullName -v error -xerror -i "$root/artifacts/desktop/windows-remotion.mp4" -map 0:v:0 -c:v rawvideo -f null -
 if ($LASTEXITCODE -ne 0) { throw 'Decode Windows gagal' }
+@{status='PASS';decoder='ffmpeg -xerror';frameOutput='rawvideo -> null';codec=$video.codec_name;width=$video.width;height=$video.height;fps=$video.avg_frame_rate;frames=$video.nb_read_frames} | ConvertTo-Json | Set-Content "$root/artifacts/desktop/windows-video-test.json"
 $json | Set-Content "$root/artifacts/desktop/windows-video-probe.json"

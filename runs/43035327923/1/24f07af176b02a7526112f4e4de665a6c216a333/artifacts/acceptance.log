@@ -1,0 +1,22 @@
+(node:3448) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS Electron smoke win32
+(node:3068) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+VF_SMOKE_FAILURE {
+  "url": "file:///C:/Users/RUNNER~1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html",
+  "body": "V₃\nVISIONFORGE 3\nSTUDIO VIDEO\n＋ Video baharu\n◈Studio\n▤Projek\n▧Pustaka media\n✧Skills (18)\n◎AI Providers\n▣Browser Automation\n≋Render Queue\n⚙Settings\nPROJEK TERKINI\n Ruang kerja tempatan\nMemuatkan… · DRAFT\nVISIONFORGE 3 / Studio\nWindows + Cloud · Fasa asas\nError invoking remote method 'vf:createProject': Error: IPC dari origin tidak dibenarkan\nDARIPADA IDEA KEPADA GERAK\nCerita anda. Dalam gerakan.\n\nMulakan dengan bahan sumber dan satu brief. Projek anda disimpan secara automatik.\n\nNama projek\nCipta projek\n✧\nApakah video yang ingin anda hasilkan?\n\nImport PDF, susun brief dan lihat skills yang sesuai.\n\n01\nBahan anda\nPDF, slaid, dokumen dan media\n02\n18 skills\nRemotion, Playwright dan Argon\n03\nSource Lock\nKandungan sumber kekal utama\n＋ Lampirkan fail\nHantar brief ↗\n\nCore klip petikan: maksimum 8 petikan × 3 saat; bukan mod Keep All. Inferens LLM belum disambungkan. Render memerlukan worker yang dikonfigurasi dan kelulusan menghantar PDF.",
+  "diagnostics": "VF_IPC_ORIGIN {\"expected\":\"file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"actual\":\"file:///C:/Users/RUNNER~1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"senderMatches\":true}\nError occurred in handler for 'vf:bootstrap': Error: IPC dari origin tidak dibenarkan\n    at allowed (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:10:369)\n    at C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:11:77\n    at Session.<anonymous> (node:electron/js2c/browser_init:2:107286)\n    at Session.emit (node:events:519:28)\nVF_IPC_ORIGIN {\"expected\":\"file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"actual\":\"file:///C:/Users/RUNNER~1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"senderMatches\":true}\nError occurred in handler for 'vf:createProject': Error: IPC dari origin tidak dibenarkan\n    at allowed (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:10:369)\n    at C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:11:77\n    at Session.<anonymous> (node:electron/js2c/browser_init:2:107286)\n    at Session.emit (node:events:519:28)\nVF_IPC_ORIGIN {\"expected\":\"file:///C:/Users/RUNNER%7E1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"actual\":\"file:///C:/Users/RUNNER~1/AppData/Local/Temp/VFPlain/resources/app.asar/dist/index.html\",\"senderMatches\":true}\nError occurred in handler for 'vf:createProject': Error: IPC dari origin tidak dibenarkan\n    at allowed (C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:10:369)\n    at C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app.asar\\electron\\main.cjs:11:77\n    at Session.<anonymous> (node:electron/js2c/browser_init:2:107286)\n    at Session.emit (node:events:519:28)\n"
+}
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Brief disimpan.') to be visible[22m
+
+    at D:\a\visionforce3\visionforce3\desktop\tests\electron-smoke.cjs:6:207 {
+  name: 'TimeoutError'
+}
+[31;1mException: [0mD:\a\visionforce3\visionforce3\desktop\scripts\windows-acceptance.ps1:13[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m  13 | [0m . oke.cjs; if ($LASTEXITCODE -ne 0) { [36;1mthrow "Smoke $name gagal"[0m } } fin .[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSmoke VFPlain gagal[0m

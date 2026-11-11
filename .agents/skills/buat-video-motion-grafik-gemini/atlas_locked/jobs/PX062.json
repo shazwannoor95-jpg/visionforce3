@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX062",
+  "mode": "native",
+  "params": {
+    "text": "A NEW WAY FORWARD",
+    "subtitle": "Clean lines, clear direction",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "224b020b2cfde01273da197cf7754af04af916bb3a701a103b87fc9b014d2679"
+  }
+}

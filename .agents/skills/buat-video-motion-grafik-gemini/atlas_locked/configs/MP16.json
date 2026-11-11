@@ -1,0 +1,22 @@
+{
+  "name": "Festive Raya",
+  "description": "Animasi asli: ketupat sway, sequential lamps and star ornaments.",
+  "family": "motionprompt",
+  "genre": "documentary",
+  "genres": [
+    "documentary"
+  ],
+  "text": "SALAM AIDILFITRI",
+  "subtitle": "Cahaya pelita dan ketupat berayun.",
+  "source_url": "https://epool86.github.io/motionprompt/#festive-raya",
+  "variant_basis": "adapted",
+  "mechanism": "ketupat sway, sequential lamps and star ornaments",
+  "duration": 6.0,
+  "preset": "MP16",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

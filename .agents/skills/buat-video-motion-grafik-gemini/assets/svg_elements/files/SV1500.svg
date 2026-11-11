@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Lantern procession display</title>
+<g id="main">
+<rect x="86" y="171" width="86" height="55" rx="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<rect x="27" y="70" width="34" height="54" rx="10" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="82" y="84" width="34" height="54" rx="10" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="138" y="85" width="34" height="54" rx="10" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="194" y="69" width="34" height="54" rx="10" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="122" y="171" width="14" height="13" rx="1" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="129" cy="228" rx="70" ry="7" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="31,164 34.17,171.63 42.41,172.29 36.14,177.67 38.05,185.71 31,181.4 23.95,185.71 25.86,177.67 19.59,172.29 27.83,171.63" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="213" y1="180" x2="229" y2="180" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="221" y1="172" x2="221" y2="188" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<path d="M 25 41 Q 128 83 230 41" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="44" y1="53" x2="44" y2="65" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="27" y1="84" x2="61" y2="84" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="27" y1="109" x2="61" y2="109" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="44" y1="125" x2="44" y2="141" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="99" y1="67" x2="99" y2="79" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="82" y1="98" x2="116" y2="98" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="82" y1="123" x2="116" y2="123" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="99" y1="139" x2="99" y2="155" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="155" y1="68" x2="155" y2="80" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="138" y1="99" x2="172" y2="99" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="138" y1="124" x2="172" y2="124" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="155" y1="140" x2="155" y2="156" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="211" y1="52" x2="211" y2="64" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="194" y1="83" x2="228" y2="83" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="194" y1="108" x2="228" y2="108" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="211" y1="124" x2="211" y2="140" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="129" y1="171" x2="129" y2="226" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

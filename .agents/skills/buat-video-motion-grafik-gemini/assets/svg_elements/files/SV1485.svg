@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Blooming component showcase</title>
+<g id="main">
+<circle cx="128" cy="126" r="33" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="108" y="110" width="41" height="32" rx="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<rect x="121.5" y="110" width="14" height="13" rx="1" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="128" cy="61" rx="25" ry="31" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="184.29" cy="93.5" rx="25" ry="31" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="184.29" cy="158.5" rx="25" ry="31" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="128" cy="191" rx="25" ry="31" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="71.71" cy="158.5" rx="25" ry="31" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="71.71" cy="93.5" rx="25" ry="31" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="128.5" y1="110" x2="128.5" y2="142" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="128" y1="91" x2="128" y2="61" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="158.31" y1="108.5" x2="184.29" y2="93.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="158.31" y1="143.5" x2="184.29" y2="158.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="128" y1="161" x2="128" y2="191" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="97.69" y1="143.5" x2="71.71" y2="158.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="97.69" y1="108.5" x2="71.71" y2="93.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="127" y1="197" x2="127" y2="229" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 127 218 Q 88 186 83 221 Z" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

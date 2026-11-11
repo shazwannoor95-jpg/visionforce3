@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K07",
+  "mode": "native",
+  "params": {
+    "text": "BINA IDEA HEBAT",
+    "subtitle": "Pilih kata yang menjadi fokus.",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0975ad02172cd38e32f90e00218d0a09f4dc71d915c51cc536574f77094f2dd6"
+  }
+}

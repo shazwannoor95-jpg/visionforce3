@@ -1,0 +1,22 @@
+{
+  "name": "Search Bar Typing",
+  "description": "Bingkai carian dilukis, ikon berubah dan caret mengikuti teks yang ditaip.",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "corporate",
+    "education"
+  ],
+  "text": "Cari idea anda yang seterusnya",
+  "subtitle": "Taip pertanyaan. Terokai kemungkinan.",
+  "source_url": "https://elements.envato.com/typewriter-N25CE6N",
+  "observed_timestamp": "14.75–17.75 s",
+  "preset": "A04",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Idea sharing environment</title>
+<g id="main">
+<path d="M 47 223 Q 43 166 107 153 Q 111 184 77 201" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="121" y="31" width="94" height="59" rx="12" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 136 90 L 133 100 L 151 90" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="26" y="48" width="73" height="47" rx="12" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 41 95 L 38 105 L 56 95" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="157" y="151" width="72" height="50" rx="12" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 172 201 L 169 211 L 187 201" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<polygon points="95,106 98.97,115.54 109.27,116.36 101.42,123.09 103.82,133.14 95,127.75 86.18,133.14 88.58,123.09 80.73,116.36 91.03,115.54" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<path d="M 107 153 Q 132 112 163 94" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="133" y1="46" x2="203" y2="46" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="133" y1="56" x2="195" y2="56" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="38" y1="63" x2="87" y2="63" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="38" y1="73" x2="79" y2="73" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="169" y1="166" x2="217" y2="166" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="169" y1="176" x2="209" y2="176" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="82" y1="220" x2="198" y2="220" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Adjustable two light production kit</title>
+<g id="main">
+<rect x="21" y="41" width="56" height="66" rx="7" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="179" y="41" width="56" height="66" rx="7" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="108" y="138" width="41" height="75" rx="8" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<path d="M 77 59 L 125 117 L 100 147 Z" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 179 59 L 134 117 L 155 147 Z" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="117.02" y="126" width="22.96" height="14" rx="3" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="49" y1="108" x2="49" y2="205" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="49" y1="205" x2="26" y2="228" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="49" y1="205" x2="72" y2="228" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="35" y1="69" x2="63" y2="69" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="207" y1="108" x2="207" y2="205" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="207" y1="205" x2="184" y2="228" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="207" y1="205" x2="230" y2="228" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="193" y1="69" x2="221" y2="69" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="113" y="166.89" width="31" height="20.88" rx="3" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="94" y1="218" x2="162" y2="218" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

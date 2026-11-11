@@ -1,0 +1,18 @@
+{
+  "id": "VL0165",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "hex",
+  "parameters": {
+    "size": 0.04,
+    "seed": 23
+  },
+  "duration": 1.2,
+  "fps": 30,
+  "feather": 0.065,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

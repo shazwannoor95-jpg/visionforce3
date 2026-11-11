@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Layered value pyramid kit</title>
+<g id="main">
+<polygon points="24,221 231,221 207,168 48,168" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="111" y="22" width="33" height="38" rx="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<polygon points="50,167 205,167 179,113 76,113" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="78,112 177,112 150,59 104,59" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="120.5" y="22" width="14" height="13" rx="1" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="127.5" y1="22" x2="127.5" y2="60" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="71" y1="193" x2="185" y2="193" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="97" y1="140" x2="159" y2="140" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="115" y1="87" x2="140" y2="87" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

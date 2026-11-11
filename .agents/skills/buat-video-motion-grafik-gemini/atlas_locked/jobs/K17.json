@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K17",
+  "mode": "native",
+  "params": {
+    "text": "GERAK PANTAS",
+    "subtitle": "TENAGA DALAM SETIAP HURUF",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0904085dca73aec65ff095a62b520093defb841b928ebcbe07d84ec1b557d9b2"
+  }
+}

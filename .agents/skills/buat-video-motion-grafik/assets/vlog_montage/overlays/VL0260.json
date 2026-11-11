@@ -1,0 +1,16 @@
+{
+  "id": "VL0260",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "rain_window",
+  "variant": 5,
+  "seed": 25081,
+  "palette": "silver",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

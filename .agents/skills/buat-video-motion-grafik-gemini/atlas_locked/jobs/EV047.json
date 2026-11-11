@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV047",
+  "mode": "native",
+  "params": {
+    "text": "STEPPED RANKING BARS",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "7a98c73b693eb3615a266bb9e3d92b629aec1caa498199658b49c4c162258ecc"
+  }
+}

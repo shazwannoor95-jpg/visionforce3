@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K01",
+  "mode": "native",
+  "params": {
+    "text": "BINA CERITA",
+    "subtitle": "Huruf dibina sedikit demi sedikit.",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "e1ea59778ed69e740ca91a884f8852441a4617aa8c16806d905ae563cbaebfd6"
+  }
+}

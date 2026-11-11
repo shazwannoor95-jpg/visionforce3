@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Paper rocket and launch platform</title>
+<g id="main">
+<path d="M 99 141 L 99 73 Q 128 22 159 73 V 141 Z" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<path d="M 100 124 L 71 144 V 175 L 104 159 M 158 124 L 185 144 V 175 L 154 159" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="109,166 128,219 149,166" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="49,63 52.44,71.27 61.36,71.98 54.56,77.81 56.64,86.52 49,81.85 41.36,86.52 43.44,77.81 36.64,71.98 45.56,71.27" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<circle cx="129" cy="83" r="17" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="37" y1="228" x2="220" y2="228" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="50" y1="201" x2="50" y2="216" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="207" y1="191" x2="207" y2="216" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

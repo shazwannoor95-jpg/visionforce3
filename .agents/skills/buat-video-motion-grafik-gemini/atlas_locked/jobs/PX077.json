@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX077",
+  "mode": "native",
+  "params": {
+    "text": "THE BIG PICTURE",
+    "subtitle": "Open the frame, reveal the thought",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "c1805d5b6f3d02091659e1d8eb02f36a0a7b274ddf39dd67018e1b88a35cf4b9"
+  }
+}

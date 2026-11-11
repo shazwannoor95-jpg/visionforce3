@@ -1,0 +1,20 @@
+{
+  "name": "Hook bersama ikon",
+  "description": "Ikon menyokong frasa dengan orbit kecil dan kemunculan berturutan.",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "creator",
+    "education"
+  ],
+  "text": "SATU IDEA BANYAK CARA",
+  "subtitle": "Ikon mengikuti cerita, bukan mengganggunya.",
+  "preset": "H03",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

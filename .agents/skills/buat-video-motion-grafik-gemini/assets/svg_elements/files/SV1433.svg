@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Emotion selection wheel</title>
+<g id="main">
+<circle cx="128" cy="128" r="92" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<circle cx="128" cy="128" r="29" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="128" cy="63" r="18" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="184.29" cy="95.5" r="18" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="184.29" cy="160.5" r="18" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="128" cy="193" r="18" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="71.71" cy="160.5" r="18" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="71.71" cy="95.5" r="18" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="119,115 124.6,143 131.6,134.32 138.88,139.08 143.08,133.48 135.8,129 147,125.08" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="122" y1="60" x2="125" y2="60" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="131" y1="60" x2="134" y2="60" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 121.0 68.0 Q 128.0 74.0 135.0 68.0" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="178.29" y1="92.5" x2="181.29" y2="92.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="187.29" y1="92.5" x2="190.29" y2="92.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 177.2916512459885 100.5 Q 184.2916512459885 96.5 191.2916512459885 100.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="178.29" y1="157.5" x2="181.29" y2="157.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="187.29" y1="157.5" x2="190.29" y2="157.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 177.29165124598853 165.5 Q 184.29165124598853 171.5 191.29165124598853 165.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="122" y1="190" x2="125" y2="190" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="131" y1="190" x2="134" y2="190" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 121.0 198.0 Q 128.0 194.0 135.0 198.0" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="65.71" y1="157.5" x2="68.71" y2="157.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="74.71" y1="157.5" x2="77.71" y2="157.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 64.7083487540115 165.50000000000003 Q 71.7083487540115 171.50000000000003 78.7083487540115 165.50000000000003" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="65.71" y1="92.5" x2="68.71" y2="92.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="74.71" y1="92.5" x2="77.71" y2="92.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 64.7083487540115 100.5 Q 71.7083487540115 96.5 78.7083487540115 100.5" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

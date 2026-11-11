@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "C01",
+  "mode": "native",
+  "params": {
+    "text": "FIND YOUR FOCUS",
+    "subtitle": "Satu fokus. Banyak perspektif.",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "263ad321befc9a7e5ea5b5c522d9b877c20d8f2ac8fde77b840c92655c86f394"
+  }
+}

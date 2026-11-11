@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX380",
+  "mode": "native",
+  "params": {
+    "text": "BEZIER SNAPSHOT JOURNEY",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0ceb6762680c40d6a844208bcf23307c6a74e6f6ea5783241eabc395f18585d9"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV111",
+  "mode": "native",
+  "params": {
+    "text": "EVERY DETAIL\nTELLS A STORY",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "a2a01ace3582f574a5b7773a2f2ac857305862d68b4abed2126b2b7e9d4c15db"
+  }
+}

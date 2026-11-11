@@ -1,0 +1,49 @@
+{
+  "name": "Serif Quote Marks",
+  "description": "Tipografi asal: oversized opening and closing quotation marks bookend a delayed serif sentence.",
+  "genre": "documentary",
+  "text": "COURAGE BEGINS WITH YOU",
+  "subtitle": "A moment to pause and reflect",
+  "family": "premium-type",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/bold-editorial-titles-and-lower-thirds-for-after-e-3E4YZGP",
+  "observation_basis": "listing-description",
+  "mechanism": "oversized opening and closing quotation marks bookend a delayed serif sentence",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "teks headline",
+    "teks sokongan",
+    "geometri vektor asal"
+  ],
+  "use_cases": [
+    "kata hikmah",
+    "testimoni sah",
+    "dokumentari"
+  ],
+  "parameters": {
+    "text": "Teks utama; disesuaikan mengikut lebar tersedia",
+    "subtitle": "Teks sokongan pendek",
+    "genre": "Palet warna daripada core.PALETTES",
+    "tempo": "Kelajuan masuk 0.5–2.0",
+    "duration": "Tempoh scene 0.5–120 saat; lalai 6",
+    "accent": "Warna aksen #RRGGBB",
+    "text_color": "Warna teks #RRGGBB",
+    "bg": "Warna latar #RRGGBB"
+  },
+  "adaptation_status": "original-demo",
+  "mode": "premium_type_11_0",
+  "implementation": "premium_type.py / quote",
+  "originality_note": "Demo baharu berasaskan teknik umum yang diterangkan dalam listing; bukan template atau aset Envato.",
+  "frame_size": [
+    1280,
+    720
+  ],
+  "render_status": "renderable",
+  "preset": "PX045",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

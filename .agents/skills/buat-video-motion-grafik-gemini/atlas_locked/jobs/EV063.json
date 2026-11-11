@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV063",
+  "mode": "native",
+  "params": {
+    "text": "AREA CHART HOVER",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "56570c6012e72d3ee84263846ad05dd7dd7f0c57c4f35198fea96319137f8ce2"
+  }
+}

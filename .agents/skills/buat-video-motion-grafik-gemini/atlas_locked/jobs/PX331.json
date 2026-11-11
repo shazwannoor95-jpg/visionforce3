@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX331",
+  "mode": "native",
+  "params": {
+    "text": "MARGIN STACK SLIDE",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "29d9353f38a92929e83c688ac1a1b66d4e0a0b6d18f23ea9607544a97cbe87a5"
+  }
+}

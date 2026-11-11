@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX250",
+  "mode": "native",
+  "params": {
+    "text": "Phone Feature Unpack",
+    "subtitle": "App feature cards separate from a phone screen into a clear diagram.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "06ef36e8cab02fb1beb68a4ae2a595f389fde8744d99b8497b41f67dada908da"
+  }
+}

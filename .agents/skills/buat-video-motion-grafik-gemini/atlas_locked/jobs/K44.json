@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K44",
+  "mode": "native",
+  "params": {
+    "text": "RUANG UNTUK IDEA",
+    "subtitle": "PANDANGAN BAHARU BERMULA DI SINI",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "68a5f2a83ac96fb1aa6f406abfcd054500ec2789f6c3f88101379af75072e71e"
+  }
+}

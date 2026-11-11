@@ -1,0 +1,30 @@
+{
+  "name": "Diagonal Divider Reveal",
+  "description": "Garis serong membuka ruang antara dua perkataan yang muncul dari pusat.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "saas",
+    "education",
+    "corporate"
+  ],
+  "text": "FIKIR\nCIPTA",
+  "subtitle": "DUA TINDAKAN, SATU ARAH",
+  "family": "kinetic",
+  "source_url": "https://elements.envato.com/text-animation-YZHKP5W",
+  "observed_timestamp": "10.0–14.8 s",
+  "mechanism": "diagonal slash separating two masked word reveals",
+  "variant_basis": "observed",
+  "divider_slant": 55,
+  "word_gap": 100,
+  "divider_width": 7,
+  "preset": "K27",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

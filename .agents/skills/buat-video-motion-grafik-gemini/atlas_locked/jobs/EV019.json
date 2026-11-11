@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV019",
+  "mode": "native",
+  "params": {
+    "text": "STRIKE BAND",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "318b1014675f4e0dc4d8a050dae0a260cf6b38971455b89fd6135ddaaaab348c"
+  }
+}

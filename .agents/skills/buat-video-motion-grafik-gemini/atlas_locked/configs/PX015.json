@@ -1,0 +1,49 @@
+{
+  "name": "Outline Stack Spotlight",
+  "description": "Tipografi asal: three outlined headline rows remain stacked while the middle row fills vertically.",
+  "genre": "creator",
+  "text": "FOCUS ON WHAT MATTERS",
+  "subtitle": "One message rises above the noise",
+  "family": "premium-type",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/kinetic-titles-3-0-fcpx-6G8GZKV",
+  "observation_basis": "listing-description",
+  "mechanism": "three outlined headline rows remain stacked while the middle row fills vertically",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "teks headline",
+    "teks sokongan",
+    "geometri vektor asal"
+  ],
+  "use_cases": [
+    "kinetic typography",
+    "judul promosi",
+    "penerangan"
+  ],
+  "parameters": {
+    "text": "Teks utama; disesuaikan mengikut lebar tersedia",
+    "subtitle": "Teks sokongan pendek",
+    "genre": "Palet warna daripada core.PALETTES",
+    "tempo": "Kelajuan masuk 0.5–2.0",
+    "duration": "Tempoh scene 0.5–120 saat; lalai 6",
+    "accent": "Warna aksen #RRGGBB",
+    "text_color": "Warna teks #RRGGBB",
+    "bg": "Warna latar #RRGGBB"
+  },
+  "adaptation_status": "original-demo",
+  "mode": "premium_type_03_2",
+  "implementation": "premium_type.py / outline",
+  "originality_note": "Demo baharu berasaskan teknik umum yang diterangkan dalam listing; bukan template atau aset Envato.",
+  "frame_size": [
+    1280,
+    720
+  ],
+  "render_status": "renderable",
+  "preset": "PX015",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

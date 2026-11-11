@@ -1,0 +1,450 @@
+{
+  "character_id": "L01",
+  "height_cm": 118,
+  "units": "SVG design units",
+  "canvas": {
+    "width": 600,
+    "height": 1000
+  },
+  "status": "static artwork and reference joint metadata",
+  "views": {
+    "front": {
+      "schema_version": 1,
+      "id": "L01",
+      "name": "Danish",
+      "view": "front",
+      "units": "SVG user units",
+      "viewBox": [
+        0,
+        0,
+        600,
+        1000
+      ],
+      "height_cm": 118,
+      "rig_status": "Static layered artwork with landmarks; action deformation, IK and contacts require animation implementation.",
+      "bounds": {
+        "top": 56,
+        "bottom": 947,
+        "left": 176.6,
+        "right": 423.4
+      },
+      "landmarks": {
+        "head": [
+          300,
+          156.17000000000002
+        ],
+        "neck": [
+          300,
+          271
+        ],
+        "shoulder_left": [
+          227.004,
+          296
+        ],
+        "elbow_left": [
+          190.6,
+          447
+        ],
+        "wrist_left": [
+          199.6,
+          610
+        ],
+        "fingers_left": [
+          204.6,
+          653
+        ],
+        "shoulder_right": [
+          372.996,
+          296
+        ],
+        "elbow_right": [
+          405.4,
+          443
+        ],
+        "wrist_right": [
+          396.4,
+          602
+        ],
+        "fingers_right": [
+          389.4,
+          648
+        ],
+        "pelvis": [
+          300,
+          568
+        ],
+        "hip_left": [
+          269,
+          568
+        ],
+        "hip_right": [
+          333,
+          568
+        ],
+        "knee_left": [
+          265,
+          752
+        ],
+        "knee_right": [
+          338,
+          755
+        ],
+        "ankle_left": [
+          259,
+          911
+        ],
+        "ankle_right": [
+          340,
+          911
+        ],
+        "heel_left": [
+          241,
+          936
+        ],
+        "toe_left": [
+          279,
+          940
+        ],
+        "heel_right": [
+          328,
+          937
+        ],
+        "toe_right": [
+          377,
+          940
+        ]
+      },
+      "segments": {
+        "upper_arm_left": 155.32627342468498,
+        "forearm_left": 163.24827717314508,
+        "upper_arm_right": 150.52913078869483,
+        "forearm_right": 159.25451327984396,
+        "head_height": 189
+      },
+      "garments": {
+        "outfit": "polo",
+        "shoulder_y": 288,
+        "hem_y": 568,
+        "ankle_y": 911
+      },
+      "layers": [
+        "shadow",
+        "leg_left",
+        "leg_right",
+        "shoe_left",
+        "shoe_right",
+        "arm_left_upper",
+        "arm_left_lower",
+        "hand_left",
+        "torso",
+        "arm_right_upper",
+        "arm_right_lower",
+        "hand_right",
+        "neck",
+        "hair_back",
+        "head",
+        "ears",
+        "eyes",
+        "brows",
+        "nose",
+        "mouth",
+        "hair_front",
+        "hijab_back",
+        "hijab_front",
+        "accessories"
+      ]
+    },
+    "three_quarter": {
+      "schema_version": 1,
+      "id": "L01",
+      "name": "Danish",
+      "view": "three_quarter",
+      "units": "SVG user units",
+      "viewBox": [
+        0,
+        0,
+        600,
+        1000
+      ],
+      "height_cm": 118,
+      "rig_status": "Static layered artwork with landmarks; action deformation, IK and contacts require animation implementation.",
+      "bounds": {
+        "top": 56,
+        "bottom": 947,
+        "left": 176.6,
+        "right": 423.4
+      },
+      "landmarks": {
+        "head": [
+          300,
+          156.17000000000002
+        ],
+        "neck": [
+          300,
+          271
+        ],
+        "shoulder_left": [
+          227.004,
+          296
+        ],
+        "elbow_left": [
+          190.6,
+          447
+        ],
+        "wrist_left": [
+          199.6,
+          610
+        ],
+        "fingers_left": [
+          204.6,
+          653
+        ],
+        "shoulder_right": [
+          358.212,
+          291
+        ],
+        "elbow_right": [
+          372.072,
+          445
+        ],
+        "wrist_right": [
+          367.452,
+          605
+        ],
+        "fingers_right": [
+          364.68,
+          651
+        ],
+        "pelvis": [
+          300,
+          568
+        ],
+        "hip_left": [
+          269,
+          568
+        ],
+        "hip_right": [
+          333,
+          568
+        ],
+        "knee_left": [
+          265,
+          752
+        ],
+        "knee_right": [
+          338,
+          755
+        ],
+        "ankle_left": [
+          259,
+          911
+        ],
+        "ankle_right": [
+          340,
+          911
+        ],
+        "heel_left": [
+          241,
+          936
+        ],
+        "toe_left": [
+          279,
+          940
+        ],
+        "heel_right": [
+          328,
+          937
+        ],
+        "toe_right": [
+          377,
+          940
+        ]
+      },
+      "segments": {
+        "upper_arm_left": 155.32627342468498,
+        "forearm_left": 163.24827717314508,
+        "upper_arm_right": 154.6224420968703,
+        "forearm_right": 160.06668735249067,
+        "head_height": 189
+      },
+      "garments": {
+        "outfit": "polo",
+        "shoulder_y": 288,
+        "hem_y": 568,
+        "ankle_y": 911
+      },
+      "layers": [
+        "shadow",
+        "leg_left",
+        "leg_right",
+        "shoe_left",
+        "shoe_right",
+        "arm_left_upper",
+        "arm_left_lower",
+        "hand_left",
+        "torso",
+        "arm_right_upper",
+        "arm_right_lower",
+        "hand_right",
+        "neck",
+        "hair_back",
+        "head",
+        "ears",
+        "eyes",
+        "brows",
+        "nose",
+        "mouth",
+        "hair_front",
+        "hijab_back",
+        "hijab_front",
+        "accessories"
+      ]
+    },
+    "side": {
+      "schema_version": 1,
+      "id": "L01",
+      "name": "Danish",
+      "view": "side",
+      "units": "SVG user units",
+      "viewBox": [
+        0,
+        0,
+        600,
+        1000
+      ],
+      "height_cm": 118,
+      "rig_status": "Static layered artwork with landmarks; action deformation, IK and contacts require animation implementation.",
+      "bounds": {
+        "top": 56,
+        "bottom": 947,
+        "left": 176.6,
+        "right": 423.4
+      },
+      "landmarks": {
+        "head": [
+          300,
+          156.17000000000002
+        ],
+        "neck": [
+          300,
+          271
+        ],
+        "shoulder_left": [
+          286,
+          288
+        ],
+        "elbow_left": [
+          280,
+          457
+        ],
+        "wrist_left": [
+          293,
+          609
+        ],
+        "fingers_left": [
+          299,
+          651
+        ],
+        "shoulder_right": [
+          310,
+          290
+        ],
+        "elbow_right": [
+          333,
+          450
+        ],
+        "wrist_right": [
+          342,
+          607
+        ],
+        "fingers_right": [
+          342,
+          652
+        ],
+        "pelvis": [
+          300,
+          568
+        ],
+        "hip_left": [
+          269,
+          568
+        ],
+        "hip_right": [
+          333,
+          568
+        ],
+        "knee_left": [
+          265,
+          752
+        ],
+        "knee_right": [
+          338,
+          755
+        ],
+        "ankle_left": [
+          259,
+          911
+        ],
+        "ankle_right": [
+          340,
+          911
+        ],
+        "heel_left": [
+          241,
+          936
+        ],
+        "toe_left": [
+          279,
+          940
+        ],
+        "heel_right": [
+          328,
+          937
+        ],
+        "toe_right": [
+          377,
+          940
+        ]
+      },
+      "segments": {
+        "upper_arm_left": 169.1064753343289,
+        "forearm_left": 152.55490814785344,
+        "upper_arm_right": 161.64467204334326,
+        "forearm_right": 157.2577502064684,
+        "head_height": 189
+      },
+      "garments": {
+        "outfit": "polo",
+        "shoulder_y": 288,
+        "hem_y": 568,
+        "ankle_y": 911
+      },
+      "layers": [
+        "shadow",
+        "leg_left",
+        "leg_right",
+        "shoe_left",
+        "shoe_right",
+        "arm_left_upper",
+        "arm_left_lower",
+        "hand_left",
+        "torso",
+        "arm_right_upper",
+        "arm_right_lower",
+        "hand_right",
+        "neck",
+        "hair_back",
+        "head",
+        "ears",
+        "eyes",
+        "brows",
+        "nose",
+        "mouth",
+        "hair_front",
+        "hijab_back",
+        "hijab_front",
+        "accessories"
+      ]
+    }
+  }
+}

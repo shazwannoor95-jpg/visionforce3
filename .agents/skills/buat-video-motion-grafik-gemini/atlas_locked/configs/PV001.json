@@ -1,0 +1,22 @@
+{
+  "name": "basic-3d-scene",
+  "description": "Gerakan kamera/ruang: basic 3d scene",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/camera/basic-3d-scene.md",
+  "assets": "Mockup, UI, imej berlapis",
+  "use": "Promo produk",
+  "category": "Camera and depth",
+  "genre": "saas",
+  "text": "Basic 3D Scene",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Projected cube rotates in a grounded scene; 2.5D interpretation",
+  "preset": "PV001",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Bracket Window Sweep",
+  "description": "Kurungan membuka tetingkap sementara tajuk dan subjudul menyapu di dalam kawasan klip.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "saas",
+    "education",
+    "corporate"
+  ],
+  "family": "kinetic",
+  "source_url": "https://elements.envato.com/text-animation-TQ2SPTQ",
+  "source_product": "TQ2SPTQ",
+  "observed_timestamp": "17.00–18.75 s",
+  "mechanism": "brackets open while title and subtitle sweep within a clipped window",
+  "variant_basis": "observed",
+  "text": "RUANG UNTUK IDEA",
+  "subtitle": "PANDANGAN BAHARU BERMULA DI SINI",
+  "window_subtitle": "BERFIKIR. MENCUBA. MENCIPTA.",
+  "bracket_width": 32,
+  "preset": "K44",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

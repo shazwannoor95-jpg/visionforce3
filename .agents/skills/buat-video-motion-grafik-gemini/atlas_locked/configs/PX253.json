@@ -1,0 +1,50 @@
+{
+  "name": "Responsive Device Triad",
+  "description": "One UI adapts from desktop to tablet and mobile.",
+  "genre": "saas",
+  "text": "Responsive Device Triad",
+  "subtitle": "One UI adapts from desktop to tablet and mobile.",
+  "family": "premium-ui-product",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/shopping-and-sales-website-for-furniture-desktop-a-L33YHY2",
+  "observation_basis": "listing-description",
+  "mechanism": "Three device planes settle; content reorganises for their aspect ratios.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "editable text",
+    "UI labels",
+    "product images",
+    "app screenshots",
+    "original vector schematics"
+  ],
+  "use_cases": [
+    "SaaS demo",
+    "app promo",
+    "product feature explanation",
+    "business presentation"
+  ],
+  "parameters": {
+    "text": "Hero heading",
+    "subtitle": "Short supporting copy",
+    "labels": "List of UI labels",
+    "values": "List of displayed numeric or price values",
+    "image_path": "Optional full image, safely contained",
+    "image_paths": "Optional list of full product/screen images, safely contained",
+    "genre": "Atlas palette",
+    "accent": "#RRGGBB accent",
+    "duration": "Output duration 0.5--120 seconds",
+    "tempo": "0.5--2 action rate"
+  },
+  "adaptation_status": "original-demo",
+  "recipe": "responsive-triad",
+  "recipe_group": 13,
+  "recipe_variant": 0,
+  "perspective": "2.5D plane",
+  "preset": "PX253",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "MS12",
+  "mode": "native",
+  "params": {
+    "text": "MAKE IT SIMPLE",
+    "subtitle": "Original motion demonstration",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 12,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "8ff9f721d8879f52c207bc5f1483b285fd60f510789fc5a3d9b63390b5a1b3ce"
+  }
+}

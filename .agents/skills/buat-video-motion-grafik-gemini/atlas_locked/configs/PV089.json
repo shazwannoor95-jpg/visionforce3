@@ -1,0 +1,20 @@
+{
+  "name": "gradient-transition",
+  "description": "Peralihan antara dua shot: gradient transition; demonstrasi asal daripada indeks panduan.",
+  "genre": "saas",
+  "text": "MOTION ATLAS",
+  "subtitle": "Build your next idea",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/transition/gradient-transition.md",
+  "adaptation_status": "original-demo",
+  "category": "transition",
+  "mechanism": "gradient-transition",
+  "preset": "PV089",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

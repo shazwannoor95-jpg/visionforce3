@@ -1,0 +1,20 @@
+{
+  "name": "carousel-3d",
+  "description": "Kemasukan komponen dan susunan skrin: carousel 3d",
+  "genre": "saas",
+  "text": "PROJECT ATLAS",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/ui-entrance/carousel-3d.md",
+  "adaptation_status": "original-demo",
+  "category": "ui-entrance",
+  "mechanism": "carousel-3d (2.5D projection)",
+  "preset": "PV129",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

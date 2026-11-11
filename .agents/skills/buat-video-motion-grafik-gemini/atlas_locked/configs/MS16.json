@@ -1,0 +1,29 @@
+{
+  "name": "javascript-animation-skills",
+  "description": "Animasi dilukis bingkai demi bingkai dengan JavaScript",
+  "source_url": "https://github.com/iart-ai/javascript-animation-skills",
+  "assets": "Skrip, bentuk kod",
+  "use": "Cerita animasi asli",
+  "category": "MS",
+  "family": "guide",
+  "genre": "saas",
+  "text": "MAKE IT SIMPLE",
+  "subtitle": "Original motion demonstration",
+  "duration": 12.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Animasi dilukis bingkai demi bingkai dengan JavaScript",
+  "demo_kind": "representative-pack",
+  "limitations": "Original adaptation from bundled index; silent demo; illustrative data. 2.5D, not physical 3D.",
+  "components": [
+    "U01",
+    "L02",
+    "X01"
+  ],
+  "preset": "MS16",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

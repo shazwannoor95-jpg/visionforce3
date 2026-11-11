@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV064",
+  "mode": "native",
+  "params": {
+    "text": "CANDLESTICK TRACE",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0e87aba10115bffda9426ef73cddd92b6ca3267355b936953b0fac4a9cb6df95"
+  }
+}

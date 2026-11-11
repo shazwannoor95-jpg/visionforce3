@@ -1,0 +1,54 @@
+{
+  "name": "Engineering / Plant Pipeline",
+  "description": "A pipeline fills through tanks, a pump and a valve with phased flow packets. Illustrative schematic, not surveyed geography or clinical illustration.",
+  "genre": "documentary",
+  "text": "Engineering · Plant Pipeline",
+  "subtitle": "ILLUSTRATIVE SCHEMATIC",
+  "family": "premium-map-data",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/hud-info-medical-panel-1-MJUYDDH",
+  "observation_basis": "listing-description",
+  "mechanism": "A pipeline fills through tanks, a pump and a valve with phased flow packets.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "vector diagram",
+    "data values",
+    "labels"
+  ],
+  "use_cases": [
+    "corporate report",
+    "education",
+    "data storytelling"
+  ],
+  "parameters": {
+    "values": "finite numeric array; exact endpoints; nonnegative for proportional charts",
+    "labels": "array of short names",
+    "route": "array of [x,y] pairs in 0..1 for map families",
+    "text": "headline",
+    "subtitle": "supporting line",
+    "unit": "counter suffix"
+  },
+  "adaptation_status": "original-demo",
+  "values": [
+    64,
+    86,
+    73,
+    92
+  ],
+  "labels": [
+    "ALPHA",
+    "BETA",
+    "GAMMA",
+    "DELTA"
+  ],
+  "recipe_group": 15,
+  "recipe_variant": 2,
+  "schematic": true,
+  "preset": "PX163",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

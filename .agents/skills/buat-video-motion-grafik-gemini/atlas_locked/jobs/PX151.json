@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX151",
+  "mode": "native",
+  "params": {
+    "text": "Matrix · Calendar Intensity",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "46f6db3ec5bd6a9d54184fc4894d98791e41dd414cf34986047ce7a47a3f8e16"
+  }
+}

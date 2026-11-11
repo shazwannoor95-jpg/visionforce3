@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX249",
+  "mode": "native",
+  "params": {
+    "text": "Phone 2.5D Orbit",
+    "subtitle": "A contained mobile screen tilts through a shallow camera-like orbit.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "3aebf78a5fa979d23d00727432e19aac7c1df89f50f74af92b3cc898cef080b8"
+  }
+}

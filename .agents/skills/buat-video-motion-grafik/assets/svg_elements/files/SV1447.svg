@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Collaborative puzzle conversation</title>
+<g id="main">
+<path d="M 27 42 H 109 V 91 Q 129 65 146 88 Q 153 108 131 117 H 213 V 213 H 129 V 168 Q 104 198 90 174 Q 80 155 109 147 H 27 Z" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="43" y="65" width="52" height="43" rx="12" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 58 108 L 55 118 L 73 108" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="166" y="176" width="59" height="40" rx="12" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 181 216 L 178 226 L 196 216" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<path d="M 128 27 H 229 V 123 H 179 Q 204 147 179 160 Q 158 162 150 139 H 129 V 88 Q 111 111 97 93 Q 90 69 128 76 Z" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="55" y1="80" x2="83" y2="80" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="178" y1="191" x2="213" y2="191" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "picker-carousel-feature-cycle",
+  "description": "Interaksi pengguna dan keadaan UI: picker carousel feature cycle",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/interaction/picker-carousel-feature-cycle.md",
+  "assets": "Tangkap layar, kursor, input",
+  "use": "Demo SaaS",
+  "category": "UI interaction",
+  "genre": "saas",
+  "text": "Picker Carousel Feature Cycle",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Carousel slides through features and enlarges selected card",
+  "preset": "PV049",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

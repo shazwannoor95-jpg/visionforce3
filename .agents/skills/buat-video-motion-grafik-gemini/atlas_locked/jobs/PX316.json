@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX316",
+  "mode": "native",
+  "params": {
+    "text": "NESTED FILM CORRIDOR",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "2a06f39ddc8d7a82a280c479a61e820798c1dcb5c14a35ef396b87a1c6f982d9"
+  }
+}

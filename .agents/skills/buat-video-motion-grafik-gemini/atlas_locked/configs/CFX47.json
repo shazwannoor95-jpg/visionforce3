@@ -1,0 +1,56 @@
+{
+  "name": "Incoming Call Panel",
+  "description": "Call card enters, pulses, then changes to connected state.",
+  "genre": "creator",
+  "family": "creator-fx",
+  "category": "creator-fx",
+  "text": "IDEA DALAM GERAK",
+  "subtitle": "Creator FX 80",
+  "duration": 6.0,
+  "source_url": "https://www.instagram.com/reel/DeRaKpNJ4ET/",
+  "source_product": "Instagram · R04 · edited examples",
+  "source_ref": "R04",
+  "observed_timestamp": "~3.02-13.00s",
+  "source_finding": "Edited panels: incoming-call UI, checklist, phone gauge, orange emphasis strips.",
+  "mechanism": "call card enters, pulses, then changes to connected state",
+  "variant_basis": "adapted",
+  "observation_basis": "browser-sampled-edited-panel",
+  "adaptation_status": "original-variant",
+  "limitations": "Original demonstrator derived from observed principles; not an exact source template. Generic artwork/data. Real video needs prepared layers and verified cue/track inputs.",
+  "use_cases": [
+    "creator reel",
+    "explainer",
+    "editorial",
+    "product"
+  ],
+  "parameters": [
+    "image_path",
+    "image_paths",
+    "subject_path",
+    "background_path",
+    "items",
+    "values",
+    "text",
+    "subtitle",
+    "presentation"
+  ],
+  "items": [
+    "IDEA",
+    "KONTEKS",
+    "VISUAL",
+    "HASIL"
+  ],
+  "values": [
+    18,
+    37,
+    55,
+    78
+  ],
+  "preset": "CFX47",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

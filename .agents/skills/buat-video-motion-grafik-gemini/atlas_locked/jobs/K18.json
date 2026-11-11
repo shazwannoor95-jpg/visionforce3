@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K18",
+  "mode": "native",
+  "params": {
+    "text": "KATA MENJADI\nCERITA",
+    "subtitle": "SUSUNAN YANG MENGHIDUPKAN MESEJ",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "200d4d8b50ca7543ef5ac95426687030dbb284ea74bc1ac5f4f6d5c0ce884ec8"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX347",
+  "mode": "native",
+  "params": {
+    "text": "POPUP PHOTO BOOK",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "57e887ca579d4abc43823c36c0f69840609debd8c41e9989c714ff102cf10ded"
+  }
+}

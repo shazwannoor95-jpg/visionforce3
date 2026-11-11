@@ -1,0 +1,20 @@
+{
+  "name": "Phone screen notifications",
+  "description": "Notifikasi dan banner panggilan diklip pada skrin telefon berperspektif.",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "promo",
+    "corporate"
+  ],
+  "text": "Dekat, sentiasa.",
+  "subtitle": "Maklumat tepat pada waktunya.",
+  "preset": "N04",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

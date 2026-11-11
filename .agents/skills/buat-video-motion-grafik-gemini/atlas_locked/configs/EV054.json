@@ -1,0 +1,51 @@
+{
+  "name": "Timebox Ribbon",
+  "description": "Timebox Ribbon — Elemen dibina berperingkat dengan gerakan tersendiri dan kandungan boleh disesuaikan.",
+  "genre": "education",
+  "genres": [
+    "education",
+    "corporate"
+  ],
+  "family": "envato2026",
+  "category": "planner",
+  "source_url": "https://elements.envato.com/planner-XXUPJR6",
+  "source_product": "Planner",
+  "source_index": 12,
+  "observed_timestamp": "2.89s; 6.66s; 10.43s; 14.2s; 17.97s; 21.73s; 25.5s; 29.27s; 33.04s; 36.81s; 40.58s; 44.35s",
+  "inspected_frames": [
+    2.89,
+    6.66,
+    10.43,
+    14.2,
+    17.97,
+    21.73,
+    25.5,
+    29.27,
+    33.04,
+    36.81,
+    40.58,
+    44.35
+  ],
+  "source_crop": "full canvas; isolate component named in preset",
+  "variant_basis": "adapted",
+  "adaptation_status": "preview-observed-original",
+  "mechanism": "planner_ribbon",
+  "text": "TIMEBOX RIBBON",
+  "subtitle": "DATA DEMO · MOTION ATLAS",
+  "duration": 6.0,
+  "mode": "planner_ribbon",
+  "variant": 3,
+  "items": [
+    "INPUT",
+    "RESEARCH",
+    "PROCESS",
+    "OUTPUT"
+  ],
+  "preset": "EV054",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

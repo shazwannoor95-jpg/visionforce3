@@ -1,0 +1,20 @@
+{
+  "name": "title-demote-to-label",
+  "description": "Gerak kata, huruf atau ayat: title demote to label",
+  "genre": "creator",
+  "text": "MAKE IDEAS MOVE",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/typography/title-demote-to-label.md",
+  "adaptation_status": "original-demo",
+  "category": "typography",
+  "mechanism": "title-demote-to-label",
+  "preset": "PV117",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

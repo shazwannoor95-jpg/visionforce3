@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX244",
+  "mode": "native",
+  "params": {
+    "text": "Calendar Date Range",
+    "subtitle": "A date range selection extends across a monthly grid.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "cc561395fe430eea39c93b22d757880a4c0ed0a299cac676be4661b6a28965ea"
+  }
+}

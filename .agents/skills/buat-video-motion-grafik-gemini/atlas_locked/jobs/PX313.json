@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX313",
+  "mode": "native",
+  "params": {
+    "text": "FILMSTRIP CONVEYOR",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "80f0954ca423cbb83f779c734039b8ad53a0e842c87734fa4064fa5e28f4740a"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX370",
+  "mode": "native",
+  "params": {
+    "text": "RACK FOCUS APERTURE",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "32d98db05ba29d6fff1c55e0d04c62f2a46f3e2fc40426de556ce93d5aa759d5"
+  }
+}

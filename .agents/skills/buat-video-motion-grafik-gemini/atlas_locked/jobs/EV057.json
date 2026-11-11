@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV057",
+  "mode": "native",
+  "params": {
+    "text": "GEOGRAPHIC PIN METRIC",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "2661e1d98e36ef1ecf66ea35eb3bd30af244e226a0b9a527d6cde3027714f299"
+  }
+}

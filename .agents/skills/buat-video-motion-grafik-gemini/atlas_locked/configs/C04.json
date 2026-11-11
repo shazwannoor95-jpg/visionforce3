@@ -1,0 +1,21 @@
+{
+  "name": "Infinite double track",
+  "description": "Two opposing tracks with stable asset IDs and offscreen recycling.",
+  "genre": "documentary",
+  "genres": [
+    "documentary",
+    "creator",
+    "promo",
+    "education"
+  ],
+  "text": "EVERY FRAME",
+  "subtitle": "Dua arah. Koleksi tanpa henti.",
+  "preset": "C04",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "MP45",
+  "mode": "native",
+  "params": {
+    "text": "ARKIB CERITA",
+    "subtitle": "Foto dan tahun mengikut urutan.",
+    "genre": "documentary"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "96b52a9e0defbef92128e8a18ceb6e2ec69bb0e324fa042c494e5b8ceebc4428"
+  }
+}

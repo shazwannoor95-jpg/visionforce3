@@ -1,0 +1,22 @@
+{
+  "name": "brand-frame-snap",
+  "description": "Kesan visual untuk fokus dan penekanan: brand frame snap",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/effects/brand-frame-snap.md",
+  "assets": "Logo, UI, bentuk grafik",
+  "use": "Promo kreatif",
+  "category": "Visual effects",
+  "genre": "saas",
+  "text": "Brand Frame Snap",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Four frame corners snap inward and lock onto content",
+  "preset": "PV024",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

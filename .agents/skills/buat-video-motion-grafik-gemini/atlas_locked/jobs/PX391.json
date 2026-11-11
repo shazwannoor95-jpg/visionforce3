@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX391",
+  "mode": "native",
+  "params": {
+    "text": "DIAGONAL WAVE GALLERY",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "4b67fb53fb6085ca7e4200f4f99dbdc811fdb259a1ed4857455a989262aa977d"
+  }
+}

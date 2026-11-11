@@ -1,0 +1,16 @@
+{
+  "id": "VL0237",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "film_grain",
+  "variant": 2,
+  "seed": 24368,
+  "palette": "silver",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

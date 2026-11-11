@@ -1,0 +1,22 @@
+{
+  "name": "scanline-annotate-focus",
+  "description": "Kesan visual untuk fokus dan penekanan: scanline annotate focus",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/effects/scanline-annotate-focus.md",
+  "assets": "Logo, UI, bentuk grafik",
+  "use": "Promo kreatif",
+  "category": "Visual effects",
+  "genre": "saas",
+  "text": "Scanline Annotate Focus",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Scan line finds three areas then annotations unfurl",
+  "preset": "PV035",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

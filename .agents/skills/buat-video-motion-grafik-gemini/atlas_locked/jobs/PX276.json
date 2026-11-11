@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX276",
+  "mode": "native",
+  "params": {
+    "text": "Team File Handoff",
+    "subtitle": "A completed file passes from one collaborator to another.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "4c67f4deb086e9a3427ad9f139790f46d5ce119274942585998aa8f4ba01c1f6"
+  }
+}

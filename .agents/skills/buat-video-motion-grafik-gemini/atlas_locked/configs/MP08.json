@@ -1,0 +1,22 @@
+{
+  "name": "Malaysian heritage",
+  "description": "Animasi asli: flying wau, drawn batik, unrolling songket.",
+  "family": "motionprompt",
+  "genre": "documentary",
+  "genres": [
+    "documentary"
+  ],
+  "text": "WARISAN KITA",
+  "subtitle": "Motif tempatan dengan rasa baharu.",
+  "source_url": "https://epool86.github.io/motionprompt/#malaysian-heritage",
+  "variant_basis": "adapted",
+  "mechanism": "flying wau, drawn batik, unrolling songket",
+  "duration": 6.0,
+  "preset": "MP08",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

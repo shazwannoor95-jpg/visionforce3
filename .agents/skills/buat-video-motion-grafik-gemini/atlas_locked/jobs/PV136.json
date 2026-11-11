@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV136",
+  "mode": "native",
+  "params": {
+    "text": "PROJECT ATLAS",
+    "subtitle": "Original motion study",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "c15aabec3dd2f84d85ffb2d37e736136df0fd0ac46b9508ee730e019844c4857"
+  }
+}

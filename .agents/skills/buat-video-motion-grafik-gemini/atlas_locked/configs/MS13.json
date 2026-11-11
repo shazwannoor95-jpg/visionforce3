@@ -1,0 +1,29 @@
+{
+  "name": "webgl-animation-skills",
+  "description": "Adegan 3D/WebGL dengan kamera dan shader apabila runtime ada",
+  "source_url": "https://github.com/iart-ai/webgl-animation-skills",
+  "assets": "Model 3D, tekstur",
+  "use": "Hero teknologi",
+  "category": "MS",
+  "family": "guide",
+  "genre": "saas",
+  "text": "MAKE IT SIMPLE",
+  "subtitle": "Original motion demonstration",
+  "duration": 12.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Adegan 3D/WebGL dengan kamera dan shader apabila runtime ada",
+  "demo_kind": "representative-pack",
+  "limitations": "Original adaptation from bundled index; silent demo; illustrative data. 2.5D, not physical 3D.",
+  "components": [
+    "U04",
+    "MP06",
+    "C02"
+  ],
+  "preset": "MS13",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

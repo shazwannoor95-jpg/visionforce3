@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX175",
+  "mode": "native",
+  "params": {
+    "text": "Dashboard · Scoreboard Stack",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "af0f719a5cfacb8f0f7661d9c2eb4f32f19772a6a3190d26bc109caea339858f"
+  }
+}

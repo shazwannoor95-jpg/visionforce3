@@ -1,0 +1,21 @@
+{
+  "id": "VL0159",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "ripple",
+  "parameters": {
+    "cx": 0.4,
+    "cy": 0.75,
+    "amplitude": 0.12,
+    "frequency": 17,
+    "phase": 2
+  },
+  "duration": 1.1,
+  "fps": 30,
+  "feather": 0.04,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

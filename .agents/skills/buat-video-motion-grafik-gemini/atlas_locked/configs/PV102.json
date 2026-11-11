@@ -1,0 +1,20 @@
+{
+  "name": "brace-expand",
+  "description": "Gerak kata, huruf atau ayat: brace expand",
+  "genre": "creator",
+  "text": "MAKE IDEAS MOVE",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/typography/brace-expand.md",
+  "adaptation_status": "original-demo",
+  "category": "typography",
+  "mechanism": "brace-expand",
+  "preset": "PV102",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

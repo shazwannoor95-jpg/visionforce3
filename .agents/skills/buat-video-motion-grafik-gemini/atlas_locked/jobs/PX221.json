@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX221",
+  "mode": "native",
+  "params": {
+    "text": "Kanban Drag Commit",
+    "subtitle": "A task card moves from planned to active and finally completed.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "5d8dd43b3a8830d3cd5ffc2146f9a3e1dd75b717ddc9efa787b82ec0df2d8cc8"
+  }
+}

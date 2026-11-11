@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX057",
+  "mode": "native",
+  "params": {
+    "text": "LOOK AT THIS IDEA",
+    "subtitle": "A strong first frame with a clear message",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "f4d3c6ff96d0ac464cabdd304b1cb00cc9cac85a1abb6ca501c3215f65363564"
+  }
+}

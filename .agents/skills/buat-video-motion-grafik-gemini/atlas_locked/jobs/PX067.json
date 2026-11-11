@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX067",
+  "mode": "native",
+  "params": {
+    "text": "THE STORY CONTINUES",
+    "subtitle": "A clean headline with broadcast energy",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "015582e8ba95685d4fe946adb4287f4be1c2f4dfb9f43831ddc89a5c0d3aade6"
+  }
+}

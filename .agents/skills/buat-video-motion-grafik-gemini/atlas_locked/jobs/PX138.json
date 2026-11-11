@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX138",
+  "mode": "native",
+  "params": {
+    "text": "Radial · Concentric Progress",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "bb28d994baddcddf4a97fa61ff00d98cedf3249e83fa8fcedf19b9cbb2939ba3"
+  }
+}

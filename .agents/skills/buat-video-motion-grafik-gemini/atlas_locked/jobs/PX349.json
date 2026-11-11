@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX349",
+  "mode": "native",
+  "params": {
+    "text": "CORNER CURL REVEAL",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "4fe53fb48c88d61ccab2bb06e50fd4246559b2e3c87da7533e6d843e926d0936"
+  }
+}

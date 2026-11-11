@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX094",
+  "mode": "native",
+  "params": {
+    "text": "LOOK FOR THE DETAIL",
+    "subtitle": "The next idea deserves a closer look",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "1189eaa49155cb30bf96e691f4965d1630162aa14587b897de952c6e393b06d3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX033",
+  "mode": "native",
+  "params": {
+    "text": "DR AKRAM SALIHIN",
+    "subtitle": "Medical education and meaningful stories",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "c728fb6c0f251668d5f2994f39397d549379353ad809d568bc09a209d1f88e5d"
+  }
+}

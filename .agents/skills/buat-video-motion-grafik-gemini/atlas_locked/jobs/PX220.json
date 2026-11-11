@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX220",
+  "mode": "native",
+  "params": {
+    "text": "Notification Priority Triage",
+    "subtitle": "An urgent notification rises above routine status messages.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "75b5d7bdc67531cbc427da7bf7e41a4e41baa376122bba1fd6c4b3b44f2b9e4d"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Gradient Dual Lines",
+  "description": "Gradient Dual Lines — Carta terbina berturutan; data, paksi, nilai dan tooltip berkongsi progress.",
+  "genre": "corporate",
+  "genres": [
+    "corporate",
+    "education",
+    "promo"
+  ],
+  "family": "envato2026",
+  "category": "chart",
+  "source_url": "https://elements.envato.com/elegant-infographics-vol-3-for-premiere-pro-A42ANM8",
+  "source_product": "Elegant Infographics Vol.3 for Premiere Pro",
+  "source_index": 18,
+  "observed_timestamp": "5.53s; 12.74s; 19.95s; 27.15s; 34.36s; 41.57s; 48.78s; 55.99s; 63.19s; 70.4s; 77.61s; 84.82s",
+  "inspected_frames": [
+    5.53,
+    12.74,
+    19.95,
+    27.15,
+    34.36,
+    41.57,
+    48.78,
+    55.99,
+    63.19,
+    70.4,
+    77.61,
+    84.82
+  ],
+  "source_crop": "full canvas; isolate component named in preset",
+  "variant_basis": "adapted",
+  "adaptation_status": "preview-observed-original",
+  "mechanism": "chart_elegant",
+  "text": "GRADIENT DUAL LINES",
+  "subtitle": "DATA DEMO · MOTION ATLAS",
+  "duration": 6.0,
+  "mode": "chart_elegant",
+  "variant": 0,
+  "values": [
+    38,
+    68,
+    49,
+    84,
+    61,
+    93
+  ],
+  "labels": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN"
+  ],
+  "preset": "EV077",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

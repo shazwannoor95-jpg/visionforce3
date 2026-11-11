@@ -1,0 +1,20 @@
+{
+  "name": "quad-split-parallel-scenes",
+  "description": "Rentak montaj dan perubahan fokus: quad split parallel scenes; demonstrasi asal daripada indeks panduan.",
+  "genre": "saas",
+  "text": "MOTION ATLAS",
+  "subtitle": "Build your next idea",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/rhythm/quad-split-parallel-scenes.md",
+  "adaptation_status": "original-demo",
+  "category": "rhythm",
+  "mechanism": "quad-split-parallel-scenes",
+  "preset": "PV075",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX032",
+  "mode": "native",
+  "params": {
+    "text": "FROM IDEA TO IMPACT",
+    "subtitle": "A modern reveal with a polished finish",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "3482c984355ac5f2ec069d29f16575b1aa5d5a3137399030bafadf6a3e90877a"
+  }
+}

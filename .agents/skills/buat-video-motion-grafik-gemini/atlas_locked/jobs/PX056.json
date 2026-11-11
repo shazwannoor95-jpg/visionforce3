@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX056",
+  "mode": "native",
+  "params": {
+    "text": "LIGHT UP YOUR MESSAGE",
+    "subtitle": "A vivid arrival for your next idea",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "5ce9a2de5b6dc26e06d101899a004979dcd4cdd3222359982974af81f4e2b8a2"
+  }
+}

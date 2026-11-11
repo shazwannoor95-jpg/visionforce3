@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX109",
+  "mode": "native",
+  "params": {
+    "text": "Coverage · Hex Field Sweep",
+    "subtitle": "ILLUSTRATIVE SCHEMATIC",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "41aca8601ed69af0e589b329a12c927571c5e1dfb92c7d4f565ece1230b17fee"
+  }
+}

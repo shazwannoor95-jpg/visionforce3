@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "CFX03",
+  "mode": "native",
+  "params": {
+    "text": "IDEA JADI GERAK",
+    "subtitle": "Creator FX 20",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "896b02dcaa36190407aca3d66c58fc8704182707ce282a709450292708ce0905"
+  }
+}

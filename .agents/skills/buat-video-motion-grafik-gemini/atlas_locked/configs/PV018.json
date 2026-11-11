@@ -1,0 +1,22 @@
+{
+  "name": "particle-celebrate-hits",
+  "description": "Pendedahan angka, carta atau perbandingan: particle celebrate hits",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/data/particle-celebrate-hits.md",
+  "assets": "Data sah, carta, metrik",
+  "use": "Explainer data",
+  "category": "Data and comparison",
+  "genre": "saas",
+  "text": "Particle Celebrate Hits",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Particles burst at sequential target collisions",
+  "preset": "PV018",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

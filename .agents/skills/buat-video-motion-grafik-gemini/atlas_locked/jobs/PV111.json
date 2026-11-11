@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV111",
+  "mode": "native",
+  "params": {
+    "text": "MAKE IDEAS MOVE",
+    "subtitle": "Original motion study",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "339ff24e84fe9821327984b50bb9cd372fe50e9c744b9bc79b8d41084d463206"
+  }
+}

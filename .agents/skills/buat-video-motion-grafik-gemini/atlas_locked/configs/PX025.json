@@ -1,0 +1,49 @@
+{
+  "name": "Tracking Contract Title",
+  "description": "Tipografi asal: individual glyph tracking contracts from wide spacing into measured headline kerning.",
+  "genre": "creator",
+  "text": "MAKE ROOM FOR IDEAS",
+  "subtitle": "A spacious entrance, a precise finish",
+  "family": "premium-type",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/kinetic-titles-3-0-fcpx-6G8GZKV",
+  "observation_basis": "listing-description",
+  "mechanism": "individual glyph tracking contracts from wide spacing into measured headline kerning",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "teks headline",
+    "teks sokongan",
+    "geometri vektor asal"
+  ],
+  "use_cases": [
+    "hook",
+    "promo",
+    "judul"
+  ],
+  "parameters": {
+    "text": "Teks utama; disesuaikan mengikut lebar tersedia",
+    "subtitle": "Teks sokongan pendek",
+    "genre": "Palet warna daripada core.PALETTES",
+    "tempo": "Kelajuan masuk 0.5–2.0",
+    "duration": "Tempoh scene 0.5–120 saat; lalai 6",
+    "accent": "Warna aksen #RRGGBB",
+    "text_color": "Warna teks #RRGGBB",
+    "bg": "Warna latar #RRGGBB"
+  },
+  "adaptation_status": "original-demo",
+  "mode": "premium_type_06_0",
+  "implementation": "premium_type.py / scale",
+  "originality_note": "Demo baharu berasaskan teknik umum yang diterangkan dalam listing; bukan template atau aset Envato.",
+  "frame_size": [
+    1280,
+    720
+  ],
+  "render_status": "renderable",
+  "preset": "PX025",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

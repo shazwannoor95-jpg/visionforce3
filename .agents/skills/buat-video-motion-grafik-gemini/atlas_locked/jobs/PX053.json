@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX053",
+  "mode": "native",
+  "params": {
+    "text": "TURN ON THE IDEA",
+    "subtitle": "A luminous outline becomes a strong message",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "353a52cd7dfe106617301444d74c8990c310ca6a82e8a8f4c9589b38f7cc1262"
+  }
+}

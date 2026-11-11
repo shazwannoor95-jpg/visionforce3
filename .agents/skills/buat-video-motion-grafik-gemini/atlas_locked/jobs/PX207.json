@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX207",
+  "mode": "native",
+  "params": {
+    "text": "Prompt Source Attach",
+    "subtitle": "Reference documents attach beside a prompt and enter the context meter.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "061c8ea09f47a57fa91a0c55dc0b499dd6e6ef3ffdecc0a3a3e2b10108c54a3d"
+  }
+}

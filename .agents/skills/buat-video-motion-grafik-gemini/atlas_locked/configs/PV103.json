@@ -1,0 +1,20 @@
+{
+  "name": "cel-flash-stomp",
+  "description": "Gerak kata, huruf atau ayat: cel flash stomp",
+  "genre": "creator",
+  "text": "MAKE IDEAS MOVE",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/typography/cel-flash-stomp.md",
+  "adaptation_status": "original-demo",
+  "category": "typography",
+  "mechanism": "cel-flash-stomp",
+  "preset": "PV103",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

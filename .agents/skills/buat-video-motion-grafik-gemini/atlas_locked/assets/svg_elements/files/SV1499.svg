@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Showcase frame and radiating pieces</title>
+<g id="main">
+<rect x="60" y="61" width="135" height="134" rx="10" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="108" y="107" width="37" height="63" rx="8" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<rect x="72" y="73" width="111" height="111" rx="6" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="116.14" y="95" width="20.72" height="14" rx="3" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="36" y1="38" x2="49" y2="53" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="36" cy="38" r="4" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="128" y1="23" x2="128" y2="46" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="128" cy="23" r="4" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="219" y1="36" x2="202" y2="54" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="219" cy="36" r="4" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="226" y1="131" x2="207" y2="131" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="226" cy="131" r="4" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="217" y1="219" x2="203" y2="200" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="217" cy="219" r="4" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="128" y1="231" x2="128" y2="207" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="128" cy="231" r="4" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="30" y1="217" x2="47" y2="201" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="30" cy="217" r="4" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="23" y1="129" x2="46" y2="129" fill="none" stroke="#55718A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="23" cy="129" r="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<rect x="113" y="130.25" width="27" height="18" rx="3" fill="#FFFFFF" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

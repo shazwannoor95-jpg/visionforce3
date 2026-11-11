@@ -1,0 +1,20 @@
+{
+  "name": "Penanda kata kunci",
+  "description": "Pill yang diukur bergerak antara kata dan menetap dengan padding konsisten.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "education",
+    "promo"
+  ],
+  "text": "IDEA HEBAT BERMULA DI SINI",
+  "subtitle": "Arahkan mata kepada kata yang penting.",
+  "preset": "H02",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

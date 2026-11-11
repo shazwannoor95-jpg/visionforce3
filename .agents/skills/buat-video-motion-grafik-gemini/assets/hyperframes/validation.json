@@ -1,0 +1,51 @@
+{
+  "checked_on": "2026-11-03",
+  "status": "installed-browser-render-blocked",
+  "versions": {
+    "node": "26.13.0",
+    "npm": "11.20.0",
+    "hyperframes": "0.9.4",
+    "gsap": "3.15.0",
+    "chrome_for_testing": "156.0.8078.80",
+    "ffmpeg": "n9.0.2-45-g1e65c6cd5d-20261102",
+    "three": "0.187.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540",
+    "faster-whisper": "1.2.1",
+    "av_compatibility_pin": "16.1.0",
+    "ctranslate2": "4.8.4",
+    "socksio": "1.0.0"
+  },
+  "checks": {
+    "binary_versions": true,
+    "binary_archive_hashes": true,
+    "complete_npm_install": true,
+    "npm_pins_match": true,
+    "chromium_ldd_no_missing_libraries": true,
+    "react_static_render": true,
+    "three_scene_cpu_matrix": true,
+    "remotion_renderer_bundler_imports": true,
+    "gsap_plugins_import": true,
+    "motion_bank_unit_checks": true,
+    "browser_launch": false,
+    "new_hyperframes_mp4_render": false,
+    "three_webgl_render": false,
+    "remotion_mp4_render": false,
+    "whisper_model_load_decode": true,
+    "hyperframes_lint": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "remotion_webpack_bundle": true,
+    "missing_binary_inventory_continues": true,
+    "preflight_includes_browser_failure_diagnostic": true,
+    "matching_lockfile_stamp": true
+  },
+  "blockers": [
+    "Chrome launch fails at process_singleton_posix.cc socket(): Operation not permitted in this execution environment. All ldd dependencies resolve; this is not proof that the updated browser can render here."
+  ],
+  "legacy_evidence": "legacy/validation.json records the previous 0.8.185/3.14.2 runtime and is not evidence for updated versions.",
+  "whisper_limits": "Production medium weights loaded and a silent Arabic-language decode completed; no Arabic/Malay speech accuracy evaluation was performed.",
+  "whisper_model_revision": "08e178d48790749d25932bbc082711ddcfdfbc4f"
+}

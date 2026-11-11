@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX287",
+  "mode": "native",
+  "params": {
+    "text": "Route ETA Focus",
+    "subtitle": "A schematic route advances while arrival information stays legible.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b9488563d40e319e193182b07289778cb19731888d752971cc62344299943aad"
+  }
+}

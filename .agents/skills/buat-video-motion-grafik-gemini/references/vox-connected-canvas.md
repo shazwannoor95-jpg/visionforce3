@@ -1,0 +1,11 @@
+# Vox: cutout, depth dan kanvas bersambung
+
+Gunakan bersama koleksi VX, bukan nombor preset baharu. Bina kamera bergerak ke kanan dalam world space; kanvas panjang dan objek tampak bergerak ke kiri. Gunakan foreground/midground/background dengan parallax berlainan, dramatic zoom, rack focus, occlusion dan objek yang berubah keadaan mengikut narasi. Sambungkan objek akhir kepada bukti/aksi seterusnya melalui jalur, dokumen, laluan atau sambungan ruang sebenar. Jangan mengganti animasi berantai dengan slide cutout keluar masuk atau goyang kecil.
+
+Untuk versi 3D caricature, jana watak ekspresif sebagai imej raster cutout dengan **thick torn-paper borders** dan alpha sebenar; 3D-look raster dalam komposisi 2.5D bukan mesh 3D penuh. Gunakan ekspresi/pose dan prop berbeza yang membawa cerita. Jika pengguna meminta hiperrealistik, kekalkan visual itu. Patuhi pakaian sopan; wanita bertudung apabila brief menetapkannya. Scene hook pertama mesti berfungsi dalam tiga saat pertama.
+
+Pilih lima gabungan berdasarkan bukti dan cerita jika pengguna meminta cadangan: VX01–VX04 sebagai rupa asas, VX05–VX16 sebagai grammar cerita. VX10 sesuai keratan mekanisme; VX16 untuk perbandingan bukti sebelum/selepas. Jangan mencipta maksud label atau menganggap setiap objek bergerak sebagai animasi unik. Nyatakan jumlah imej unik, latar/cutout dan aksi 2.5D yang dirancang; audit jumlah yang benar-benar muncul selepas render. Tiada kuantiti imej wajib untuk semua projek.
+
+Gunakan centre-safe kinetic subtitles dengan active-word highlights mengikut audio final, tanpa menutup muka. Teks lain dimasukkan dalam imej torn-paper apabila brief meminta. Segmen penerangan boleh menggunakan teks biasa, label, rajah, carta dan infographic/motion graphics tanpa tepi koyak; bawa segmen itu masuk/keluar melalui kanvas yang sama. Pastikan angka, arah anak panah dan susunan masa tepat.
+
+Gunakan MeloTTS-MS + Malay BERT untuk VO BM santai mengikut panduan voice-over, muzik, SFX selaras aksi dan paper ASMR. Jangan mendakwa pitch/EQ membuktikan realisme; dengar sample apabila tersedia. Kekalkan teks/VO diluluskan semasa revisi visual. Elakkan nombor/tajuk scene, label kecil, watermark dan credit yang tidak diminta. Semak proof pergerakan berantai, bukan contact sheet sahaja, sebelum master.

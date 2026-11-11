@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K43",
+  "mode": "native",
+  "params": {
+    "text": "BELAJAR\nDAN BERKEMBANG",
+    "subtitle": "SENTIASA ADA LANGKAH SETERUSNYA",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "412ed9f4468ce0f08ad5f5797826daa81897a6d84cc5855513c63688c144d09c"
+  }
+}

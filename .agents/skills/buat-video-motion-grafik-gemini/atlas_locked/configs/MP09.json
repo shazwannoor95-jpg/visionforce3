@@ -1,0 +1,22 @@
+{
+  "name": "App showcase",
+  "description": "Animasi asli: tilting phone, scrolling screen, feature popouts.",
+  "family": "motionprompt",
+  "genre": "saas",
+  "genres": [
+    "saas"
+  ],
+  "text": "APLIKASI ANDA",
+  "subtitle": "Aliran yang boleh dilihat.",
+  "source_url": "https://epool86.github.io/motionprompt/#app-showcase",
+  "variant_basis": "adapted",
+  "mechanism": "tilting phone, scrolling screen, feature popouts",
+  "duration": 6.0,
+  "preset": "MP09",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

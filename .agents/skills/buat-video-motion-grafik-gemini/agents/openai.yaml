@@ -1,0 +1,15 @@
+interface:
+  display_name: Buat Video Motion Grafik — Gemini
+  short_description: Semua gaya terkini, Vox 2.5D dan MeloTTS BM dari Drive
+  default_prompt: Gunakan $buat-video-motion-grafik-gemini untuk hasilkan video dengan
+    gaya terkini; semak cache, ambil hanya pek perlu daripada Drive dan gunakan MeloTTS-MS
+    bersama Malay BERT untuk VO BM baharu.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

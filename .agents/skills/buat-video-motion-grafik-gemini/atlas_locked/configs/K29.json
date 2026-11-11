@@ -1,0 +1,30 @@
+{
+  "name": "Staircase Word Assembly",
+  "description": "Perkataan bergerak daripada lajur menegak kepada tangga lalu terkunci pada satu baris.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "saas",
+    "education",
+    "corporate"
+  ],
+  "text": "SATU IDEA BANYAK CARA",
+  "subtitle": "SUSUN UNTUK MENJADI JELAS",
+  "family": "kinetic",
+  "source_url": "https://elements.envato.com/text-animation-YZHKP5W",
+  "observed_timestamp": "30.0–34.8 s",
+  "mechanism": "word chunks moving vertical to staircase to one baseline",
+  "variant_basis": "observed",
+  "step_height": 54,
+  "step_width": 100,
+  "assembly_start": 1.25,
+  "preset": "K29",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

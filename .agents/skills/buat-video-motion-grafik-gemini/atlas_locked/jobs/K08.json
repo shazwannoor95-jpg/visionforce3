@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K08",
+  "mode": "native",
+  "params": {
+    "text": "MESEJ UTAMA\nIDEA SETERUSNYA",
+    "subtitle": "Tukar penekanan dalam scene yang sama.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "6b3e824ac64789daceea87fe2e2a2680e42f80746dd732e55619f261087d85ce"
+  }
+}

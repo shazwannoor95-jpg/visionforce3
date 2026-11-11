@@ -1,0 +1,20 @@
+{
+  "name": "neon-frame-orbit-drop",
+  "description": "Kemasukan komponen dan susunan skrin: neon frame orbit drop",
+  "genre": "saas",
+  "text": "PROJECT ATLAS",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/ui-entrance/neon-frame-orbit-drop.md",
+  "adaptation_status": "original-demo",
+  "category": "ui-entrance",
+  "mechanism": "neon-frame-orbit-drop",
+  "preset": "PV141",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

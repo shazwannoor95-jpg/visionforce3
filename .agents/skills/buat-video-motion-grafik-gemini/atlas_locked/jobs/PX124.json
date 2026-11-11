@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX124",
+  "mode": "native",
+  "params": {
+    "text": "Logistics · Drone Altitude",
+    "subtitle": "ILLUSTRATIVE SCHEMATIC",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "722176f0c654d55ce306897cc9c430e7a37cf8861adc6805ad79191ac9020e35"
+  }
+}

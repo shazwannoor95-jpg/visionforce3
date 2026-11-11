@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K39",
+  "mode": "native",
+  "params": {
+    "text": "Idea yang baik bermula dengan satu langkah. Beri ruang untuk mencuba, belajar dan membina sesuatu yang bermakna bersama.",
+    "subtitle": "CERITA BERGERAK DALAM TETINGKAP",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "eb6a84142f9bf20f91f872b442b423be5afa0a9556bcedb4e03fb9d7dc414b55"
+  }
+}

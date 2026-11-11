@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV016",
+  "mode": "native",
+  "params": {
+    "text": "Hatch Depth",
+    "subtitle": "Original guide adaptation",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "62d4150ae611c6884f6ba6e4eec2b7e0aa1da3feba4ef14072b2d56096dd08e5"
+  }
+}

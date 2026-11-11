@@ -1,0 +1,54 @@
+{
+  "name": "Finance / Compound Growth",
+  "description": "Compound growth bars rise exponentially with a cumulative principal comparison. Fictional demo data; replace with verified values.",
+  "genre": "education",
+  "text": "Finance · Compound Growth",
+  "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+  "family": "premium-map-data",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/animated-hud-infographic-element-stock-market-cand-QNBY975",
+  "observation_basis": "listing-description",
+  "mechanism": "Compound growth bars rise exponentially with a cumulative principal comparison.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "vector diagram",
+    "data values",
+    "labels"
+  ],
+  "use_cases": [
+    "corporate report",
+    "education",
+    "data storytelling"
+  ],
+  "parameters": {
+    "values": "finite numeric array; exact endpoints; nonnegative for proportional charts",
+    "labels": "array of short names",
+    "route": "array of [x,y] pairs in 0..1 for map families",
+    "text": "headline",
+    "subtitle": "supporting line",
+    "unit": "counter suffix"
+  },
+  "adaptation_status": "original-demo",
+  "values": [
+    64,
+    86,
+    73,
+    92
+  ],
+  "labels": [
+    "ALPHA",
+    "BETA",
+    "GAMMA",
+    "DELTA"
+  ],
+  "recipe_group": 22,
+  "recipe_variant": 3,
+  "schematic": false,
+  "preset": "PX192",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

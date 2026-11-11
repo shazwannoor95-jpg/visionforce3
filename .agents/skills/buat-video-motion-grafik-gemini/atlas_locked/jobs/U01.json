@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "U01",
+  "mode": "native",
+  "params": {
+    "text": "Orbit",
+    "subtitle": "Semua kerja. Satu ruang.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "1360363397a977f9d57ea0fc8ee0dd445369c4f0f24691a595cd3a8535f1b391"
+  }
+}

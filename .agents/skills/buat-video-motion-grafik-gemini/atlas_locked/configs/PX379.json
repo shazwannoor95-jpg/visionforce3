@@ -1,0 +1,49 @@
+{
+  "name": "Long Exposure Media Echo",
+  "description": "Six faint lateral copies trail a crisp central photograph.",
+  "genre": "creator",
+  "text": "LONG EXPOSURE MEDIA ECHO",
+  "subtitle": "Original artwork · Adapted composition and choreography",
+  "family": "premium-promo-fx",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/film-frame-collage-transitions-mogrt-6VZ6BHV",
+  "source_title": "Film Frame Collage Transitions | MOGRT",
+  "observation_basis": "listing-description",
+  "source_observation": "Listing describes quickly changing media in filmstrip compositions.",
+  "mechanism": "Photo Trails / Six faint lateral copies trail a crisp central photograph.",
+  "variant_basis": "adapted",
+  "adaptation_status": "original-demo",
+  "asset_types": [
+    "image",
+    "product photograph",
+    "procedural graphic"
+  ],
+  "use_cases": [
+    "promotion",
+    "explainer",
+    "photo montage"
+  ],
+  "parameters": {
+    "image_path": "Optional local image path; fit is contain without cropping.",
+    "image_paths": "Optional list of local image paths; cycles through entries.",
+    "show_titles": true,
+    "text": "Headline up to 160 characters",
+    "subtitle": "Subtitle up to 160 characters",
+    "genre": "creator",
+    "accent": "Optional #RRGGBB",
+    "secondary": "Optional #RRGGBB"
+  },
+  "mechanism_group": "Photo Trails",
+  "variant_number": 3,
+  "render_engine": "Pillow procedural raster 1280x720",
+  "motion_space": "2D procedural composition",
+  "transition": false,
+  "source_limitations": "Source preview video was unavailable in the web tool. Original adapted choreography is based on the public listing description, not frame-for-frame reconstruction.",
+  "preset": "PX379",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

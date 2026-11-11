@@ -1,0 +1,54 @@
+{
+  "name": "Cycle / Feedback Circuit",
+  "description": "A forward chain is followed by a curved return circuit carrying feedback. Fictional demo data; replace with verified values.",
+  "genre": "saas",
+  "text": "Cycle · Feedback Circuit",
+  "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+  "family": "premium-map-data",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/circle-arrows-icon-3d-abstract-EBAYPD5",
+  "observation_basis": "listing-description",
+  "mechanism": "A forward chain is followed by a curved return circuit carrying feedback.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "vector diagram",
+    "data values",
+    "labels"
+  ],
+  "use_cases": [
+    "corporate report",
+    "education",
+    "data storytelling"
+  ],
+  "parameters": {
+    "values": "finite numeric array; exact endpoints; nonnegative for proportional charts",
+    "labels": "array of short names",
+    "route": "array of [x,y] pairs in 0..1 for map families",
+    "text": "headline",
+    "subtitle": "supporting line",
+    "unit": "counter suffix"
+  },
+  "adaptation_status": "original-demo",
+  "values": [
+    64,
+    86,
+    73,
+    92
+  ],
+  "labels": [
+    "ALPHA",
+    "BETA",
+    "GAMMA",
+    "DELTA"
+  ],
+  "recipe_group": 21,
+  "recipe_variant": 2,
+  "schematic": false,
+  "preset": "PX187",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

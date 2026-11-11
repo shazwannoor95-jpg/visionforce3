@@ -1,0 +1,62 @@
+{
+  "name": "Two Year Mirror Bars",
+  "description": "Two Year Mirror Bars — Elemen dibina berperingkat dengan gerakan tersendiri dan kandungan boleh disesuaikan.",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "education",
+    "promo"
+  ],
+  "family": "envato2026",
+  "category": "mirror",
+  "source_url": "https://elements.envato.com/social-media-infographic-2PJ4A94",
+  "source_product": "Social Media Infographic",
+  "source_index": 14,
+  "observed_timestamp": "2.63s; 6.06s; 9.49s; 12.92s; 16.34s; 19.77s; 23.2s; 26.63s; 30.06s; 33.49s; 36.91s; 40.34s",
+  "inspected_frames": [
+    2.63,
+    6.06,
+    9.49,
+    12.92,
+    16.34,
+    19.77,
+    23.2,
+    26.63,
+    30.06,
+    33.49,
+    36.91,
+    40.34
+  ],
+  "source_crop": "full canvas; isolate component named in preset",
+  "variant_basis": "adapted",
+  "adaptation_status": "preview-observed-original",
+  "mechanism": "mirror_bars",
+  "text": "TWO YEAR MIRROR BARS",
+  "subtitle": "DATA DEMO · MOTION ATLAS",
+  "duration": 6.0,
+  "mode": "mirror_bars",
+  "variant": 3,
+  "values": [
+    38,
+    68,
+    49,
+    84,
+    61,
+    93
+  ],
+  "labels": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN"
+  ],
+  "preset": "EV062",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

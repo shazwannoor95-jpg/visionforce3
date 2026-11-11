@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX120",
+  "mode": "native",
+  "params": {
+    "text": "Globe · Journey Inset",
+    "subtitle": "ILLUSTRATIVE SCHEMATIC",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "30ba031243aec2b40202a751d5698a5e7a5b99bdfbad522bfd95d304012bc9c8"
+  }
+}

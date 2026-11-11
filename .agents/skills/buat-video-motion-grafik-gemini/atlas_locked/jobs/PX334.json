@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX334",
+  "mode": "native",
+  "params": {
+    "text": "DROPLET SWARM REVEAL",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "5f1328d2ad42d710fb1c90891e28121fe3f799b388f2b4b7383e603b9bb51a7b"
+  }
+}

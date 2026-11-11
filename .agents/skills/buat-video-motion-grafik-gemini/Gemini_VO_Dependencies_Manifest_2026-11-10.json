@@ -1,0 +1,536 @@
+{
+  "schema": "gemini-vo-dependency-parts-v1",
+  "release": "2026-11-10",
+  "download_folder_url": "https://drive.google.com/drive/folders/1A9wvTKxG5apOsO61Tg-KIEVkTWG_uTEF",
+  "drive_layout": "flat-main-folder",
+  "max_part_bytes": 8000000,
+  "target": {
+    "system": "Linux",
+    "architecture": "x86_64",
+    "glibc_min": "2.35",
+    "python_abi": "cp311",
+    "torch_variant": "cpu"
+  },
+  "profile": {
+    "schema": "gemini-malay-vo-profile-v1",
+    "release": "2026-11-10",
+    "target": {
+      "system": "Linux",
+      "architecture": "x86_64",
+      "glibc_min": "2.35",
+      "python_abi": "cp311",
+      "torch_variant": "cpu"
+    },
+    "versions": {
+      "python": "3.11.18",
+      "torch": "2.5.1+cpu",
+      "torchaudio": "2.5.1+cpu",
+      "transformers": "4.38.2",
+      "malaya": "5.1.1",
+      "malaya-speech": "1.4.0rc2",
+      "phonemizer": "3.3.0",
+      "melotts": "0.1.2+geminims2"
+    },
+    "melo_source_commit": "eb9ef5fb6dd283da3ba0e811cdb26aca147f58b6",
+    "malaya_speech_source_commit": "d6150c3c008ab1cc76154ff2d666341c6d01628b",
+    "adaptation": "Malay-only inference dependency metadata and lazy language imports; original neural model weights and normalization semantics retained. Transformer 4.38.2 resolves Malaya LlamaModel import; cached original Demoji dictionary supports offline normalization. No Japanese/Korean/Gradio extras required for this profile.",
+    "validated": {
+      "pip_install": "--no-index --require-hashes",
+      "pip_check": true,
+      "offline_network_guard": true,
+      "malay_inference": true,
+      "proof_sample_rate": 44100,
+      "proof_duration": 3.5678231292517006,
+      "host": "Linux-6.18.57-x86_64-with-glibc2.41"
+    },
+    "python_provenance": {
+      "source": "Astral python-build-standalone via uv cache",
+      "version": "3.11.18",
+      "upstream_build": "20261026",
+      "archive": "local repackage of the verified installed runtime; bundled licenses retained"
+    }
+  },
+  "components": [
+    {
+      "key": "python_cp311",
+      "files": [
+        {
+          "path": "archives/cpython-3.11.18-linux-x86_64.tar.gz",
+          "size_bytes": 32798106,
+          "sha256": "351e159a6a3b0282c39c87097dbf7c58a0472fc55b935887fca69fccf2511402",
+          "parts": [
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__cpython-3.11.18-linux-x86_64.tar.gz.part0001",
+              "size_bytes": 8000000,
+              "sha256": "b96e2a6d12ceb8fb21a34f1c0bb7b2221dfaa4a1f6404273da02b0794ed1049b",
+              "drive_file_id": "1JdchKhv9cQhMMsFSvJ87jtN7OnQ61DkB",
+              "drive_url": "https://drive.google.com/file/d/1JdchKhv9cQhMMsFSvJ87jtN7OnQ61DkB/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1JdchKhv9cQhMMsFSvJ87jtN7OnQ61DkB"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__cpython-3.11.18-linux-x86_64.tar.gz.part0002",
+              "size_bytes": 8000000,
+              "sha256": "8d82072e495286b44796a9068e2db4fe80d64c59a2e763c9fca108f1db3bead2",
+              "drive_file_id": "17Vv3JFVqQtUM3_sDxRVpIy4olcNsZ-xx",
+              "drive_url": "https://drive.google.com/file/d/17Vv3JFVqQtUM3_sDxRVpIy4olcNsZ-xx/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=17Vv3JFVqQtUM3_sDxRVpIy4olcNsZ-xx"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__cpython-3.11.18-linux-x86_64.tar.gz.part0003",
+              "size_bytes": 8000000,
+              "sha256": "e28b3bed30dae6d3b4abff1bb499c50d3079d08177717c015ed47ae5ba32c600",
+              "drive_file_id": "1aFlB71SFNeXeO7ykjSl64s3nxkYuB3wW",
+              "drive_url": "https://drive.google.com/file/d/1aFlB71SFNeXeO7ykjSl64s3nxkYuB3wW/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1aFlB71SFNeXeO7ykjSl64s3nxkYuB3wW"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__cpython-3.11.18-linux-x86_64.tar.gz.part0004",
+              "size_bytes": 8000000,
+              "sha256": "84475df71877975834e946b38392b452eb1f4574f5e31863b5bbdcfc2c90f9e4",
+              "drive_file_id": "1hHw-nq46c6tD52o0AuPpnDvRoVxorRXJ",
+              "drive_url": "https://drive.google.com/file/d/1hHw-nq46c6tD52o0AuPpnDvRoVxorRXJ/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1hHw-nq46c6tD52o0AuPpnDvRoVxorRXJ"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__cpython-3.11.18-linux-x86_64.tar.gz.part0005",
+              "size_bytes": 798106,
+              "sha256": "4c725458a5c1088b243a4ea72dfc70baa8a0983e89ec9d621e33c5ff0d1afea2",
+              "drive_file_id": "1anWy4S-a6s5q2dd8C6yK6AcU8GowLJzg",
+              "drive_url": "https://drive.google.com/file/d/1anWy4S-a6s5q2dd8C6yK6AcU8GowLJzg/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1anWy4S-a6s5q2dd8C6yK6AcU8GowLJzg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "espeak_linux",
+      "files": [
+        {
+          "path": "archives/espeak-ng-1.50-ubuntu22-amd64-debs.tar.gz",
+          "size_bytes": 8517610,
+          "sha256": "b6d49acc9671ed637063b316aca832a9532031f84151acaeece54c2443609f85",
+          "parts": [
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__espeak-ng-1.50-ubuntu22-amd64-debs.tar.gz.part0001",
+              "size_bytes": 8000000,
+              "sha256": "5efa586bced086c81abede32f079336c34355e7d3d809e37e90ac7bacb7eec84",
+              "drive_file_id": "1YohY_JnKnA3d33ZZXV_FClDu25ysgDBr",
+              "drive_url": "https://drive.google.com/file/d/1YohY_JnKnA3d33ZZXV_FClDu25ysgDBr/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1YohY_JnKnA3d33ZZXV_FClDu25ysgDBr"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__espeak-ng-1.50-ubuntu22-amd64-debs.tar.gz.part0002",
+              "size_bytes": 517610,
+              "sha256": "0249aee5d35bd4f4fcec807a0084f914f2a85aadb2a48cd8ee52e984b222ccb1",
+              "drive_file_id": "1J4AHK0JncXTrxgARVo5cRMvQwdNvfW3r",
+              "drive_url": "https://drive.google.com/file/d/1J4AHK0JncXTrxgARVo5cRMvQwdNvfW3r/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1J4AHK0JncXTrxgARVo5cRMvQwdNvfW3r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "wheelhouse_cp311_cpu",
+      "files": [
+        {
+          "path": "archives/wheelhouse-cp311-linux-x86_64-cpu.tar.gz",
+          "size_bytes": 372943832,
+          "sha256": "7b6ea0730b3d85738b7ad1b7084eae56684a2a8a5b7e9eff921c55ac95fb3ca7",
+          "parts": [
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0001",
+              "size_bytes": 8000000,
+              "sha256": "67599ebb17f88b00f74e5bd3adb05afd7e149794d6c49e6b352f5753b94ff103",
+              "drive_file_id": "1sA3feOmW8cdIbsjN7kSoSWLByMQQJH7b",
+              "drive_url": "https://drive.google.com/file/d/1sA3feOmW8cdIbsjN7kSoSWLByMQQJH7b/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1sA3feOmW8cdIbsjN7kSoSWLByMQQJH7b"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0002",
+              "size_bytes": 8000000,
+              "sha256": "181f2941ba9e0183963aab40b41781824990afa1b62753718f56ff074c64022c",
+              "drive_file_id": "11B6L1Is_PqD734RbzqNiprp6z7wwEF9E",
+              "drive_url": "https://drive.google.com/file/d/11B6L1Is_PqD734RbzqNiprp6z7wwEF9E/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=11B6L1Is_PqD734RbzqNiprp6z7wwEF9E"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0003",
+              "size_bytes": 8000000,
+              "sha256": "826dc308dfff707c27d532158bb55865c92f03f3f57b22c151e8d45539a4b6a1",
+              "drive_file_id": "1nCNQ8Bmu-o2TYrTtFzr_DSW_0UfOg97j",
+              "drive_url": "https://drive.google.com/file/d/1nCNQ8Bmu-o2TYrTtFzr_DSW_0UfOg97j/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1nCNQ8Bmu-o2TYrTtFzr_DSW_0UfOg97j"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0004",
+              "size_bytes": 8000000,
+              "sha256": "f1a299442ed7a055124211b369ac77d85b6c751b1e5d1346c75ed3b78cd62381",
+              "drive_file_id": "1Sx5iU3xGGUFcX7B4EFbllJFxWZkHBXhO",
+              "drive_url": "https://drive.google.com/file/d/1Sx5iU3xGGUFcX7B4EFbllJFxWZkHBXhO/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Sx5iU3xGGUFcX7B4EFbllJFxWZkHBXhO"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0005",
+              "size_bytes": 8000000,
+              "sha256": "fe9c0d4344c3e565891644a23e41879067c5a502d8bc54cc5b4810f037ec54c9",
+              "drive_file_id": "1AzGvCyo4VHkc-XhzdD4sWn0Zt91Xfp82",
+              "drive_url": "https://drive.google.com/file/d/1AzGvCyo4VHkc-XhzdD4sWn0Zt91Xfp82/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1AzGvCyo4VHkc-XhzdD4sWn0Zt91Xfp82"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0006",
+              "size_bytes": 8000000,
+              "sha256": "c3c3e4f9682b014deb97e2fe178305e671d183c9fd4149ac0c676631665413be",
+              "drive_file_id": "1LhtZMaRi_g-IiQfxjpc4zVoPNpictwMc",
+              "drive_url": "https://drive.google.com/file/d/1LhtZMaRi_g-IiQfxjpc4zVoPNpictwMc/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1LhtZMaRi_g-IiQfxjpc4zVoPNpictwMc"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0007",
+              "size_bytes": 8000000,
+              "sha256": "12204995070348019148e44606841da1b1657c01d36c778da5c33b1f02116ab2",
+              "drive_file_id": "14Q3AigUXOjPTSf4FmzWufbOg9samKhL0",
+              "drive_url": "https://drive.google.com/file/d/14Q3AigUXOjPTSf4FmzWufbOg9samKhL0/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=14Q3AigUXOjPTSf4FmzWufbOg9samKhL0"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0008",
+              "size_bytes": 8000000,
+              "sha256": "ed549707e86baf09a59dd7eac8b011f64181d99a2d668184deba412112075aac",
+              "drive_file_id": "19iapAYEqokMfsZ3HxAabFqLmtk9X66Cy",
+              "drive_url": "https://drive.google.com/file/d/19iapAYEqokMfsZ3HxAabFqLmtk9X66Cy/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=19iapAYEqokMfsZ3HxAabFqLmtk9X66Cy"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0009",
+              "size_bytes": 8000000,
+              "sha256": "161cdc572780812877350a15d56514aeae8c9500ef79addb8d3369fa350a86b9",
+              "drive_file_id": "1jjY5MskXuDL8rh8-YId9Fh5vmQLxR-WG",
+              "drive_url": "https://drive.google.com/file/d/1jjY5MskXuDL8rh8-YId9Fh5vmQLxR-WG/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1jjY5MskXuDL8rh8-YId9Fh5vmQLxR-WG"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0010",
+              "size_bytes": 8000000,
+              "sha256": "6a14e1a757b1fce9b537308e7354903bb64b9f1c7e282ab47c6eb3a13acfce4f",
+              "drive_file_id": "1zVPv7p1IYEDMdHY8MXepf_FIzJvX6Be9",
+              "drive_url": "https://drive.google.com/file/d/1zVPv7p1IYEDMdHY8MXepf_FIzJvX6Be9/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1zVPv7p1IYEDMdHY8MXepf_FIzJvX6Be9"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0011",
+              "size_bytes": 8000000,
+              "sha256": "7e89e445d5016093955e45144726459446ed610787c33a6ba42dce534c024b16",
+              "drive_file_id": "1g0Pgo39-fZPFxxxCa2_7w3mkpT5hrGbI",
+              "drive_url": "https://drive.google.com/file/d/1g0Pgo39-fZPFxxxCa2_7w3mkpT5hrGbI/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1g0Pgo39-fZPFxxxCa2_7w3mkpT5hrGbI"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0012",
+              "size_bytes": 8000000,
+              "sha256": "f1800785cb85543325b6077a78167059ce21e3da54fc2d8ad309822a2a1958a4",
+              "drive_file_id": "1ojAXKHC1vsnDcmt2RJnwBXRE7RKrT3Nq",
+              "drive_url": "https://drive.google.com/file/d/1ojAXKHC1vsnDcmt2RJnwBXRE7RKrT3Nq/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1ojAXKHC1vsnDcmt2RJnwBXRE7RKrT3Nq"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0013",
+              "size_bytes": 8000000,
+              "sha256": "a329aae0c4908efa58ec58da8448f6bc19e89da246f654896ceaebe5589777a8",
+              "drive_file_id": "1qw0KY-UbxmvX-0SCUevfUrkNqECtXeNW",
+              "drive_url": "https://drive.google.com/file/d/1qw0KY-UbxmvX-0SCUevfUrkNqECtXeNW/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1qw0KY-UbxmvX-0SCUevfUrkNqECtXeNW"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0014",
+              "size_bytes": 8000000,
+              "sha256": "835cb866086c60e4329aecca852178c1c2b913391431628936768694318a5c7b",
+              "drive_file_id": "1Yr6yCmZXr2wZN8ES58ZiVfxEioS4ASyR",
+              "drive_url": "https://drive.google.com/file/d/1Yr6yCmZXr2wZN8ES58ZiVfxEioS4ASyR/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Yr6yCmZXr2wZN8ES58ZiVfxEioS4ASyR"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0015",
+              "size_bytes": 8000000,
+              "sha256": "9fe78e6e674f645a3d016cede0fbe487ffdbe8052ed954fa4b2f311ab10df5c1",
+              "drive_file_id": "1D2sT3yqjVUZYfam4tZU8kiLoxBaYo9o7",
+              "drive_url": "https://drive.google.com/file/d/1D2sT3yqjVUZYfam4tZU8kiLoxBaYo9o7/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1D2sT3yqjVUZYfam4tZU8kiLoxBaYo9o7"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0016",
+              "size_bytes": 8000000,
+              "sha256": "b2a27d2809b6756251d1f584bf11488f3ee14f7bee697dc3bbab86d943ad155a",
+              "drive_file_id": "1Q7b6lzXOG41bnN8M6Rn4VArOkKlxulQ2",
+              "drive_url": "https://drive.google.com/file/d/1Q7b6lzXOG41bnN8M6Rn4VArOkKlxulQ2/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Q7b6lzXOG41bnN8M6Rn4VArOkKlxulQ2"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0017",
+              "size_bytes": 8000000,
+              "sha256": "690a872d09f1d870962df1c26629bbbc28091091b569fad2bc1478dd8db65e3f",
+              "drive_file_id": "10jyFGa9H8JBd-yLsY-lyLUCnPb6pW6P_",
+              "drive_url": "https://drive.google.com/file/d/10jyFGa9H8JBd-yLsY-lyLUCnPb6pW6P_/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=10jyFGa9H8JBd-yLsY-lyLUCnPb6pW6P_"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0018",
+              "size_bytes": 8000000,
+              "sha256": "83da1a7d40175c01c206982a3f4a804f40ab90e4811b1cda1a3249faef56c76c",
+              "drive_file_id": "1cDl50_qMUrxyHjQO4kwTv6PvIizvq1I4",
+              "drive_url": "https://drive.google.com/file/d/1cDl50_qMUrxyHjQO4kwTv6PvIizvq1I4/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1cDl50_qMUrxyHjQO4kwTv6PvIizvq1I4"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0019",
+              "size_bytes": 8000000,
+              "sha256": "adac9bfca5065aace4a34e23fd2d7b2babc12c67dfe627ba42819a4b6d4321de",
+              "drive_file_id": "1Po_-tT-XQRuM8h7s9zhdwT8LrUN74-qi",
+              "drive_url": "https://drive.google.com/file/d/1Po_-tT-XQRuM8h7s9zhdwT8LrUN74-qi/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Po_-tT-XQRuM8h7s9zhdwT8LrUN74-qi"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0020",
+              "size_bytes": 8000000,
+              "sha256": "43f1c7129bdb6a00c4c70bd1f43777a59f6b94e348003ba0e2c2fb641bb8dceb",
+              "drive_file_id": "1t5n24ccSEza58TtI7oct9lzn5rnuNA9m",
+              "drive_url": "https://drive.google.com/file/d/1t5n24ccSEza58TtI7oct9lzn5rnuNA9m/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1t5n24ccSEza58TtI7oct9lzn5rnuNA9m"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0021",
+              "size_bytes": 8000000,
+              "sha256": "e63ad7361dc94cb9d4630074e31d7e4c3cd776af9175feeb5cc88b16ce088957",
+              "drive_file_id": "1ps_syJl11plmWJ6MThak9RpEE0tV1VTQ",
+              "drive_url": "https://drive.google.com/file/d/1ps_syJl11plmWJ6MThak9RpEE0tV1VTQ/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1ps_syJl11plmWJ6MThak9RpEE0tV1VTQ"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0022",
+              "size_bytes": 8000000,
+              "sha256": "e10b8c483c40731529c9e4d3b19a3698edc973d3fc75cfb0b27e46a01f4eead9",
+              "drive_file_id": "1LjUoLgGCLwYpZ3f8fDyYMA-pT4HFBvuA",
+              "drive_url": "https://drive.google.com/file/d/1LjUoLgGCLwYpZ3f8fDyYMA-pT4HFBvuA/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1LjUoLgGCLwYpZ3f8fDyYMA-pT4HFBvuA"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0023",
+              "size_bytes": 8000000,
+              "sha256": "5533cc889e0afaf8d14d423ea81fb1c8fee9e94a9997c40f79dc7532a50f9ec9",
+              "drive_file_id": "1_sfspO0z4v2EYvweE5teesoTNtlotjX_",
+              "drive_url": "https://drive.google.com/file/d/1_sfspO0z4v2EYvweE5teesoTNtlotjX_/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1_sfspO0z4v2EYvweE5teesoTNtlotjX_"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0024",
+              "size_bytes": 8000000,
+              "sha256": "1de3f84aaf46efdacea43b1474f4ad31324a75ea73c1bf58b2f36bf6172121a2",
+              "drive_file_id": "1vcz3Y6HHqbcsKo82l6NNAQuk45KuUflA",
+              "drive_url": "https://drive.google.com/file/d/1vcz3Y6HHqbcsKo82l6NNAQuk45KuUflA/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1vcz3Y6HHqbcsKo82l6NNAQuk45KuUflA"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0025",
+              "size_bytes": 8000000,
+              "sha256": "dcf071e069e8153e5e9a14506cd2ac37c4858a1a705533027320cab72374de03",
+              "drive_file_id": "1KsM1egFc8tXVomIR4bhWzKeQ3ws7M7fX",
+              "drive_url": "https://drive.google.com/file/d/1KsM1egFc8tXVomIR4bhWzKeQ3ws7M7fX/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1KsM1egFc8tXVomIR4bhWzKeQ3ws7M7fX"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0026",
+              "size_bytes": 8000000,
+              "sha256": "8094dbc6762cea4b053a7c0148f140567cf23e21a071e618c3602a0e9337721a",
+              "drive_file_id": "1IITfN5iM_OX7ELkrsFAzAG0ZDu9Hmlqu",
+              "drive_url": "https://drive.google.com/file/d/1IITfN5iM_OX7ELkrsFAzAG0ZDu9Hmlqu/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1IITfN5iM_OX7ELkrsFAzAG0ZDu9Hmlqu"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0027",
+              "size_bytes": 8000000,
+              "sha256": "ac2200a6413efa957c89ba3be7e42c96a4e8c43f3cf67559d93e32980b2f93c8",
+              "drive_file_id": "13xiOci4zvFqUzUZfRviPPvLpvlRPgF-e",
+              "drive_url": "https://drive.google.com/file/d/13xiOci4zvFqUzUZfRviPPvLpvlRPgF-e/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=13xiOci4zvFqUzUZfRviPPvLpvlRPgF-e"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0028",
+              "size_bytes": 8000000,
+              "sha256": "e67d0c34c964aedd2c98e8dfa58845a5531b7b7f8c227eb3890b3d70d92a93e0",
+              "drive_file_id": "1mZ3lZ7n-R8EtUs_0k7POB1KeXJWLPIDO",
+              "drive_url": "https://drive.google.com/file/d/1mZ3lZ7n-R8EtUs_0k7POB1KeXJWLPIDO/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1mZ3lZ7n-R8EtUs_0k7POB1KeXJWLPIDO"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0029",
+              "size_bytes": 8000000,
+              "sha256": "9f5fd74f880285e05cce9174da83f754d5c96a4f72f6e2037c56c0ab93416d75",
+              "drive_file_id": "1sr1888fQldcm50X8BZ0SJQcgbmFgSpeb",
+              "drive_url": "https://drive.google.com/file/d/1sr1888fQldcm50X8BZ0SJQcgbmFgSpeb/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1sr1888fQldcm50X8BZ0SJQcgbmFgSpeb"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0030",
+              "size_bytes": 8000000,
+              "sha256": "68a14085cfc3c3ee6d38a4d4e5a3933804e555bd7aec574d2cc167440f1aa8e5",
+              "drive_file_id": "1AAR1uTzq4SOCqDjn7kmyxqR_fROPSSR3",
+              "drive_url": "https://drive.google.com/file/d/1AAR1uTzq4SOCqDjn7kmyxqR_fROPSSR3/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1AAR1uTzq4SOCqDjn7kmyxqR_fROPSSR3"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0031",
+              "size_bytes": 8000000,
+              "sha256": "e6addaa74e4944ae9dea8812a69a9419d16a6e6bc5d47bd5065f3e8ac97424f9",
+              "drive_file_id": "1dewqZ6AcEJ6vzkB2xHOJ0K6ghkGY80My",
+              "drive_url": "https://drive.google.com/file/d/1dewqZ6AcEJ6vzkB2xHOJ0K6ghkGY80My/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1dewqZ6AcEJ6vzkB2xHOJ0K6ghkGY80My"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0032",
+              "size_bytes": 8000000,
+              "sha256": "d80be5429018d2108235109655adb53b41269ae10f649b5a6c648823d74146d2",
+              "drive_file_id": "1VkahnQQ4BaJtrw3g9uToWjFXenARMUFU",
+              "drive_url": "https://drive.google.com/file/d/1VkahnQQ4BaJtrw3g9uToWjFXenARMUFU/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1VkahnQQ4BaJtrw3g9uToWjFXenARMUFU"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0033",
+              "size_bytes": 8000000,
+              "sha256": "2a97867acebb09d1b3704024c518c75f71a99a13cdf55ed8c43b5a1969c9b801",
+              "drive_file_id": "1BLaUvCoX8S0AxA0LEQbkvkEMndu0wzxd",
+              "drive_url": "https://drive.google.com/file/d/1BLaUvCoX8S0AxA0LEQbkvkEMndu0wzxd/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1BLaUvCoX8S0AxA0LEQbkvkEMndu0wzxd"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0034",
+              "size_bytes": 8000000,
+              "sha256": "7c1a7f73f8863f8a9df086c23b51d5d7159c37b62dacee94a9512696452fe92d",
+              "drive_file_id": "1XtW7JzZw63CtoD25TNLnjPY00OXfXi57",
+              "drive_url": "https://drive.google.com/file/d/1XtW7JzZw63CtoD25TNLnjPY00OXfXi57/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1XtW7JzZw63CtoD25TNLnjPY00OXfXi57"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0035",
+              "size_bytes": 8000000,
+              "sha256": "5f0a804f7c1a8a138adc992ddb7c96be7d37d29dec493cd31b59d77242915591",
+              "drive_file_id": "1xE6wfXvqZLANH9JLGxvlj_Jl6d8yTCXK",
+              "drive_url": "https://drive.google.com/file/d/1xE6wfXvqZLANH9JLGxvlj_Jl6d8yTCXK/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1xE6wfXvqZLANH9JLGxvlj_Jl6d8yTCXK"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0036",
+              "size_bytes": 8000000,
+              "sha256": "cacfd778a0d73875f304e1b8829fccfc5c22e9eaefec1b4cb53de3e1cb95291c",
+              "drive_file_id": "1XlE6305mJeiAwvwfhxG9btZyFuItq-8Q",
+              "drive_url": "https://drive.google.com/file/d/1XlE6305mJeiAwvwfhxG9btZyFuItq-8Q/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1XlE6305mJeiAwvwfhxG9btZyFuItq-8Q"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0037",
+              "size_bytes": 8000000,
+              "sha256": "5ffeeacc61cec888cb5a32d7eafe5dabf43fa9463eaa05357e5b97ec09e1996c",
+              "drive_file_id": "1vhqX3kk81lbkW8SqdAhsELw9S2VOvhh1",
+              "drive_url": "https://drive.google.com/file/d/1vhqX3kk81lbkW8SqdAhsELw9S2VOvhh1/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1vhqX3kk81lbkW8SqdAhsELw9S2VOvhh1"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0038",
+              "size_bytes": 8000000,
+              "sha256": "dda6ad7ac20c98964949203dbad421c613a20fe4c2e5ac54fac43eae3b7aacf1",
+              "drive_file_id": "1_m7-y0rHnfracvFq_ULT9SHZ6tDK7mAr",
+              "drive_url": "https://drive.google.com/file/d/1_m7-y0rHnfracvFq_ULT9SHZ6tDK7mAr/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1_m7-y0rHnfracvFq_ULT9SHZ6tDK7mAr"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0039",
+              "size_bytes": 8000000,
+              "sha256": "e79d517c48950948a67cc544a3e8a10d25ee121d0f82afa93d03007f5ea5ac6e",
+              "drive_file_id": "1JAunMqsDlDa-yJmJ7JQlzJXvsFqurl_i",
+              "drive_url": "https://drive.google.com/file/d/1JAunMqsDlDa-yJmJ7JQlzJXvsFqurl_i/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1JAunMqsDlDa-yJmJ7JQlzJXvsFqurl_i"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0040",
+              "size_bytes": 8000000,
+              "sha256": "c1e4e274afff86f4d9d1a4559dbc7906dfee5cf0cf9f0428d8b3858870e659e9",
+              "drive_file_id": "17pb7uk-qg_4HowGMpgtcU7fxzOJhPg1o",
+              "drive_url": "https://drive.google.com/file/d/17pb7uk-qg_4HowGMpgtcU7fxzOJhPg1o/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=17pb7uk-qg_4HowGMpgtcU7fxzOJhPg1o"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0041",
+              "size_bytes": 8000000,
+              "sha256": "18170716c219b4ae3fb357928521a59861fc0611f28e86899a09e04ffa068038",
+              "drive_file_id": "1Z5VC2U8DZ4DeebFa9x0TyNcfHDLINSuC",
+              "drive_url": "https://drive.google.com/file/d/1Z5VC2U8DZ4DeebFa9x0TyNcfHDLINSuC/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Z5VC2U8DZ4DeebFa9x0TyNcfHDLINSuC"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0042",
+              "size_bytes": 8000000,
+              "sha256": "7afc60ff02e5631806a92244eb10616a1d65c2f77f7775cff1af861329101076",
+              "drive_file_id": "1nRcg-jyAMXJVwq972deBjwKkQdH6lPnA",
+              "drive_url": "https://drive.google.com/file/d/1nRcg-jyAMXJVwq972deBjwKkQdH6lPnA/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1nRcg-jyAMXJVwq972deBjwKkQdH6lPnA"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0043",
+              "size_bytes": 8000000,
+              "sha256": "0f4be831d4a75747f046a7d93f74ad2db7b5d55f0d0952094e8375f8490567cf",
+              "drive_file_id": "1rlMAkdO98BQij_D2KE6h-0Yqcq-qI9YN",
+              "drive_url": "https://drive.google.com/file/d/1rlMAkdO98BQij_D2KE6h-0Yqcq-qI9YN/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1rlMAkdO98BQij_D2KE6h-0Yqcq-qI9YN"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0044",
+              "size_bytes": 8000000,
+              "sha256": "2f323663f9b1f87f944293da4a9f336538926ffda746daec934e75f603d3cd39",
+              "drive_file_id": "1gkNHZrWv1hr3WBUvc8UjmQX1LCIdl4rh",
+              "drive_url": "https://drive.google.com/file/d/1gkNHZrWv1hr3WBUvc8UjmQX1LCIdl4rh/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1gkNHZrWv1hr3WBUvc8UjmQX1LCIdl4rh"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0045",
+              "size_bytes": 8000000,
+              "sha256": "67155e0a2192bd5ecf2bd7dab09f5abc740f12cc41a052b7c3fa7ca53c49c8c3",
+              "drive_file_id": "1N-8XBEXJX1objpIUrLWHCrXvRh2n1k3E",
+              "drive_url": "https://drive.google.com/file/d/1N-8XBEXJX1objpIUrLWHCrXvRh2n1k3E/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1N-8XBEXJX1objpIUrLWHCrXvRh2n1k3E"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0046",
+              "size_bytes": 8000000,
+              "sha256": "7c0ca77b5c0e945354b53497e0c70bee7a90735ad1cfd4539285640926dc5f71",
+              "drive_file_id": "1Gqq9yKEfrtwJvhhy5PID8gimBHKBRzeM",
+              "drive_url": "https://drive.google.com/file/d/1Gqq9yKEfrtwJvhhy5PID8gimBHKBRzeM/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1Gqq9yKEfrtwJvhhy5PID8gimBHKBRzeM"
+            },
+            {
+              "name": "Gemini_VO_Deps_2026-11-10__wheelhouse-cp311-linux-x86_64-cpu.tar.gz.part0047",
+              "size_bytes": 4943832,
+              "sha256": "7e8aa17d3f2f36cfcad08a96ce93362af7c831ea46f4cd85bc4b5c07d2f83626",
+              "drive_file_id": "1-CQzxDB_H-tcgOSgy6EOnz59UZkVYv89",
+              "drive_url": "https://drive.google.com/file/d/1-CQzxDB_H-tcgOSgy6EOnz59UZkVYv89/view?usp=drivesdk",
+              "download_url": "https://drive.google.com/uc?export=download&id=1-CQzxDB_H-tcgOSgy6EOnz59UZkVYv89"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "remote_part_sizes_verified_below_10mb": true,
+  "clean_install_validation": {
+    "all_commands_exit_zero": true,
+    "new_prefix_and_venv": true,
+    "offline_network_guard": true,
+    "pip_check": true,
+    "install_ready": true,
+    "malay_tts_ready": true,
+    "wav_sample_rate": 44100,
+    "wav_duration_seconds": 3.5678231292517006,
+    "validated_host": "Linux x86_64 / glibc 2.41",
+    "gemini_account_execution_tested": false
+  }
+}

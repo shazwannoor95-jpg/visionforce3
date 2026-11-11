@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX009",
+  "mode": "native",
+  "params": {
+    "text": "SMALL STEPS MATTER",
+    "subtitle": "Each letter settles into a shared rhythm",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "cb6d1353512807f818c896346b8e85bc1d0ca6bd85a2866dbcaccc10c4d9a218"
+  }
+}

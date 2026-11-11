@@ -1,0 +1,39 @@
+{
+  "schema": "gemini-malay-vo-profile-v1",
+  "release": "2026-11-10",
+  "target": {
+    "system": "Linux",
+    "architecture": "x86_64",
+    "glibc_min": "2.35",
+    "python_abi": "cp311",
+    "torch_variant": "cpu"
+  },
+  "versions": {
+    "python": "3.11.18",
+    "torch": "2.5.1+cpu",
+    "torchaudio": "2.5.1+cpu",
+    "transformers": "4.38.2",
+    "malaya": "5.1.1",
+    "malaya-speech": "1.4.0rc2",
+    "phonemizer": "3.3.0",
+    "melotts": "0.1.2+geminims2"
+  },
+  "melo_source_commit": "eb9ef5fb6dd283da3ba0e811cdb26aca147f58b6",
+  "malaya_speech_source_commit": "d6150c3c008ab1cc76154ff2d666341c6d01628b",
+  "adaptation": "Malay-only inference dependency metadata and lazy language imports; original neural model weights and normalization semantics retained. Transformer 4.38.2 resolves Malaya LlamaModel import; cached original Demoji dictionary supports offline normalization. No Japanese/Korean/Gradio extras required for this profile.",
+  "validated": {
+    "pip_install": "--no-index --require-hashes",
+    "pip_check": true,
+    "offline_network_guard": true,
+    "malay_inference": true,
+    "proof_sample_rate": 44100,
+    "proof_duration": 3.5678231292517006,
+    "host": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "python_provenance": {
+    "source": "Astral python-build-standalone via uv cache",
+    "version": "3.11.18",
+    "upstream_build": "20261026",
+    "archive": "local repackage of the verified installed runtime; bundled licenses retained"
+  }
+}

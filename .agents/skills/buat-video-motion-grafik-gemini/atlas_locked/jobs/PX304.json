@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX304",
+  "mode": "native",
+  "params": {
+    "text": "MAP FEATURE TO MEDIA",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "documentary"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b841714706621df9fee8595a4f95f54361f61da6c1c9c9be74a2b7a88b231c75"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX299",
+  "mode": "native",
+  "params": {
+    "text": "Design Inspector Focus",
+    "subtitle": "Selecting a layout element opens its design inspector.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "be346ba99ab061ca76eeec027df7ba6dd58187a0cd540c4fc3f5f3217bbe3eec"
+  }
+}

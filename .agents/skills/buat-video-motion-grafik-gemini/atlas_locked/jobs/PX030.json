@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX030",
+  "mode": "native",
+  "params": {
+    "text": "MAKE IT VISIBLE",
+    "subtitle": "A vivid entrance for a clear message",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "e1c49e0e283b7a66887f007a9a10cd3b7565531e3da86354f1cddfe2fa951f11"
+  }
+}

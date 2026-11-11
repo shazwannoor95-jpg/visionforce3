@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Collective hands around launch kit</title>
+<g id="main">
+<rect x="95" y="92" width="68" height="65" rx="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 27 101 L 47 101 L 65 121 L 83 121 Q 100 124 94 135 L 73 139 L 57 132 L 36 144 Z" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<rect x="122" y="92" width="14" height="13" rx="1" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 230 101 L 209 101 L 191 121 L 173 121 Q 156 124 162 135 L 183 139 L 201 132 L 220 145 Z" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 96 229 V 207 L 113 191 V 173 Q 115 157 128 165 L 132 185 L 125 205 L 136 221 Z" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 105 28 H 127 L 148 46 V 74 Q 142 86 130 72 L 127 58 L 110 54 Z" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="129" y1="92" x2="129" y2="157" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

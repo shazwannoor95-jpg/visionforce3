@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "MP27",
+  "mode": "native",
+  "params": {
+    "text": "PRODUK UTAMA",
+    "subtitle": "Setiap ciri diberi ruang.",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "14675a8944aee7231d1264326f823f0f3ac26aa76a2f71ca7e26f140b6839237"
+  }
+}

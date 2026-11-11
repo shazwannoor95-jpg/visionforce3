@@ -1,0 +1,54 @@
+{
+  "name": "Biology / Specimen Carousel",
+  "description": "Three specimen cards slide into a research carousel with active scan focus. Illustrative schematic, not surveyed geography or clinical illustration.",
+  "genre": "corporate",
+  "text": "Biology · Specimen Carousel",
+  "subtitle": "ILLUSTRATIVE SCHEMATIC",
+  "family": "premium-map-data",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/hud-molecular-dna-KTTS2NV",
+  "observation_basis": "listing-description",
+  "mechanism": "Three specimen cards slide into a research carousel with active scan focus.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "vector diagram",
+    "data values",
+    "labels"
+  ],
+  "use_cases": [
+    "corporate report",
+    "education",
+    "data storytelling"
+  ],
+  "parameters": {
+    "values": "finite numeric array; exact endpoints; nonnegative for proportional charts",
+    "labels": "array of short names",
+    "route": "array of [x,y] pairs in 0..1 for map families",
+    "text": "headline",
+    "subtitle": "supporting line",
+    "unit": "counter suffix"
+  },
+  "adaptation_status": "original-demo",
+  "values": [
+    64,
+    86,
+    73,
+    92
+  ],
+  "labels": [
+    "ALPHA",
+    "BETA",
+    "GAMMA",
+    "DELTA"
+  ],
+  "recipe_group": 16,
+  "recipe_variant": 2,
+  "schematic": true,
+  "preset": "PX167",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

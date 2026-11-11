@@ -1,0 +1,21 @@
+{
+  "id": "VL0190",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "ink",
+  "parameters": {
+    "cx": 0.65,
+    "cy": 0.25,
+    "roughness": 0.055,
+    "drip": -0.25,
+    "seed": 4
+  },
+  "duration": 1.2,
+  "fps": 30,
+  "feather": 0.065,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

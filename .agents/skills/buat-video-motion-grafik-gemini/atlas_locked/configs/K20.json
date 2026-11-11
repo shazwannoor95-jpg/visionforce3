@@ -1,0 +1,30 @@
+{
+  "name": "Punctuation Bounce Baseline",
+  "description": "Ayat mendarat pada garis dasar; tanda baca melantun secara berasingan untuk memberi tekanan.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "saas",
+    "education",
+    "corporate"
+  ],
+  "text": "IDEA. AKSI!",
+  "subtitle": "TANDA KECIL, IMPAK BESAR",
+  "family": "kinetic",
+  "source_url": "https://elements.envato.com/text-animation-R7E9UER",
+  "observed_timestamp": "40.0–44.5 s",
+  "mechanism": "independent punctuation bounce above stable word baseline",
+  "variant_basis": "observed",
+  "bounce_height": 55,
+  "punctuation_scale": 1.25,
+  "stagger": 0.06,
+  "preset": "K20",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

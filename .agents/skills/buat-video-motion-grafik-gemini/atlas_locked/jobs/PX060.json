@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX060",
+  "mode": "native",
+  "params": {
+    "text": "START RIGHT HERE",
+    "subtitle": "A clear prompt with a confident arrival",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "f20cf7de2cf239261f92a04aef8787dfbd399337526aab1355494601dc0bae43"
+  }
+}

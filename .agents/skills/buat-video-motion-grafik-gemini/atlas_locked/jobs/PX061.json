@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX061",
+  "mode": "native",
+  "params": {
+    "text": "FRAME YOUR NEXT IDEA",
+    "subtitle": "A precise reveal for a clear thought",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "01f8c31e2dd62ecb3f2b9fe76c4e796ef05608c031754c17dcf814cfbb6a13ca"
+  }
+}

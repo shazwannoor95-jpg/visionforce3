@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX014",
+  "mode": "native",
+  "params": {
+    "text": "ONE STRONG IDEA",
+    "subtitle": "Shape the message, then bring it home",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "6a42a0a7101bdf142a77954a36c5b73633ff52d198d950d3cccf7dbcd6eb376b"
+  }
+}

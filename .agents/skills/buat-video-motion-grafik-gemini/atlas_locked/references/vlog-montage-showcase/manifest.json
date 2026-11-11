@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "title": "Illustrated Weekend Ride — actual VL asset showcase",
+  "output_file": "VL_Illustrated_Weekend_Ride.mp4",
+  "duration_seconds": 10,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "illustration": true,
+  "footage_source": "Original bundled scripts/vector_cyclist.cjs, copied and used with three camera framings; no testbar or external footage",
+  "audio": "Quiet original synthesized instrumental bed plus actual original VL WAV SFX; no narration",
+  "vlog_asset_ids": [
+    "VL0001",
+    "VL0107",
+    "VL0203",
+    "VL0301",
+    "VL0406",
+    "VL0501",
+    "VL0523"
+  ],
+  "assets": [
+    {
+      "id": "VL0001",
+      "role": "LUT",
+      "file": "assets/VL0001.cube",
+      "strength": 0.65,
+      "timing": [
+        0,
+        10
+      ],
+      "method": "bundled vlog_asset.py CLI, FFmpeg lut3d tetrahedral then blend",
+      "sha256": "ff0af923fe44fb9452f3050574d25dae500e8a518fca63a21751c8b7663226aa"
+    },
+    {
+      "id": "VL0107",
+      "role": "transition",
+      "file": "assets/VL0107.json",
+      "timing": [
+        [
+          3.4,
+          4.3
+        ],
+        [
+          6.3,
+          7.2
+        ]
+      ],
+      "method": "copied transition_engine.mask_frame at final 1280x720, 27 frames, exact normalized endpoints 0 and 1",
+      "sha256": "fd7d1995053f25dc81d97a7643ee995bb7e5a7535f47bdcbd6a169c0fd699392"
+    },
+    {
+      "id": "VL0203",
+      "role": "animated overlay",
+      "file": "assets/VL0203.json",
+      "strength": 0.24,
+      "timing": [
+        0,
+        10
+      ],
+      "method": "copied overlay_engine.frame, 2-second periodic phase, Screen blend before graphics",
+      "sha256": "a32aec72bdc105b470f7d692a46847eadb14daeba4ee9ac9cd3501249037f133"
+    },
+    {
+      "id": "VL0301",
+      "role": "vlog graphic",
+      "file": "assets/VL0301_showcase.svg",
+      "opacity": 0.9,
+      "timing": [
+        0.1,
+        3.4
+      ],
+      "method": "original SVG geometry; project copy uses cream HUD, ILLUSTRATION, HD · 30; fade .32s",
+      "sha256": "c5a325652e331ad298de7c902e157ad36c7bfcbb6c9dcd4337da569520e076fc"
+    },
+    {
+      "id": "VL0406",
+      "role": "montage graphic",
+      "file": "assets/VL0406_showcase.svg",
+      "opacity": 1,
+      "timing": [
+        7.15,
+        10
+      ],
+      "method": "original SVG geometry; project copy changes caption to ILLUSTRATED • WEEKEND RIDE; fade .28s",
+      "sha256": "b1631fcbdb6b797cdeffe9892b162742d1fd5e159d566b9cfd668fe2d2525292"
+    },
+    {
+      "id": "VL0501",
+      "role": "SFX",
+      "file": "assets/VL0501.wav",
+      "gain": 0.46,
+      "timing": [
+        3.48,
+        6.38
+      ],
+      "method": "48kHz stereo WAV scheduled on reveal start",
+      "sha256": "d3acceb0af16ff01aede3b8c534567d95b04e02ba4d20dea762646896e3b5e97"
+    },
+    {
+      "id": "VL0523",
+      "role": "SFX",
+      "file": "assets/VL0523.wav",
+      "gains": [
+        0.4,
+        0.35
+      ],
+      "timing": [
+        0.4,
+        7.42
+      ],
+      "method": "48kHz stereo WAV scheduled on title entrance",
+      "sha256": "0169eda51418b7e13e2d95e4ea304ba454312502cbae092fe6e28eb41d840088"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "wide",
+      "order": 1,
+      "start_seconds": 0,
+      "end_seconds": 4.3,
+      "visual": "Wide illustrated cyclist shot with continuous IK pedalling, road-linked wheel spin and parallax; HUD and lower-left title.",
+      "on_screen_text": [
+        "A SLOW MORNING / 01",
+        "WEEKEND RIDE",
+        "ILLUSTRATION"
+      ],
+      "transition_in": {
+        "type": "cut"
+      }
+    },
+    {
+      "id": "detail",
+      "order": 2,
+      "start_seconds": 3.4,
+      "end_seconds": 7.2,
+      "visual": "1.55× detail camera on pedals and wheels, continuation of the same time-driven original rig.",
+      "on_screen_text": [
+        "THE DETAILS / 02",
+        "FIND YOUR RHYTHM",
+        "ILLUSTRATION"
+      ],
+      "transition_in": {
+        "type": "overlap",
+        "duration_seconds": 0.9
+      }
+    },
+    {
+      "id": "memory",
+      "order": 3,
+      "start_seconds": 6.3,
+      "end_seconds": 10,
+      "visual": "0.86× wide camera inside actual VL0406 film border; continuous cycling and parallax.",
+      "on_screen_text": [
+        "THE MEMORY / 03",
+        "KEEP THE MOMENTS",
+        "ILLUSTRATED • WEEKEND RIDE",
+        "ILLUSTRATION"
+      ],
+      "transition_in": {
+        "type": "overlap",
+        "duration_seconds": 0.9
+      }
+    }
+  ],
+  "reproduce_command": "python source/reproduce.py",
+  "runtime": "Node + Sharp (CODEX_PRIMARY_RUNTIME_NODE_MODULES), Python 3 + NumPy + Pillow + CairoSVG, FFmpeg/ffprobe libx264",
+  "production_invocations": [
+    "node /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/source/render_footage.cjs",
+    "python /root/.codex/skills/remote-skills/skill-6ab49e741ae8819196d1cbe0657bc04d/scripts/vlog_asset.py --id VL0001 --input /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_a_raw.mp4 --strength 0.65 --width 1280 --fps 30 --render /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_a_graded.mp4",
+    "python /root/.codex/skills/remote-skills/skill-6ab49e741ae8819196d1cbe0657bc04d/scripts/vlog_asset.py --id VL0001 --input /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_b_raw.mp4 --strength 0.65 --width 1280 --fps 30 --render /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_b_graded.mp4",
+    "python /root/.codex/skills/remote-skills/skill-6ab49e741ae8819196d1cbe0657bc04d/scripts/vlog_asset.py --id VL0001 --input /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_c_raw.mp4 --strength 0.65 --width 1280 --fps 30 --render /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/shot_c_graded.mp4",
+    "python /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/source/compose_showcase.py"
+  ],
+  "workflow_errors": [
+    {
+      "invocation": "tools.view_image({path:\"/workspace/scratch/52cf302c2e1c/vlog_showcase_qa/contact_sheet.png\"})",
+      "error": "unable to process image: invalid or unsupported image data",
+      "diagnosis": "PNG contact sheet was truncated; PIL load raised OSError: image file is truncated. All 8 source frame PNGs were intact.",
+      "resolution": "Rebuilt contact_sheet_v2.jpg from intact frame PNGs, confirmed JPEG load, and visually inspected it.",
+      "attempts": 2
+    },
+    {
+      "invocation": "PIL.Image.open(\"contact_sheet.png\").convert(\"RGB\").resize((960,1188)).save(\"contact_sheet.jpg\",quality=92)",
+      "error": "OSError: image file is truncated",
+      "resolution": "Rebuilt contact sheet from 8 intact extracted source frames."
+    },
+    {
+      "invocation": "tools.view_image({path:\"/workspace/scratch/52cf302c2e1c/vlog_showcase_qa/contact_sheet.jpg\"})",
+      "error": "unable to locate image at /workspace/scratch/52cf302c2e1c/vlog_showcase_qa/contact_sheet.jpg: No such file or directory (os error 2)",
+      "resolution": "Dependent JPG had not been created after PIL failure; replaced by validated contact_sheet_v2.jpg."
+    }
+  ],
+  "audio_master_gain": 1.8,
+  "working_directory": "/workspace/scratch/52cf302c2e1c/vlog_showcase_qa"
+}

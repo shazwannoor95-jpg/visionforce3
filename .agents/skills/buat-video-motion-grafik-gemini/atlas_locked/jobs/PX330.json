@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX330",
+  "mode": "native",
+  "params": {
+    "text": "ROTATING CHECKER ASSEMBLY",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "bee70884f5f3504b03baf8506aa83cdcdc0ee5ec9607e6cb791f9e825645b028"
+  }
+}

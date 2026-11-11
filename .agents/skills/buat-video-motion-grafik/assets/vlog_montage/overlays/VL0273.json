@@ -1,0 +1,16 @@
+{
+  "id": "VL0273",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "ember_rise",
+  "variant": 3,
+  "seed": 25484,
+  "palette": "amber",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

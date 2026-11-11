@@ -1,0 +1,20 @@
+{
+  "name": "type-entrance-moves",
+  "description": "Gerak kata, huruf atau ayat: type entrance moves",
+  "genre": "creator",
+  "text": "MAKE IDEAS MOVE",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/typography/type-entrance-moves.md",
+  "adaptation_status": "original-demo",
+  "category": "typography",
+  "mechanism": "type-entrance-moves",
+  "preset": "PV119",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

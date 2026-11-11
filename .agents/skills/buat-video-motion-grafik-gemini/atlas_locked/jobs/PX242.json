@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX242",
+  "mode": "native",
+  "params": {
+    "text": "Schedule Time Track",
+    "subtitle": "Tasks settle into a horizontal schedule with a current-time marker.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b17c26cb81bad03acc8167e0165787a4ba995cf93bc7acfbc1e89970e7f9eab5"
+  }
+}

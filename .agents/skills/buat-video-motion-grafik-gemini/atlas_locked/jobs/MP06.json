@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "MP06",
+  "mode": "native",
+  "params": {
+    "text": "DUNIA KECIL",
+    "subtitle": "Produk tumbuh di atas pentas.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "23f2f5fe36d4fd578ef12577d8e7afb8989a425ff591c8b00ed288a7660bb988"
+  }
+}

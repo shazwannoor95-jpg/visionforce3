@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "CFX64",
+  "mode": "native",
+  "params": {
+    "text": "IDEA DALAM GERAK",
+    "subtitle": "Creator FX 80",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "024a2250629bd24ff7214e74b806f4da2b8bb93b11a34e4621b8ccd915d2c088"
+  }
+}

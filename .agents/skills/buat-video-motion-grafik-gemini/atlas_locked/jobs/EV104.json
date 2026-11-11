@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV104",
+  "mode": "native",
+  "params": {
+    "text": "IDEAS INTO ACTION",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "a365f50d06ec99453b07447d259da070c6764a4cc37af23f1addae5833f377e7"
+  }
+}

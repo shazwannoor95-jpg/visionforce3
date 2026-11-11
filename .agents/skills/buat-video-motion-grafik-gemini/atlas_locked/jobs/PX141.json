@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX141",
+  "mode": "native",
+  "params": {
+    "text": "KPI · Odometer Vault",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "6f648c1ff9fba2ac1f0e11daf5764e6ac194edde6bfa1b7fc3d7c89a757229e0"
+  }
+}

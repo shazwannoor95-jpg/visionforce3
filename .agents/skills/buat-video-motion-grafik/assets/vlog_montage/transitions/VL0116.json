@@ -1,0 +1,21 @@
+{
+  "id": "VL0116",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "diamond",
+  "parameters": {
+    "angle": 0,
+    "cx": 0.5,
+    "cy": 0.5,
+    "aspect": 1,
+    "reverse": false
+  },
+  "duration": 0.8,
+  "fps": 30,
+  "feather": 0.035,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

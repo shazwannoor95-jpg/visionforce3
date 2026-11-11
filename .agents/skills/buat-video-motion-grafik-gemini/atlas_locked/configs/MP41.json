@@ -1,0 +1,22 @@
+{
+  "name": "Borneo rainforest",
+  "description": "Animasi asli: forest parallax, drifting mist, hornbill silhouette.",
+  "family": "motionprompt",
+  "genre": "documentary",
+  "genres": [
+    "documentary"
+  ],
+  "text": "HUTAN BORNEO",
+  "subtitle": "Kabus membuka ruang pada cerita.",
+  "source_url": "https://epool86.github.io/motionprompt/#borneo-rainforest",
+  "variant_basis": "adapted",
+  "mechanism": "forest parallax, drifting mist, hornbill silhouette",
+  "duration": 6.0,
+  "preset": "MP41",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX043",
+  "mode": "native",
+  "params": {
+    "text": "START WITH WHAT MATTERS",
+    "subtitle": "Emphasize the idea as the story unfolds",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "444d413771ba1cf6340bc4116f53da10571a26d2fe631c8e2235ae8d63bd57c8"
+  }
+}

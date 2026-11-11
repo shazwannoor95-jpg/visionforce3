@@ -1,0 +1,21 @@
+{
+  "name": "Focus carousel",
+  "description": "Continuous focus index drives depth, scale and tilt.",
+  "genre": "promo",
+  "genres": [
+    "promo",
+    "creator",
+    "saas",
+    "corporate"
+  ],
+  "text": "FIND YOUR FOCUS",
+  "subtitle": "Satu fokus. Banyak perspektif.",
+  "preset": "C01",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Dual Area Comparison",
+  "description": "Dual Area Comparison — Carta terbina berturutan; data, paksi, nilai dan tooltip berkongsi progress.",
+  "genre": "corporate",
+  "genres": [
+    "corporate",
+    "education",
+    "promo"
+  ],
+  "family": "envato2026",
+  "category": "chart",
+  "source_url": "https://elements.envato.com/animated-chart-pack-mogrt-2AM3QW8",
+  "source_product": "Animated Chart Pack | MOGRT",
+  "source_index": 15,
+  "observed_timestamp": "10.16s; 23.4s; 36.63s; 49.87s; 63.11s; 76.34s; 89.58s; 102.82s; 116.05s; 129.29s; 142.53s; 155.77s",
+  "inspected_frames": [
+    10.16,
+    23.4,
+    36.63,
+    49.87,
+    63.11,
+    76.34,
+    89.58,
+    102.82,
+    116.05,
+    129.29,
+    142.53,
+    155.77
+  ],
+  "source_crop": "full canvas; isolate component named in preset",
+  "variant_basis": "adapted",
+  "adaptation_status": "preview-observed-original",
+  "mechanism": "chart_dual",
+  "text": "DUAL AREA COMPARISON",
+  "subtitle": "DATA DEMO · MOTION ATLAS",
+  "duration": 6.0,
+  "mode": "chart_dual",
+  "variant": 3,
+  "values": [
+    38,
+    68,
+    49,
+    84,
+    61,
+    93
+  ],
+  "labels": [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN"
+  ],
+  "preset": "EV066",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

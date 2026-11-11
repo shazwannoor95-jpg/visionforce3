@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX025",
+  "mode": "native",
+  "params": {
+    "text": "MAKE ROOM FOR IDEAS",
+    "subtitle": "A spacious entrance, a precise finish",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0f67391fb751fe3df5d947aad38555fc62fdbf08ac0a470a48b64f38d22a7771"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "element-body-moves",
+  "description": "Kemasukan komponen dan susunan skrin: element body moves",
+  "genre": "saas",
+  "text": "PROJECT ATLAS",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/ui-entrance/element-body-moves.md",
+  "adaptation_status": "original-demo",
+  "category": "ui-entrance",
+  "mechanism": "element-body-moves",
+  "preset": "PV134",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

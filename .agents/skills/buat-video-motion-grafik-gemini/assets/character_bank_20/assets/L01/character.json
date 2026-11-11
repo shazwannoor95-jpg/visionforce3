@@ -1,0 +1,48 @@
+{
+  "id": "L01",
+  "name": "Danish",
+  "sex": "male",
+  "age": 6,
+  "age_group": "kanak-kanak",
+  "height_cm": 118,
+  "body": {
+    "build": "average",
+    "head_shape": "round",
+    "skin": "#B97853"
+  },
+  "style": {
+    "outfit": "polo",
+    "top": "#CF7B45",
+    "bottom": "#485E69",
+    "accent": "#E9BC65",
+    "shoes": "#544A43"
+  },
+  "head": {
+    "hair": "curly",
+    "hair_color": "#302923",
+    "hijab": "none",
+    "hijab_color": "#738675",
+    "glasses": "none",
+    "facial_hair": "none"
+  },
+  "personality": "Ingin tahu dan suka memerhati sesuatu dengan teliti.",
+  "signature_features": [
+    "Rambut keriting pendek dengan siluet bulat kecil",
+    "Pipi bulat dan kening pendek melengkung",
+    "Baju polo lengan panjang jingga tanah dengan seluar panjang biru kelabu"
+  ],
+  "use_cases": [
+    "Penerangan sains untuk kanak-kanak",
+    "Adegan kehidupan harian keluarga rekaan"
+  ],
+  "gestures": [
+    "Mengangkat satu tangan untuk bertanya",
+    "Membongkok sedikit untuk melihat objek",
+    "Mengira dengan jari pada paras dada"
+  ],
+  "consistency_rules": [
+    "Kekalkan tubuh kanak-kanak enam tahun dan tinggi 118 cm",
+    "Kekalkan siluet rambut keriting pendek yang sama merentas sudut",
+    "Semua pose memakai lengan panjang serta seluar panjang longgar"
+  ]
+}

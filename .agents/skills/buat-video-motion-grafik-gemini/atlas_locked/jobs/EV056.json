@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV056",
+  "mode": "native",
+  "params": {
+    "text": "PIE LEGEND REVEAL",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "53fb752d091bc5baf42154bbde251a4931f94cb21475a8527e2d2a868372e1c0"
+  }
+}

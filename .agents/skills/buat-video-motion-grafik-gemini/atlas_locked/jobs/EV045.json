@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV045",
+  "mode": "native",
+  "params": {
+    "text": "STACKED COLUMN BUILDER",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "244c22217e8eb464fac3c7c6cd551de722527026a34ee152ce04adf42af0d2ba"
+  }
+}

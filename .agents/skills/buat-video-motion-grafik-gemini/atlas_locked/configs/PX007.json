@@ -1,0 +1,49 @@
+{
+  "name": "Alternating Band Weave",
+  "description": "Tipografi asal: five horizontal glyph bands converge from alternating left and right positions.",
+  "genre": "creator",
+  "text": "TURN IDEAS INTO ACTION",
+  "subtitle": "Clarity arrives in measured steps",
+  "family": "premium-type",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/typography-titles-2-0-fcpx-apple-motion-HNPH9TN",
+  "observation_basis": "listing-description",
+  "mechanism": "five horizontal glyph bands converge from alternating left and right positions",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "teks headline",
+    "teks sokongan",
+    "geometri vektor asal"
+  ],
+  "use_cases": [
+    "caption video pendek",
+    "promosi produk",
+    "judul kreatif"
+  ],
+  "parameters": {
+    "text": "Teks utama; disesuaikan mengikut lebar tersedia",
+    "subtitle": "Teks sokongan pendek",
+    "genre": "Palet warna daripada core.PALETTES",
+    "tempo": "Kelajuan masuk 0.5–2.0",
+    "duration": "Tempoh scene 0.5–120 saat; lalai 6",
+    "accent": "Warna aksen #RRGGBB",
+    "text_color": "Warna teks #RRGGBB",
+    "bg": "Warna latar #RRGGBB"
+  },
+  "adaptation_status": "original-demo",
+  "mode": "premium_type_01_2",
+  "implementation": "premium_type.py / split",
+  "originality_note": "Demo baharu berasaskan teknik umum yang diterangkan dalam listing; bukan template atau aset Envato.",
+  "frame_size": [
+    1280,
+    720
+  ],
+  "render_status": "renderable",
+  "preset": "PX007",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

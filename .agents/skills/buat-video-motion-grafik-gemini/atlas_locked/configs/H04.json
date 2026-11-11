@@ -1,0 +1,20 @@
+{
+  "name": "Angka besar dan punch",
+  "description": "Counter terkunci pada nilai sasaran, dengan punch skala dan frasa sokongan.",
+  "genre": "promo",
+  "genres": [
+    "promo",
+    "corporate",
+    "education"
+  ],
+  "text": "SATU CERITA.",
+  "subtitle": "Nilai demonstrasi • gantikan dengan data sebenar",
+  "preset": "H04",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

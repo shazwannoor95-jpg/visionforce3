@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV013",
+  "mode": "native",
+  "params": {
+    "text": "GLASS BALANCE SPARKLINE",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "dd3838d6358ccabfd5689cecfcdc41945d5c179e9e7ab27b8ced445e41f81a33"
+  }
+}

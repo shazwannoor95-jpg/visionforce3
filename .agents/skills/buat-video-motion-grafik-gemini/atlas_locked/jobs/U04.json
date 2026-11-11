@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "U04",
+  "mode": "native",
+  "params": {
+    "text": "Satu pandangan.",
+    "subtitle": "Hubungkan setiap bahagian.",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "9fffa10a1d9f5de1976fdbcabb37642a430ae5445e38019e228916b9f1e1a67b"
+  }
+}

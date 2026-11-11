@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Ceremony arch and display platform</title>
+<g id="main">
+<path d="M 30 222 V 112 Q 30 29 128 29 Q 227 29 227 112 V 222 H 204 V 112 Q 204 53 128 53 Q 53 53 53 112 V 222 Z" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="94" y="137" width="70" height="67" rx="4" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<ellipse cx="129" cy="217" rx="79" ry="16" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="122" y="137" width="14" height="13" rx="1" fill="#E5DCF7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="128,66 131.44,74.27 140.36,74.98 133.56,80.81 135.64,89.52 128,84.85 120.36,89.52 122.44,80.81 115.64,74.98 124.56,74.27" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+<line x1="129" y1="137" x2="129" y2="204" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="34" y1="90" x2="56" y2="83" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="200" y1="83" x2="224" y2="90" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "Batik fashion",
+  "description": "Animasi asli: fashion card orbit with expanding batik motifs.",
+  "family": "motionprompt",
+  "genre": "promo",
+  "genres": [
+    "promo"
+  ],
+  "text": "CORAK PILIHAN",
+  "subtitle": "Butiran kain menjadi cerita.",
+  "source_url": "https://epool86.github.io/motionprompt/#batik-fashion",
+  "variant_basis": "adapted",
+  "mechanism": "fashion card orbit with expanding batik motifs",
+  "duration": 6.0,
+  "preset": "MP25",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

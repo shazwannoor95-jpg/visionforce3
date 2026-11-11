@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX345",
+  "mode": "native",
+  "params": {
+    "text": "ACCORDION GALLERY UNFOLD",
+    "subtitle": "Original artwork · Adapted composition and choreography",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "2fb8123d7f64451327d5f6649239856105dabc5ba63dfae00ac7b2d4f58a141c"
+  }
+}

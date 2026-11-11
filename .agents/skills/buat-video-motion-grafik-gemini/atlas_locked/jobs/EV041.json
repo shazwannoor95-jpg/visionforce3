@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV041",
+  "mode": "native",
+  "params": {
+    "text": "NEON MONEY",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b2154e1261ed365d2cf38503fea3114643f85892e634da34a83df83e2374c1d8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Highlighted Row Swap",
+  "description": "Dua baris bertukar tempat melalui tiga tahap yang mengelakkan teks bertindih.",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "promo",
+    "education"
+  ],
+  "text": "MESEJ UTAMA\nIDEA SETERUSNYA",
+  "subtitle": "Tukar penekanan dalam scene yang sama.",
+  "swap_time": 2.15,
+  "swap_duration": 1.25,
+  "source_url": "https://elements.envato.com/text-animation-DXMD7HL",
+  "observed_timestamp": "25.50–26.00 s",
+  "mechanism": "Highlighted row exchanges position with a companion row",
+  "variant_basis": "observed",
+  "family": "kinetic",
+  "preset": "K08",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

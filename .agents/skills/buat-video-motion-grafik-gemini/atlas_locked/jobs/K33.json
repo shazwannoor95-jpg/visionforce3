@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K33",
+  "mode": "native",
+  "params": {
+    "text": "SATU IDEA\nBANYAK CARA\nHASIL BERMAKNA",
+    "subtitle": "RUANG MEMBENTUK RITMA",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "289f8c8dcadea2eb6d7071129ed0fd494d37b8aeb61c600e839c35b07e8ef4aa"
+  }
+}

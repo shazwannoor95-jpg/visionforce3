@@ -1,0 +1,20 @@
+{
+  "name": "Curved card fan",
+  "description": "A stacked deck opens into a gently moving curved fan.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "documentary"
+  ],
+  "text": "IDEAS IN MOTION",
+  "subtitle": "Buka ruang untuk idea baharu.",
+  "preset": "C02",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

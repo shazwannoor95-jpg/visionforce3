@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX257",
+  "mode": "native",
+  "params": {
+    "text": "Product Specification Pins",
+    "subtitle": "A product hero receives numbered specification callouts.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "f747a74302377fccf23fe8c04bc80da65b6593b1437dadeef0a493a2032ebb5f"
+  }
+}

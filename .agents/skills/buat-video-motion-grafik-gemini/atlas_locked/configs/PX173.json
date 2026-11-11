@@ -1,0 +1,54 @@
+{
+  "name": "Dashboard / Bento Analytics",
+  "description": "A bento dashboard staggers KPI, line, donut and ranked-bar modules. Fictional demo data; replace with verified values.",
+  "genre": "education",
+  "text": "Dashboard · Bento Analytics",
+  "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+  "family": "premium-map-data",
+  "duration": 6.0,
+  "source_url": "https://elements.envato.com/modern-infographics-U663PUY",
+  "observation_basis": "listing-description",
+  "mechanism": "A bento dashboard staggers KPI, line, donut and ranked-bar modules.",
+  "variant_basis": "adapted",
+  "asset_types": [
+    "vector diagram",
+    "data values",
+    "labels"
+  ],
+  "use_cases": [
+    "corporate report",
+    "education",
+    "data storytelling"
+  ],
+  "parameters": {
+    "values": "finite numeric array; exact endpoints; nonnegative for proportional charts",
+    "labels": "array of short names",
+    "route": "array of [x,y] pairs in 0..1 for map families",
+    "text": "headline",
+    "subtitle": "supporting line",
+    "unit": "counter suffix"
+  },
+  "adaptation_status": "original-demo",
+  "values": [
+    64,
+    86,
+    73,
+    92
+  ],
+  "labels": [
+    "ALPHA",
+    "BETA",
+    "GAMMA",
+    "DELTA"
+  ],
+  "recipe_group": 18,
+  "recipe_variant": 0,
+  "schematic": false,
+  "preset": "PX173",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

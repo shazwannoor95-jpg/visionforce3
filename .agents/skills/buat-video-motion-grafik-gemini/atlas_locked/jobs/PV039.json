@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV039",
+  "mode": "native",
+  "params": {
+    "text": "Ai Stream Response",
+    "subtitle": "Original guide adaptation",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "605bf35907f9c27c7082d7d3ab0ba464a86073d0fa9fa2a19b7a2eb01393d147"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV012",
+  "mode": "native",
+  "params": {
+    "text": "Before After Slider Scrub",
+    "subtitle": "Original guide adaptation",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "3092f4f3b2a48c5310aa8461cdff61960e1e593936930a9c22a5448af2f27861"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX159",
+  "mode": "native",
+  "params": {
+    "text": "Science · Orbital Capture",
+    "subtitle": "ILLUSTRATIVE SCHEMATIC",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "8fa8a54d29486e0267154409f12d8498ad9c4a875debaaa82a40216d0a9f4c5f"
+  }
+}

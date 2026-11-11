@@ -1,0 +1,22 @@
+{
+  "name": "spotlight-sweep-moves",
+  "description": "Kesan visual untuk fokus dan penekanan: spotlight sweep moves",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/effects/spotlight-sweep-moves.md",
+  "assets": "Logo, UI, bentuk grafik",
+  "use": "Promo kreatif",
+  "category": "Visual effects",
+  "genre": "saas",
+  "text": "Spotlight Sweep Moves",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Spotlight traverses dark surface revealing concealed content",
+  "preset": "PV038",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

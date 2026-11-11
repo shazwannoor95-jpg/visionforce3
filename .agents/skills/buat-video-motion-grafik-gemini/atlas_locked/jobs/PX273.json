@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX273",
+  "mode": "native",
+  "params": {
+    "text": "Team Cursor Collaboration",
+    "subtitle": "Multiple team cursors contribute to a shared board.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "03500f2a68a48320d8deb03cd65c7d4ac8db31f5d2b0c9e47f3a73a98a8b83e3"
+  }
+}

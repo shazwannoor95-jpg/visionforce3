@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "A02",
+  "mode": "native",
+  "params": {
+    "text": "FOKUS PADA\nPROSES ANDA",
+    "subtitle": "Satu mesej. Dua titik penekanan.",
+    "genre": "promo"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "eb01751e05c59bbaaa41e5364c92af536150462f68dc057aafc5b927dc0e48c1"
+  }
+}

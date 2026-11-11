@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "CFX23",
+  "mode": "native",
+  "params": {
+    "text": "IDEA DALAM GERAK",
+    "subtitle": "Creator FX 80",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "8be62e98ca3e723e1d2602a01d7c26f18fcf58431977cb418b21d3e3893ed205"
+  }
+}

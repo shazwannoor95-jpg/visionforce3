@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX153",
+  "mode": "native",
+  "params": {
+    "text": "Scatter · Bubble Trails",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "67933848e1330cd2cc1c442934d9b1d1646d3b45c78258cd5c517f0e1d6ce859"
+  }
+}

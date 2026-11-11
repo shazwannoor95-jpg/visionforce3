@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "MP48",
+  "mode": "native",
+  "params": {
+    "text": "TEKNOLOGI HIDUP",
+    "subtitle": "Litar bercahaya menghubungkan fungsi.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "c27cfa321bc32307308e620647199db3651617115db058db130e0470f586d6d2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Huruf menetap ke baseline",
+  "description": "Glyph berputar dari anchor sendiri sebelum berhenti pada baseline yang sama.",
+  "genre": "creator",
+  "genres": [
+    "creator",
+    "promo",
+    "education"
+  ],
+  "text": "BERANI CIPTA",
+  "subtitle": "Satu huruf. Satu gerakan. Satu mesej.",
+  "preset": "T02",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

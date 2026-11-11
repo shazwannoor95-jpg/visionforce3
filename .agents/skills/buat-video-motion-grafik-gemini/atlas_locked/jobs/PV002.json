@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV002",
+  "mode": "native",
+  "params": {
+    "text": "Crash Zoom Punch",
+    "subtitle": "Original guide adaptation",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "12bce9878fd7201b6999debee9be0970c1caa933542206e11c587265041e405b"
+  }
+}

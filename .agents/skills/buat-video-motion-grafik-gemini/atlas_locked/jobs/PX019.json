@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX019",
+  "mode": "native",
+  "params": {
+    "text": "MAKE THE SIGNAL CLEAR",
+    "subtitle": "Turn a noisy thought into a clear message",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "fa58d61ecf776eab07a9f37f499635c4ec0fba4aded034680c9dc02a35c9dba7"
+  }
+}

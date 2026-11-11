@@ -1,0 +1,19 @@
+{
+  "id": "VL0106",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "angular",
+  "parameters": {
+    "angle": 0,
+    "bend": 0.5,
+    "frequency": 13
+  },
+  "duration": 0.8,
+  "fps": 30,
+  "feather": 0.035,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

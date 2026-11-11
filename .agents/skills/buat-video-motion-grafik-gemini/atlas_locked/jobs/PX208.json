@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX208",
+  "mode": "native",
+  "params": {
+    "text": "Prompt Rewrite Compare",
+    "subtitle": "A rough instruction is refined into a structured prompt.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "0126c6a5183a9aa24951a416f323d68c9f4111045fe2a30e28dad5320231fe47"
+  }
+}

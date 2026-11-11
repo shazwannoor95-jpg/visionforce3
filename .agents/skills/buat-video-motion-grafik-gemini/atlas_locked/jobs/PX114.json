@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX114",
+  "mode": "native",
+  "params": {
+    "text": "Journey · Waypoint Flyby",
+    "subtitle": "ILLUSTRATIVE SCHEMATIC",
+    "genre": "documentary"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "7ebc1d6fc42d988f2da7d0a86b70ead518ea1f7b62cea5ff43a926386ff367aa"
+  }
+}

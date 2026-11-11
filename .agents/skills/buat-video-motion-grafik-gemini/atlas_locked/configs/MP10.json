@@ -1,0 +1,22 @@
+{
+  "name": "Kawaii pastel",
+  "description": "Animasi asli: chibi arm wave, sticker orbit, bubble typography.",
+  "family": "motionprompt",
+  "genre": "creator",
+  "genres": [
+    "creator"
+  ],
+  "text": "IDEA COMEL",
+  "subtitle": "Watak dan pelekat hidup.",
+  "source_url": "https://epool86.github.io/motionprompt/#kawaii-pastel",
+  "variant_basis": "adapted",
+  "mechanism": "chibi arm wave, sticker orbit, bubble typography",
+  "duration": 6.0,
+  "preset": "MP10",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

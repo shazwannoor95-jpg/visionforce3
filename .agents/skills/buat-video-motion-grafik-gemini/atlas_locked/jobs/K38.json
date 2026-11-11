@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "K38",
+  "mode": "native",
+  "params": {
+    "text": "Dari idea kepada aksi",
+    "subtitle": "SATU GERAKAN PADA SATU MASA",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 5,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "c508d75bf492470d2ce0e7ffb0b8b03dcda076167d2e27aa6eef11847ae9582f"
+  }
+}

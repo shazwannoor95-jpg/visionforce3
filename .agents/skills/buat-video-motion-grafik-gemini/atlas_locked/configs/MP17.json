@@ -1,0 +1,22 @@
+{
+  "name": "Data story",
+  "description": "Animasi asli: bars, line, donut and synchronized metric.",
+  "family": "motionprompt",
+  "genre": "corporate",
+  "genres": [
+    "corporate"
+  ],
+  "text": "CERITA DATA",
+  "subtitle": "Angka menunjukkan perubahan.",
+  "source_url": "https://epool86.github.io/motionprompt/#data-story",
+  "variant_basis": "adapted",
+  "mechanism": "bars, line, donut and synchronized metric",
+  "duration": 6.0,
+  "preset": "MP17",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

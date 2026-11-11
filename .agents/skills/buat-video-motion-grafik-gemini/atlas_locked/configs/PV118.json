@@ -1,0 +1,20 @@
+{
+  "name": "type-assembly-moves",
+  "description": "Gerak kata, huruf atau ayat: type assembly moves",
+  "genre": "creator",
+  "text": "MAKE IDEAS MOVE",
+  "subtitle": "Original motion study",
+  "family": "guide",
+  "duration": 6.0,
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/typography/type-assembly-moves.md",
+  "adaptation_status": "original-demo",
+  "category": "typography",
+  "mechanism": "type-assembly-moves",
+  "preset": "PV118",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

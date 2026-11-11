@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX258",
+  "mode": "native",
+  "params": {
+    "text": "Product Colour Options",
+    "subtitle": "A product display responds to selected finish chips.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "ba9e9c63f992bd84a5c60455d264a989b74f8dea5b19859f8c31b5bd24b38a00"
+  }
+}

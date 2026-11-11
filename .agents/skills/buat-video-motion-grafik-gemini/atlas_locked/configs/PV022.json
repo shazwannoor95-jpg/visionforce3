@@ -1,0 +1,22 @@
+{
+  "name": "assemble-then-type-flyin",
+  "description": "Kesan visual untuk fokus dan penekanan: assemble then type flyin",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/effects/assemble-then-type-flyin.md",
+  "assets": "Logo, UI, bentuk grafik",
+  "use": "Promo kreatif",
+  "category": "Visual effects",
+  "genre": "saas",
+  "text": "Assemble Then Type Flyin",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Card assembles from four quadrants before typing starts",
+  "preset": "PV022",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX219",
+  "mode": "native",
+  "params": {
+    "text": "Notification Digest Group",
+    "subtitle": "Related alerts gather into one expandable digest.",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b610400893dc548e31c80db88a4184e67def2e568ce3bcc8e95c872031d0330f"
+  }
+}

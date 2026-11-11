@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX200",
+  "mode": "native",
+  "params": {
+    "text": "Editorial · Evidence Cards",
+    "subtitle": "CONFIGURABLE DATA · ORIGINAL DEMO",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "533052b4937fc8270d310b20a7044e92f9bd18a97f76352b2417077cc0d7b328"
+  }
+}

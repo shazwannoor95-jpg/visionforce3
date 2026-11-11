@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+<title>Applause hands and celebratory response accents</title>
+<g id="main">
+<path d="M 39 210 L 27 171 L 26 124 Q 32 112 39 125 L 46 147 V 88 Q 55 76 61 89 V 140 L 65 72 Q 73 61 81 75 L 80 142 L 90 93 Q 101 85 106 98 L 97 165 L 116 148 Q 129 149 126 162 L 104 189 L 102 220 Z" fill="#C9E9F7" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="accent">
+<path d="M 150 217 L 131 184 Q 125 168 138 168 L 153 177 L 145 113 Q 151 100 159 112 L 170 149 V 96 Q 178 83 185 97 L 186 149 L 194 113 Q 204 106 209 119 L 208 163 L 221 144 Q 233 142 232 155 L 219 192 L 211 220 Z" fill="#D4F0E4" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="133,27 137.23,37.18 148.22,38.06 139.85,45.22 142.4,55.94 133,50.2 123.6,55.94 126.15,45.22 117.78,38.06 128.77,37.18" fill="#FFF2D8" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="198" y1="61" x2="214" y2="61" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="206" y1="53" x2="206" y2="69" fill="none" stroke="#55718A" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="details">
+</g>
+</svg>

@@ -1,0 +1,67 @@
+{
+  "source": "Skill Argon.part01.rar through part63.rar",
+  "archive_entries": 2730,
+  "skills": [
+    "buat-video-motion-grafik",
+    "buat-video-motion-grafik-gemini"
+  ],
+  "packs": [
+    {
+      "pack": "core",
+      "sha256": "5106673a56ab0afc107e407f008b8070f57c39274bcd017bae9c3ac7e4a55ee8",
+      "verified": true
+    },
+    {
+      "pack": "presets",
+      "sha256": "31e8f4bb4bad15a9688d795889b1f8768d3e052a28e2cd0fd5655906a284a45f",
+      "verified": true
+    },
+    {
+      "pack": "characters",
+      "sha256": "6d1981389f4555ec3a0a3c4400f9a6934c7a75eb382ad813c79be173e3dc1c36",
+      "verified": true
+    },
+    {
+      "pack": "fonts",
+      "verified": false,
+      "status": "NOT INSTALLED: SHA256 mismatch with supplied manifest"
+    },
+    {
+      "pack": "motion_array",
+      "sha256": "149f7c0d71b6ef83ec69ed96972dbba8285951de80d3aa01da815655eeb751fa",
+      "verified": true
+    },
+    {
+      "pack": "svg",
+      "sha256": "1861d7e5a4666258331f6df7477e0d880221f9495d680e50fbb15bffc11670e8",
+      "verified": true
+    },
+    {
+      "pack": "vlog_payload_01",
+      "sha256": "d268ee477b32d339613c0a20f42fd0e4970184bee8b75520a544b47c675b22a9",
+      "verified": true
+    },
+    {
+      "pack": "vlog_payload_02",
+      "sha256": "862b9650e620cc441435bc162bed0e8b79b959971a6914d3ab2fe1b667becc14",
+      "verified": true
+    },
+    {
+      "pack": "vlog_payload_03",
+      "verified": false,
+      "status": "NOT INSTALLED: SHA256 mismatch with supplied manifest"
+    },
+    {
+      "pack": "vlog_payload_04",
+      "sha256": "d515664a35c463ed14e32c26a6b90b282588b2f1d11a115c81225cdc7c362c44",
+      "verified": true
+    },
+    {
+      "pack": "atlas_locked",
+      "sha256": "f859405e26a1c5236cf46544936930ddc4c72527c9089937507c0c2d7fb49c91",
+      "verified": true
+    }
+  ],
+  "models_installed": false,
+  "vo_dependencies_installed": false
+}

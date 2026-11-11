@@ -1,0 +1,21 @@
+{
+  "id": "VL0192",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "petal",
+  "parameters": {
+    "petals": 5,
+    "depth": 0.35,
+    "phase": 0.3,
+    "cx": 0.5,
+    "cy": 0.5
+  },
+  "duration": 0.9,
+  "fps": 30,
+  "feather": 0.045,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

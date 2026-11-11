@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PV097",
+  "mode": "native",
+  "params": {
+    "text": "MOTION ATLAS",
+    "subtitle": "Build your next idea",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "13b1396d565141145ad0851848e4f2762e7f60dbc302b93189e75554b691da0f"
+  }
+}

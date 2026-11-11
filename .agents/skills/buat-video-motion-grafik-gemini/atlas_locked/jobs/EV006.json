@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV006",
+  "mode": "native",
+  "params": {
+    "text": "COUNTRY FOCUS CAMERA",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "40058d3cdc0d6ae2373ab6ae877d8e583fa5ee5da5b606416b65412190221f74"
+  }
+}

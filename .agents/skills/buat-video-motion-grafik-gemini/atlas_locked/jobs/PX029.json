@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX029",
+  "mode": "native",
+  "params": {
+    "text": "BREAK THROUGH THE NOISE",
+    "subtitle": "Your message finds its signal",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "ef9a56de1c6a4c6b6528b274001b5954de1e9152e1d811c67d785bdbf22c20e8"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX018",
+  "mode": "native",
+  "params": {
+    "text": "YOUR NEXT CHAPTER",
+    "subtitle": "A printed note with a contemporary finish",
+    "genre": "education"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "ed53e2db615b18a0a61f3373a59819bab73fd34f5ecc642cc5a0aeff234825a4"
+  }
+}

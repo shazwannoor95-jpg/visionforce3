@@ -1,0 +1,44 @@
+{
+  "name": "Task Conveyor",
+  "genre": "saas",
+  "genres": [
+    "saas",
+    "corporate",
+    "education",
+    "promo"
+  ],
+  "description": "Aliran jubin pada pentas tetap, paket bergerak sepanjang laluan dan dashboard berubah dalam beberapa beat.",
+  "text": "BANYAK TUGAS. SATU ALIRAN.",
+  "subtitle": "Lihat setiap langkah bergerak ke hadapan.",
+  "items": [
+    "RINGKAS",
+    "SUSUN",
+    "SEMAK",
+    "VISUAL",
+    "SIAP"
+  ],
+  "summary": "ALIRAN LENGKAP",
+  "stage_labels": [
+    "SUSUN INPUT",
+    "PROSES BERMULA",
+    "BATCH SETERUSNYA"
+  ],
+  "time_mode": "seconds",
+  "duration": 16.0,
+  "min_duration": 16,
+  "end_behavior": "hold",
+  "cue_defaults": {
+    "title": 0.2,
+    "stage": 0.7,
+    "tiles": 2.0,
+    "process": 3.4,
+    "batch": 6.8,
+    "accelerate": 9.5,
+    "resolve": 12.8
+  },
+  "preset": "L02",
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

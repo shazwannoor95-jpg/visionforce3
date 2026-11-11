@@ -1,0 +1,22 @@
+{
+  "name": "radial-ripple-phone-chips",
+  "description": "Kesan visual untuk fokus dan penekanan: radial ripple phone chips",
+  "source_url": "https://github.com/dlazy-ai/ai-product-video/blob/main/references/shots/effects/radial-ripple-phone-chips.md",
+  "assets": "Logo, UI, bentuk grafik",
+  "use": "Promo kreatif",
+  "category": "Visual effects",
+  "genre": "saas",
+  "text": "Radial Ripple Phone Chips",
+  "subtitle": "Original guide adaptation",
+  "family": "guide",
+  "duration": 6.0,
+  "adaptation_status": "original-demo",
+  "mechanism": "Phone emits delayed radial rings and floating chips",
+  "preset": "PV032",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

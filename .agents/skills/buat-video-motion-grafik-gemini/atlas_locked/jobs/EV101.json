@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV101",
+  "mode": "native",
+  "params": {
+    "text": "CREATE SOMETHING WORTH SHARING",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "creator"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "b6b5f43269b5a8bc69b55954404f975259fe66c99c8bf00bf58ddfbc6668907a"
+  }
+}

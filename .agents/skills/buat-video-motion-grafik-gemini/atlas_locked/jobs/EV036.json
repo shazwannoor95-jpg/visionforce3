@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "EV036",
+  "mode": "native",
+  "params": {
+    "text": "MINI AREA TOOLTIP",
+    "subtitle": "DATA DEMO · MOTION ATLAS",
+    "genre": "corporate"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "6943be073b9327f4e6e6e25717b9146abdb0892c7dfeec989c2abdf914ac3d49"
+  }
+}

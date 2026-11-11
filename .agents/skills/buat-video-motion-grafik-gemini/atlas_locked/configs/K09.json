@@ -1,0 +1,26 @@
+{
+  "name": "Glyph Spacing Accordion",
+  "description": "Jarak huruf mengembang, mengecil dan kembali ke susunan bacaan.",
+  "genre": "corporate",
+  "genres": [
+    "corporate",
+    "creator",
+    "promo"
+  ],
+  "text": "BERANI MULA",
+  "subtitle": "Setiap huruf ada ruang dan ritma.",
+  "source_url": "https://elements.envato.com/text-animation-DXMD7HL",
+  "observed_timestamp": "27.75–30.75 s",
+  "mechanism": "Per-glyph spacing accordion adapted from row elasticity",
+  "variant_basis": "adapted",
+  "family": "kinetic",
+  "tracking_amount": 24,
+  "preset": "K09",
+  "time_mode": "normalized",
+  "min_duration": 0.5,
+  "duration": 5.0,
+  "tempo": 1.0,
+  "cues": {},
+  "fps": 30,
+  "width": 960
+}

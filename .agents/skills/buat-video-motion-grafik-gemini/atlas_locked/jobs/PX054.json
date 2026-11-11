@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preset": "PX054",
+  "mode": "native",
+  "params": {
+    "text": "FOLLOW THE MOMENT",
+    "subtitle": "A small light guides the message",
+    "genre": "saas"
+  },
+  "output": {
+    "duration": 6,
+    "fps": 30,
+    "width": 960,
+    "transparent": false
+  },
+  "cue_seconds": {},
+  "inputs": {},
+  "reference": {
+    "package_sha256": "bb9e0626ba58cd207455120af1930c5d171ab96cd38d9b9a2059556be6dd72c7",
+    "defaults_sha256": "bf3232267b0890388c84543cd4e1c444701e9040e01501b8b3f57a0021406d10"
+  }
+}

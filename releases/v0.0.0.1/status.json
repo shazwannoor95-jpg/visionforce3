@@ -1,0 +1,13 @@
+{
+  "display": "v0.0.0.1",
+  "status": "DRAFT",
+  "ci": "NOT VERIFIED",
+  "windows_exe": "NOT READY",
+  "native_windows": "NOT RUN",
+  "linux_electron": "PASS",
+  "linux_pdf_to_video": "PASS",
+  "backup": "GitHub branch and source checkpoint; no Stable Release",
+  "rollback": "non-destructive source and data copy tested",
+  "sourceCommit": "8116f0aadda0e7ac2fcd904618870868cbe792c2",
+  "sourceTag": "checkpoint/v0.0.0.1-final-qa"
+}

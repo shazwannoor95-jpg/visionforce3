@@ -1,0 +1,16 @@
+{
+  "task": "vf41-desktop-versioning-20261111",
+  "build": 1,
+  "display": "v0.0.0.1",
+  "semver": "0.0.1",
+  "fileVersion": "0.0.0.1",
+  "title": "Asas Windows dan versi automatik V4.1",
+  "baseCommit": "025cb3858384725310664afd7b39c68e509c83cd",
+  "createdAt": "2026-11-11T13:00:42.200437+00:00",
+  "status": "FAILED",
+  "checks": {
+    "windows_cross_build": "FAIL",
+    "reason": "Wine resource editor cannot execute; see build-attempts.json"
+  },
+  "sourceCommit": "bccf34b3f35849577117204bcd1fdd11a75cbac9"
+}

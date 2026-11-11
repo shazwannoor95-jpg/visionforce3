@@ -1,0 +1,85 @@
+{
+  "name": "visionforge3-desktop",
+  "productName": "VISIONFORGE 3",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Studio video VISIONFORGE 3",
+  "author": "VISIONFORGE 3",
+  "license": "UNLICENSED",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/sync-version.cjs && node scripts/prepare-resources.cjs && tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.cjs",
+    "start": "electron .",
+    "pack:win": "npm run build && node scripts/pack.cjs win",
+    "pack:linux": "npm run build && node scripts/pack.cjs linux",
+    "smoke": "node tests/electron-smoke.cjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "5.1.0",
+    "electron": "39.2.0",
+    "electron-builder": "26.0.12",
+    "typescript": "5.9.3",
+    "vite": "7.2.2",
+    "playwright": "1.56.1"
+  },
+  "build": {
+    "appId": "com.visionforge3.studio",
+    "productName": "VISIONFORGE 3",
+    "buildVersion": "0.0.0.1",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**",
+      "electron/**",
+      "package.json",
+      "resources/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": true
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "artifactName": "VISIONFORGE-3-v0.0.0.1-Setup-x64.exe",
+      "deleteAppDataOnUninstall": false
+    },
+    "portable": {
+      "artifactName": "VISIONFORGE-3-v0.0.0.1-Portable-x64.exe"
+    },
+    "linux": {
+      "target": "dir"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shazwannoor95-jpg/visionforce3.git"
+  }
+}

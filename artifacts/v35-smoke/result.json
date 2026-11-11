@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "job": "764f7bc823854d71a68ff38127eb2996",
+  "checks": [
+    "HTTP PDF upload",
+    "persistent queue",
+    "Remotion motion graphics",
+    "H264/AAC 1080p30",
+    "FFmpeg full decode",
+    "HTTP artifact download",
+    "source quote/page coverage",
+    "SRT source number 42"
+  ]
+}

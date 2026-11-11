@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "platform": "linux",
+  "checks": [
+    "Electron UI",
+    "native dialog selection automated",
+    "PDF upload via adapter",
+    "SQLite queue",
+    "real Remotion render",
+    "download into project",
+    "inline MP4 metadata and actual playback advancement",
+    "native export of video/SRT/manifest/coverage"
+  ],
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 6
+  }
+}

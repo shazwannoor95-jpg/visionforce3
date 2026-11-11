@@ -21,3 +21,9 @@ Asas aplikasi Electron, pengurusan projek, 18-skill registry, backup/restore dan
 - [Laporan v0.0.0.1](docs/V41-STATUS-MS.md)
 - [Keperluan V4.1](docs/MASTER-V41-MS.md)
 - [Versioning/backup/rollback](docs/REQUIREMENTS-VERSIONING-MS.md)
+
+## Windows CI Recovery — v0.0.0.2
+
+Installer dan Portable UNSIGNED berjaya dibina dan diuji secara native Windows, termasuk install/uninstall dua jenis laluan, data retention, Portable IPC dan MP4 1080p30. Release belum diterbitkan sebagai STABLE.
+
+[Laporan dan pautan muat turun EXE](docs/WINDOWS-CI-RECOVERY-V2-MS.md) · [Windows run lengkap pertama PASS](https://github.com/shazwannoor95-jpg/visionforce3/actions/runs/43037741035)

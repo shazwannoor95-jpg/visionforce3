@@ -1,0 +1,25 @@
+{
+  "task": "windows-ci-recovery-20261111",
+  "build": 2,
+  "display": "v0.0.0.2",
+  "semver": "0.0.2",
+  "fileVersion": "0.0.0.2",
+  "title": "Pulihkan CI Windows, audit frontmatter dan build EXE",
+  "baseCommit": "859139c20da908e473b7b74ba9285db0abbb19b2",
+  "createdAt": "2026-11-11T13:57:22.702628+00:00",
+  "status": "TESTED",
+  "ci": "PASS: https://github.com/shazwannoor95-jpg/visionforce3/actions/runs/43037741035",
+  "backup": "GITHUB source checkpoints and CI artifacts (30 days)",
+  "checks": {
+    "unit": "PASS",
+    "typecheck": "PASS",
+    "windows_packaged": "PASS",
+    "windows_installer_spaces": "PASS",
+    "windows_installer_plain": "PASS",
+    "windows_portable": "PASS",
+    "video_render": "PASS",
+    "checksums": "PASS"
+  },
+  "sourceCommit": "0e0e625ec6c5918986415cea258121078f45f7b2",
+  "eventAt": "2026-11-11T14:27:06.865184+00:00"
+}

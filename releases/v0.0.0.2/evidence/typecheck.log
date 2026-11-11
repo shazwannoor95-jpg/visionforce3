@@ -1,0 +1,4 @@
+
+> visionforge3-desktop@0.0.2 typecheck
+> tsc --noEmit
+

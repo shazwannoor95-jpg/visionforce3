@@ -1,0 +1,17 @@
+(node:8628) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS Electron smoke win32
+(node:1104) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Brief disimpan.') to be visible[22m
+
+    at D:\a\visionforce3\visionforce3\desktop\tests\electron-smoke.cjs:6:207 {
+  name: 'TimeoutError'
+}
+[31;1mException: [0mD:\a\visionforce3\visionforce3\desktop\scripts\windows-acceptance.ps1:13[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m  13 | [0m . oke.cjs; if ($LASTEXITCODE -ne 0) { [36;1mthrow "Smoke $name gagal"[0m } } fin .[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSmoke VFPlain gagal[0m

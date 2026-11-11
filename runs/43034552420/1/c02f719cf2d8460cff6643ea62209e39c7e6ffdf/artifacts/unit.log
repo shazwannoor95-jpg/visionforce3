@@ -1,0 +1,41 @@
+
+> visionforge3-desktop@0.0.2 test
+> node --test tests/*.test.cjs
+
+✔ LF (5.6966ms)
+✔ CRLF (0.4659ms)
+✔ UTF-8 BOM LF (0.34ms)
+✔ UTF-8 BOM CRLF (0.2582ms)
+✔ ID skill tidak sepadan (0.6468ms)
+✔ frontmatter tidak sah "---\nname: remotion-create\ndescription: x" (0.126ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.0922ms)
+✔ frontmatter tidak sah "---\n- a\n- b\n---" (0.4743ms)
+✔ frontmatter tidak sah "---\nname: [\ndescription: x\n---" (1.0909ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.4407ms)
+✔ frontmatter tidak sah "ate\ndescription: !!js/function \"bad\"\n---" (0.65ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: []\n---" (0.4155ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: \"\"\n---" (0.2666ms)
+✔ frontmatter tidak sah "ion-create\nx: &x abc\ndescription: *x\n---" (0.7982ms)
+✔ metadata dalam body tidak boleh menggantikan header (0.2405ms)
+✔ UTF-8 rosak ditolak (0.1858ms)
+✔ SKILL.md tiada menghasilkan diagnostic ID dan sebab (1.3185ms)
+✔ 18 folder asal sah LF (148.718ms)
+✔ 18 folder asal sah CRLF (51.8002ms)
+✔ 18 folder asal sah BOM_CRLF (73.0625ms)
+✔ projek dan mesej kekal selepas restart (144.9319ms)
+✔ backup, approval, checksum dan restore tidak memadam projek (204.5453ms)
+✔ schema masa depan tidak dibuka untuk downgrade (53.9262ms)
+✔ ID dan file import dihadkan (134.7779ms)
+✔ 18 skills dipadankan kepada ID sebenar dan katalog diasingkan (12.5131ms)
+✔ API key ditolak jika OS tidak menyulitkannya (0.7815ms)
+✔ Windows artifact names dan SemVer mengikut versi tugasan (0.6529ms)
+✔ migrasi schema membuat backup sebelum ALTER dan draf boleh dipulihkan (81.0638ms)
+✔ endpoint Cloud menolak HTTP luar, credentials dan redirect berparameter (0.899ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 737.1903

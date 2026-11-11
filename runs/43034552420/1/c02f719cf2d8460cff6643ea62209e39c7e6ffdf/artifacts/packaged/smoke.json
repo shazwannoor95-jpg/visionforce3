@@ -1,0 +1,15 @@
+{
+  "platform": "win32",
+  "app": "D:\\a\\visionforce3\\visionforce3\\desktop\\release\\v0.0.0.2\\06314f39-9b2c-4d91-b691-04ce893b557d/win-unpacked/VISIONFORGE 3.exe",
+  "status": "PASS",
+  "checks": [
+    "Electron sebenar",
+    "cipta projek",
+    "mesej/chat autosave",
+    "restart recovery",
+    "18 skills",
+    "Version History",
+    "backup data",
+    "renderer tiada Node integration"
+  ]
+}

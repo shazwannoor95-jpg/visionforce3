@@ -10,7 +10,7 @@
     "createdAt": "2026-11-11T13:00:42.200437+00:00",
     "status": "DRAFT",
     "ci": "NOT VERIFIED",
-    "backup": "GITHUB source checkpoint; runtime LOCAL only",
+    "backup": "GITHUB source checkpoints; runtime LOCAL only",
     "checks": {
       "unit": "PASS",
       "typecheck": "PASS",
@@ -23,7 +23,7 @@
       "windows_cross_build": "FAIL",
       "ci": "NOT VERIFIED"
     },
-    "sourceCommit": "8f10de79618eef2020307048c2048f278051372d",
-    "eventAt": "2026-11-11T13:41:56.264536+00:00"
+    "sourceCommit": "8116f0aadda0e7ac2fcd904618870868cbe792c2",
+    "eventAt": "2026-11-11T13:45:15.356165+00:00"
   }
 ]

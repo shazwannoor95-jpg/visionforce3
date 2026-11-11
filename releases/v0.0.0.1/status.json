@@ -8,6 +8,6 @@
   "linux_pdf_to_video": "PASS",
   "backup": "GitHub branch and source checkpoint; no Stable Release",
   "rollback": "non-destructive source and data copy tested",
-  "sourceCommit": "8f10de79618eef2020307048c2048f278051372d",
-  "sourceTag": "v0.0.0.1-draft"
+  "sourceCommit": "8116f0aadda0e7ac2fcd904618870868cbe792c2",
+  "sourceTag": "checkpoint/v0.0.0.1-final-qa"
 }

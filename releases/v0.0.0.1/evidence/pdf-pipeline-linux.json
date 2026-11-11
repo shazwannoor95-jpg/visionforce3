@@ -8,7 +8,7 @@
     "SQLite queue",
     "real Remotion render",
     "download into project",
-    "inline MP4 playback metadata",
+    "inline MP4 metadata and actual playback advancement",
     "native export of video/SRT/manifest/coverage"
   ],
   "metadata": {

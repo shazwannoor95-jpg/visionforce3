@@ -1,0 +1,45 @@
+
+> visionforge3-desktop@0.0.2 pack:win
+> npm run build && node scripts/pack.cjs win
+
+
+> visionforge3-desktop@0.0.2 build
+> node scripts/sync-version.cjs && node scripts/prepare-resources.cjs && tsc --noEmit && vite build
+
+v0.0.0.2 0.0.2 0.0.0.2
+PASS: 18 skill instructions dan rujukan disediakan; runtime/model besar tidak dibundel ke Windows.
+[36mvite v7.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 29 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.61 kB[22m[1m[22m[2m │ gzip:  0.38 kB[22m
+[2mdist/[22m[35massets/index-5u6aPWD0.css  [39m[1m[2m  5.79 kB[22m[1m[22m[2m │ gzip:  1.96 kB[22m
+[2mdist/[22m[36massets/index-CsQ8dUOa.js   [39m[1m[2m207.49 kB[22m[1m[22m[2m │ gzip: 65.04 kB[22m
+[32m✓ built in 975ms[39m
+  • electron-builder  version=26.0.12 os=10.0.26100
+  • loaded configuration  file=package.json ("build" field)
+  • executing @electron/rebuild  electronVersion=39.2.0 arch=x64 buildFromSource=false appDir=./
+  • installing native dependencies  arch=x64
+  • completed installing native dependencies
+  • packaging       platform=win32 arch=x64 electron=39.2.0 appOutDir=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\win-unpacked
+  • downloading     url=https://github.com/electron/electron/releases/download/v39.2.0/electron-v39.2.0-win32-x64.zip size=137 MB parts=8
+  • downloaded      url=https://github.com/electron/electron/releases/download/v39.2.0/electron-v39.2.0-win32-x64.zip duration=430ms
+(node:10032) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  • updating asar integrity executable resource  executablePath=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\win-unpacked\VISIONFORGE 3.exe
+  • default Electron icon is used  reason=application icon is not set
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z size=5.6 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z duration=189ms
+  • signing with signtool.exe  path=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\win-unpacked\VISIONFORGE 3.exe
+  • building        target=nsis file=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\VISIONFORGE-3-v0.0.0.2-Setup-x64.exe archs=x64 oneClick=false perMachine=false
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4.1/nsis-3.0.4.1.7z size=1.3 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4.1/nsis-3.0.4.1.7z duration=122ms
+  • signing with signtool.exe  path=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\win-unpacked\resources\elevate.exe
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z size=731 kB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z duration=115ms
+  • signing with signtool.exe  path=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\__uninstaller-nsis-visionforge3-desktop.exe
+  • signing with signtool.exe  path=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\VISIONFORGE-3-v0.0.0.2-Setup-x64.exe
+  • building block map  blockMapFile=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\VISIONFORGE-3-v0.0.0.2-Setup-x64.exe.blockmap
+  • building        target=portable file=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\VISIONFORGE-3-v0.0.0.2-Portable-x64.exe archs=x64
+  • signing with signtool.exe  path=release\v0.0.0.2\7c8603a4-9708-4df2-a5d2-02eb12217f3e\VISIONFORGE-3-v0.0.0.2-Portable-x64.exe

@@ -44,3 +44,7 @@ FFmpeg sistem 7.1.5 Debian dibina `--enable-gpl`, menyokong libx264/AAC. Pengeda
 API core.server ialah alat pembangunan loopback, bukan servis multi-tenant. Belum ada login, TLS, rate limiting, antivirus, quota isolation, sandbox parser proses, private object storage, cancellation atau production auth. Jangan expose port kepada Internet. Worker tidak menerima kod daripada PDF/prompt; ia merender composition statik dengan props data. Jangan benarkan pengguna memuat naik kod React untuk worker ini.
 
 Persistence: source/lockfile dalam Git; .data, output per-job dan node_modules diabaikan. Snapshot/runtime Cloud task baharu belum disahkan. PR/akses API GitHub dilaporkan berasingan daripada kebolehan git push; jangan merge automatik.
+
+## Status penyerahan GitHub
+
+Branch `feat/v35-core-worker` berjaya dipush. Cubaan sebenar `gh pr create --base main --head feat/v35-core-worker --body-file docs/V35-PR-MS.md` gagal dengan `Post https://api.github.com/graphql: Forbidden`. Oleh itu PR BELUM tercipta; bukan masalah git push dan bukan bukti token baharu diperlukan untuk operasi Git. Keterangan PR lengkap tersedia dalam V35-PR-MS.md. Pengguna boleh mencipta PR melalui https://github.com/shazwannoor95-jpg/visionforce3/pull/new/feat/v35-core-worker . Tiada merge automatik; main kekal pada baseline 907d161.

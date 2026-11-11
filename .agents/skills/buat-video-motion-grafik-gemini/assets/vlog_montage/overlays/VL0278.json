@@ -1,0 +1,16 @@
+{
+  "id": "VL0278",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "neon_ribbons",
+  "variant": 3,
+  "seed": 25639,
+  "palette": "violet",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

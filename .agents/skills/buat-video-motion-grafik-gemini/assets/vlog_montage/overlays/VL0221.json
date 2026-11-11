@@ -1,0 +1,16 @@
+{
+  "id": "VL0221",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "lens_ring",
+  "variant": 1,
+  "seed": 23872,
+  "palette": "rose",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

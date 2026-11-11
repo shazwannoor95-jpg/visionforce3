@@ -1,0 +1,20 @@
+{
+  "id": "VL0112",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "iris",
+  "parameters": {
+    "cx": 0.22,
+    "cy": 0.3,
+    "aspect": 1.6,
+    "reverse": false
+  },
+  "duration": 0.9,
+  "fps": 30,
+  "feather": 0.045,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

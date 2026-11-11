@@ -1,0 +1,19 @@
+{
+  "id": "VL0148",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "checker",
+  "parameters": {
+    "cols": 14,
+    "rows": 8,
+    "seed": 0
+  },
+  "duration": 1.0,
+  "fps": 30,
+  "feather": 0.055,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "HyperFrames_0.9.2_Offline_NodeModules.tar.gz.part003-of005.zip",
+    "sha256": "4475841cf0d4d93592f6aa1187f4e90011a879143e05be502c762ae168da4877",
+    "verified": true
+  },
+  {
+    "file": "HyperFrames_0.8.185_Compatibility_NodeModules.tar.gz.part003-of005.zip",
+    "sha256": "91378340e761deaf8e17064e4740e57e672b000af279fa4f8676f9743d6a5b3f",
+    "verified": true
+  },
+  {
+    "file": "Node_26.13.0_Linux_x64.tar.gz.part007-of008.zip",
+    "sha256": "81df944c29765d0db866c709d41ae35c079e3bf8aa820496bb07a462cdefd03c",
+    "verified": true
+  },
+  {
+    "file": "Node_26.13.0_Linux_x64.tar.gz.part003-of008.zip",
+    "sha256": "3407cabebc4e08095e4fc08f7bf09c93271afe722f20ded544d63f4ccc0da69e",
+    "verified": true
+  },
+  {
+    "file": "FFmpeg_9.0.2_20261101_Linux_x64.tar.xz.part011-of013.zip",
+    "sha256": "5b43b50ec90e283753c7c3e47930cb203d44ea4887aed2f1c73f42bfb4cd79f0",
+    "verified": true
+  },
+  {
+    "file": "FFmpeg_9.0.2_20261101_Linux_x64.tar.xz.part007-of013.zip",
+    "sha256": "96a645cd103849399742a8aa4e923d76e2c18aa788b6ce45d09eeea9af59d367",
+    "verified": true
+  },
+  {
+    "file": "Chrome_152.0.7977.30_Headless_Linux_x64.tar.xz.part007-of010.zip",
+    "sha256": "219452e1ed5ebbcda30f24d15bfe80229ba005ef26840497e3c1795e90c485b7",
+    "verified": true
+  },
+  {
+    "file": "Chrome_152.0.7977.30_Headless_Linux_x64.tar.xz.part003-of010.zip",
+    "sha256": "5036abec75d32c6ded7fe463c7f696ac7a2d565164076d534160298ff83d920b",
+    "verified": true
+  },
+  {
+    "file": "Gemini_Motion_vlog_payload_03_2026-11-10.zip",
+    "sha256": "9e7adaf2fca2a1b7c898e60cacee2d2e1aaa2d1866c6b1c19744771adfd3ab0c",
+    "verified": true
+  },
+  {
+    "file": "Gemini_Motion_fonts_2026-11-10.zip",
+    "sha256": "9ae5313a00c9b04004703bee8c3a2e6d28b740fdf003750edb957dfe368af677",
+    "verified": true
+  },
+  {
+    "file": "FFmpeg_9.0.2_20261101_Linux_x64.tar.xz.part003-of013.zip",
+    "sha256": "2a1b796be8188e459d620b573015a46603eeb6db8e40406b1e49d047d9d63355",
+    "verified": true
+  },
+  {
+    "file": "malay-bert__pytorch_model.bin.part0001.zip",
+    "sha256": "7aa2f4d81f4cc4a5de17ee52e2ba2760316c1d37106f0a6262d5e36fdbba229d",
+    "verified": true
+  }
+]

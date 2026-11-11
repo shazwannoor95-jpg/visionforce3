@@ -1,0 +1,16 @@
+{
+  "id": "VL0251",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "chromatic_glitch",
+  "variant": 1,
+  "seed": 24802,
+  "palette": "violet",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

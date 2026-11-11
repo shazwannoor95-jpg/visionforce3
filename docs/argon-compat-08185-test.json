@@ -1,0 +1,202 @@
+{
+  "inventory": {
+    "platform": "Linux",
+    "architecture": "x86_64",
+    "helper_version": "2026-11-03-browser-env-v2",
+    "manifest_schema": 2,
+    "selected_hyperframes": "0.8.185",
+    "root": "/workspace/argon-runtime/compat",
+    "components": {
+      "hyperframes-0.8.185": {
+        "ok": true,
+        "detail": "All inventoried files verified"
+      },
+      "support": {
+        "ok": true,
+        "detail": "All inventoried files verified"
+      },
+      "node": {
+        "ok": true,
+        "detail": "All inventoried files verified"
+      },
+      "browser": {
+        "ok": true,
+        "detail": "All inventoried files verified"
+      },
+      "ffmpeg": {
+        "ok": true,
+        "detail": "All inventoried files verified"
+      }
+    },
+    "missing_packages": [],
+    "resolved_paths": {
+      "node": "/workspace/argon-runtime/compat/node/bin/node",
+      "runtime": "/workspace/argon-runtime/compat/hyperframes-0.8.185",
+      "browser": "/workspace/argon-runtime/compat/browser/chrome-headless-shell-linux64/chrome-headless-shell",
+      "browser_libraries": "host",
+      "browser_needs_libraries": false,
+      "ffmpeg": "/workspace/argon-runtime/compat/ffmpeg/bin/ffmpeg",
+      "ffprobe": "/workspace/argon-runtime/compat/ffmpeg/bin/ffprobe"
+    },
+    "note": "Use compatible existing components. Download only missing_packages[].download_files through Drive, then assemble/install. Each transfer file is below 8 MB. Never npm install in the offline VM."
+  },
+  "checks": {
+    "runtime_version": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "0.8.185",
+      "stderr": ""
+    },
+    "gsap_and_plugins": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "GSAP and four plugins loaded",
+      "stderr": ""
+    },
+    "doctor": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\n  \"ok\": false,\n  \"platform\": \"linux\",\n  \"arch\": \"x64\",\n  \"checks\": [\n    {\n      \"name\": \"Version\",\n      \"ok\": true,\n      \"detail\": \"0.8.185 (latest)\"\n    },\n    {\n      \"name\": \"Node.js\",\n      \"ok\": true,\n      \"detail\": \"v26.13.0 (linux x64)\"\n    },\n    {\n      \"name\": \"CPU\",\n      \"ok\": true,\n      \"detail\": \"5 cores \u00b7 AMD EPYC 9V74 80-Core Processor\"\n    },\n    {\n      \"name\": \"Memory\",\n      \"ok\": true,\n      \"detail\": \"32.0 GB total \u00b7 32.0 GB available\"\n    },\n    {\n      \"name\": \"Disk\",\n      \"ok\": true,\n      \"detail\": \"49.4 GB free\"\n    },\n    {\n      \"name\": \"Frames cache\",\n      \"ok\": true,\n      \"detail\": \"/tmp/hyperframes-extract-cache-1000 \u00b7 49.4 GB free at /tmp \u00b7 default\"\n    },\n    {\n      \"name\": \"Archive extractor\",\n      \"ok\": true,\n      \"detail\": \"unzip\"\n    },\n    {\n      \"name\": \"Settings lock\",\n      \"ok\": true,\n      \"detail\": \"Not locked\"\n    },\n    {\n      \"name\": \"/dev/shm\",\n      \"ok\": true,\n      \"detail\": \"17043 MB\"\n    },\n    {\n      \"name\": \"Environment\",\n      \"ok\": true,\n      \"detail\": \"non-TTY\"\n    },\n    {\n      \"name\": \"whisper-cpp\",\n      \"ok\": false,\n      \"detail\": \"Not found (optional \u2014 needed for transcription)\",\n      \"hint\": \"Build from source: https://github.com/ggml-org/whisper.cpp#building (requires cmake and a C compiler)\"\n    },\n    {\n      \"name\": \"TTS (Kokoro)\",\n      \"ok\": false,\n      \"detail\": \"Not installed (optional \u2014 local voice fallback)\",\n      \"hint\": \"pip install kokoro-onnx soundfile\"\n    },\n    {\n      \"name\": \"BGM (MusicGen)\",\n      \"ok\": false,\n      \"detail\": \"Not installed (optional \u2014 local music fallback)\",\n      \"hint\": \"pip install transformers torch soundfile numpy\"\n    },\n    {\n      \"name\": \"onnxruntime-node\",\n      \"ok\": true,\n      \"detail\": \"Not installed (installs on first use)\"\n    },\n    {\n      \"name\": \"@google/genai\",\n      \"ok\": true,\n      \"detail\": \"Not installed (installs on first use)\"\n    },\n    {\n      \"name\": \"FFmpeg\",\n      \"ok\": true,\n      \"detail\": \"ffmpeg n9.0.2-42-gd7643a0fe3-20261101 at /workspace/argon-runtime/compat/ffmpeg/bin/ffmpeg\"\n    },\n    {\n      \"name\": \"FFprobe\",\n      \"ok\": true,\n      \"detail\": \"ffprobe n9.0.2-42-gd7643a0fe3-20261101 at /workspace/argon-runtime/compat/ffmpeg/bin/ffprobe\"\n    },\n    {\n      \"name\": \"Chrome\",\n      \"ok\": true,\n      \"detail\": \"env: /workspace/argon-runtime/compat/browser/chrome-headless-shell-linux64/chrome-headless-shell\"\n    },\n    {\n      \"name\": \"Docker\",\n      \"ok\": true,\n      \"detail\": \"Docker version 29.9.2, build a82e528\"\n    },\n    {\n      \"name\": \"Docker running\",\n      \"ok\": true,\n      \"detail\": \"Running\"\n    }\n  ],\n  \"_meta\": {\n    \"version\": \"0.8.185\",\n    \"updateAvailable\": false\n  }\n}",
+      "stderr": "[SystemMemory] cgroup memory limit detected: 32768 MiB. It governs memory-adaptive render behaviour instead of host RAM."
+    }
+  },
+  "required_doctor_checks": [
+    {
+      "name": "Node.js",
+      "ok": true,
+      "detail": "v26.13.0 (linux x64)"
+    },
+    {
+      "name": "FFmpeg",
+      "ok": true,
+      "detail": "ffmpeg n9.0.2-42-gd7643a0fe3-20261101 at /workspace/argon-runtime/compat/ffmpeg/bin/ffmpeg"
+    },
+    {
+      "name": "FFprobe",
+      "ok": true,
+      "detail": "ffprobe n9.0.2-42-gd7643a0fe3-20261101 at /workspace/argon-runtime/compat/ffmpeg/bin/ffprobe"
+    },
+    {
+      "name": "Chrome",
+      "ok": true,
+      "detail": "env: /workspace/argon-runtime/compat/browser/chrome-headless-shell-linux64/chrome-headless-shell"
+    }
+  ],
+  "ok": true,
+  "lint": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"errorCount\": 0,\n  \"warningCount\": 0,\n  \"infoCount\": 0,\n  \"findings\": [],\n  \"filesScanned\": 1,\n  \"_meta\": {\n    \"version\": \"0.8.185\",\n    \"updateAvailable\": false\n  }\n}",
+    "stderr": ""
+  },
+  "render": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "\u25c6  Rendering proof-work-0.8.185 \u2192 /workspace/argon-runtime/compat/proof-work-0.8.185/runtime-proof.mp4\n   30fps \u00b7 standard \u00b7 1 workers\n   GPU: browser GPU (auto-detect)\n\n\u001b[?25l\u2502\n\u25d2  Checking browser\u001b[1G\u001b[J\u25c7  Browser: env\n\u001b[?25h  \u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  5%  Compiling composition\n@hf-progress {\"code\":\"compile\",\"pct\":5}\n  \u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  10%  Extracting video frames\n@hf-progress {\"code\":\"extract_video\",\"pct\":10}\n  \u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  20%  Processing audio tracks\n@hf-progress {\"code\":\"process_audio\",\"pct\":20}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  25%  Starting frame capture\n@hf-progress {\"code\":\"start_browsers\",\"pct\":25}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  25%  Checking browser GPU\n@hf-progress {\"code\":\"start_browsers\",\"pct\":25}\n[BrowserManager] Browser launched (HeadlessChrome/152.0.7977.30, beginframe, gl=--use-gl=angle --use-angle=swiftshader, headlessShell=true, platform=linux)\n[initSession:beginframe] warmup loop started (0ms)\n[initSession:beginframe] page.goto start (1ms)\n[initSession:beginframe] page.goto complete (213ms)\n[initSession:beginframe] GSAP proxy flush complete (225ms)\n[HyperFrames] render runtime fps {\"canonicalFps\":30,\"source\":\"render-options\",\"rawFpsSource\":\"render-options\",\"rawFps\":30}\n[initSession:beginframe] pollHfReady complete (343ms)\n[initSession:beginframe] pollSubCompositionTimelines complete (ready) (344ms)\n[initSession:beginframe] applyVideoMetadataHints complete (345ms)\n[initSession:beginframe] media + fonts + tailwind ready (346ms)\n[initSession:beginframe] static-frame dedup: disabled (capture mode beginframe, not screenshot) (349ms)\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  25%  Streaming frame 1/120\n@hf-progress {\"code\":\"capture\",\"done\":1,\"total\":120,\"pct\":25}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  28%  Streaming frame 7/120\n@hf-progress {\"code\":\"capture\",\"done\":7,\"total\":120,\"pct\":28}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  33%  Streaming frame 17/120\n@hf-progress {\"code\":\"capture\",\"done\":17,\"total\":120,\"pct\":33}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  37%  Streaming frame 26/120\n@hf-progress {\"code\":\"capture\",\"done\":26,\"total\":120,\"pct\":37}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  42%  Streaming frame 37/120\n@hf-progress {\"code\":\"capture\",\"done\":37,\"total\":120,\"pct\":42}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  47%  Streaming frame 48/120\n@hf-progress {\"code\":\"capture\",\"done\":48,\"total\":120,\"pct\":47}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  51%  Streaming frame 57/120\n@hf-progress {\"code\":\"capture\",\"done\":57,\"total\":120,\"pct\":51}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  54%  Streaming frame 64/120\n@hf-progress {\"code\":\"capture\",\"done\":64,\"total\":120,\"pct\":54}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  58%  Streaming frame 72/120\n@hf-progress {\"code\":\"capture\",\"done\":72,\"total\":120,\"pct\":58}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  62%  Streaming frame 80/120\n@hf-progress {\"code\":\"capture\",\"done\":80,\"total\":120,\"pct\":62}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  64%  Streaming frame 86/120\n@hf-progress {\"code\":\"capture\",\"done\":86,\"total\":120,\"pct\":64}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  68%  Streaming frame 93/120\n@hf-progress {\"code\":\"capture\",\"done\":93,\"total\":120,\"pct\":68}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591  71%  Streaming frame 100/120\n@hf-progress {\"code\":\"capture\",\"done\":100,\"total\":120,\"pct\":71}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591  75%  Streaming frame 109/120\n@hf-progress {\"code\":\"capture\",\"done\":109,\"total\":120,\"pct\":75}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591  79%  Streaming frame 118/120\n@hf-progress {\"code\":\"capture\",\"done\":118,\"total\":120,\"pct\":79}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591  80%  Streaming frame 120/120\n@hf-progress {\"code\":\"capture\",\"done\":120,\"total\":120,\"pct\":80}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591  85%  Encoding frame 56/120\n@hf-progress {\"code\":\"encode\",\"done\":56,\"total\":120,\"pct\":85}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591  90%  Encoding frame 120/120\n@hf-progress {\"code\":\"encode\",\"done\":120,\"total\":120,\"pct\":90}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591  90%  Assembling final video\n@hf-progress {\"code\":\"assemble\",\"done\":0,\"total\":4,\"pct\":90}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591  99%  Assembling final video\n@hf-progress {\"code\":\"assemble\",\"done\":4,\"total\":4,\"pct\":99}\n  \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  100%  Render complete\n\n\u25c7  /workspace/argon-runtime/compat/proof-work-0.8.185/runtime-proof.mp4\n   180.2 KB \u00b7 4.0s video \u00b7 rendered in 5.6s\n   beginframe capture \u00b7 software gpu \u00b7 compile 0.1s \u00b7 extract 0.0s \u00b7 audio 0.0s \u00b7 probe 0.0s \u00b7 setup 0.5s \u00b7 capture 4.9s \u00b7 encode (during capture) 4.9s \u00b7 assemble 0.0s\n   Keep editing by chatting with Framey in the HyperFrames desktop app \u2192 https://hyperframes.dev/studio/download?os=linux",
+    "stderr": "[SystemMemory] cgroup memory limit detected: 32768 MiB. It governs memory-adaptive render behaviour instead of host RAM.\n[INFO] [Render] Pipeline started {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"platform\":\"linux\",\"arch\":\"x64\",\"nodeVersion\":\"v26.13.0\",\"fps\":{\"num\":30,\"den\":1},\"format\":\"mp4\",\"quality\":\"standard\",\"browserGpuMode\":\"auto\",\"forceScreenshot\":false,\"protocolTimeout\":300000,\"browserTimeout\":120000,\"pageNavigationTimeout\":60000,\"playerReadyTimeout\":45000}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"pipeline\",\"status\":\"checkpoint\",\"elapsedMs\":3,\"message\":\"started\",\"format\":\"mp4\",\"quality\":\"standard\",\"browserGpuMode\":\"auto\",\"forceScreenshot\":false,\"protocolTimeoutMs\":300000,\"pageNavigationTimeoutMs\":60000,\"playerReadyTimeoutMs\":45000,\"requestedWorkers\":1}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"compile\",\"status\":\"start\",\"elapsedMs\":4,\"needsAlpha\":false}\n[INFO] [Compiler] Embedded local font file: assets/DejaVuSans.ttf (742 KB \u2192 data URI)\n[INFO] Compiled composition metadata {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"entryFile\":\"index.html\",\"staticDuration\":4,\"width\":1920,\"height\":1080,\"videoCount\":0,\"audioCount\":0,\"renderModeHints\":{\"recommendScreenshot\":false,\"reasons\":[]}}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"compile\",\"status\":\"end\",\"elapsedMs\":82,\"durationMs\":77,\"needsAlpha\":false}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"compile\",\"status\":\"checkpoint\",\"elapsedMs\":85,\"message\":\"composition metadata resolved\",\"width\":1920,\"height\":1080,\"videoCount\":0,\"audioCount\":0,\"imageCount\":0,\"deviceScaleFactor\":1,\"forceScreenshot\":false,\"compositionHash\":\"6a55e98367f06c82\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"browser_probe\",\"status\":\"start\",\"elapsedMs\":85,\"forceScreenshot\":false,\"stagePhase\":\"calibrating\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"browser_probe\",\"status\":\"end\",\"elapsedMs\":95,\"durationMs\":10,\"forceScreenshot\":false,\"stagePhase\":\"calibrating\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"browser_probe\",\"status\":\"checkpoint\",\"elapsedMs\":96,\"message\":\"duration resolved\",\"durationSeconds\":4,\"totalFrames\":120,\"compositionHash\":\"6a55e98367f06c82\",\"beginFrameStalled\":false}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"video_extract\",\"status\":\"start\",\"elapsedMs\":96,\"videoCount\":0}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"video_extract\",\"status\":\"end\",\"elapsedMs\":96,\"durationMs\":0,\"videoCount\":0}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"video_extract\",\"status\":\"checkpoint\",\"elapsedMs\":99,\"message\":\"frames resolved\",\"videoCount\":0,\"extractedVideoCount\":0,\"totalFramesExtracted\":0,\"maxFramesPerVideo\":0,\"avgFramesPerExtractedVideo\":null,\"vfrPreflightCount\":null,\"vfrPreflightMs\":null,\"cacheHits\":null,\"cacheMisses\":null,\"transientRetries\":null,\"minVideoFrameCoverageRatio\":null,\"authoredTimedClipCount\":3}\n[INFO] [Render] No HDR sources detected, rendering SDR {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"hdr_detection\",\"status\":\"checkpoint\",\"elapsedMs\":99,\"message\":\"resolved\",\"requestedHdrMode\":\"auto\",\"effectiveHdr\":\"sdr\",\"nativeHdrVideoCount\":0,\"nativeHdrImageCount\":0}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"audio_process\",\"status\":\"start\",\"elapsedMs\":100,\"audioCount\":0}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"audio_process\",\"status\":\"end\",\"elapsedMs\":100,\"durationMs\":0,\"audioCount\":0}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"file_server\",\"status\":\"start\",\"elapsedMs\":100,\"reused\":false}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"file_server\",\"status\":\"end\",\"elapsedMs\":103,\"durationMs\":3}\n[hyperframes] browserGpuMode probe \u2192 software (WebGL renderer vendor=\"Google Inc. (Mesa)\" renderer=\"ANGLE (Mesa, llvmpipe (LLVM 19.1.7 256 bits), OpenGL ES 3.2)\")\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"capture_calibration\",\"status\":\"checkpoint\",\"elapsedMs\":614,\"message\":\"skipped\",\"requestedWorkers\":1,\"totalFrames\":120,\"htmlInCanvasDetected\":false,\"lowMemoryMode\":false,\"deInversionEligible\":false,\"deParallelRouterEligible\":false}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"worker_resolution\",\"status\":\"checkpoint\",\"elapsedMs\":615,\"message\":\"resolved\",\"workerCount\":1}\n[INFO] streaming-encode gate {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"enabled\":true,\"reason\":\"single_worker\",\"configFlag\":true,\"durationCapEnabled\":false,\"outputFormat\":\"mp4\",\"workerCount\":1,\"durationSeconds\":4,\"maxDurationSeconds\":240}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"capture_strategy\",\"status\":\"checkpoint\",\"elapsedMs\":616,\"message\":\"resolved\",\"workerCount\":1,\"forceScreenshot\":false,\"captureBeyondViewport\":null,\"useStreamingEncode\":true,\"useLayeredComposite\":false,\"usePageSideCompositing\":false,\"hasHdrContent\":false,\"hasShaderTransitions\":false,\"isPngSequence\":false}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"capture_streaming\",\"status\":\"start\",\"elapsedMs\":616,\"stagePhase\":\"capturing\",\"workerCount\":1,\"forceScreenshot\":false,\"totalFrames\":120,\"framesCompleted\":0,\"captureMode\":\"beginframe\",\"captureOperation\":\"beginFrame\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"capture_streaming\",\"status\":\"end\",\"elapsedMs\":5541,\"durationMs\":4925,\"stagePhase\":\"capturing\",\"workerCount\":1,\"forceScreenshot\":false,\"totalFrames\":120,\"framesCompleted\":120,\"captureMode\":\"beginframe\",\"captureOperation\":\"encode\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"assemble\",\"status\":\"start\",\"elapsedMs\":5541,\"stagePhase\":\"capturing\",\"hasAudio\":false,\"workerCount\":1,\"forceScreenshot\":false,\"totalFrames\":120,\"framesCompleted\":120,\"captureMode\":\"beginframe\",\"captureOperation\":\"encode\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"assemble\",\"status\":\"end\",\"elapsedMs\":5558,\"durationMs\":17,\"stagePhase\":\"capturing\",\"hasAudio\":false,\"workerCount\":1,\"forceScreenshot\":false,\"totalFrames\":120,\"framesCompleted\":120,\"captureMode\":\"beginframe\",\"captureOperation\":\"encode\"}\n[INFO] [Render:trace] {\"renderJobId\":\"dfc7f781-5283-47d1-b83b-3c2ce9d56421\",\"phase\":\"pipeline\",\"status\":\"checkpoint\",\"elapsedMs\":5573,\"message\":\"artifact validated\",\"totalElapsedMs\":5573}"
+  },
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 3,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 61440,
+        "duration": "4.000000",
+        "bit_rate": "365698",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "120",
+        "nb_read_frames": "120",
+        "extradata_size": 50,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/workspace/argon-runtime/compat/proof-work-0.8.185/runtime-proof.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "4.000000",
+      "size": "184522",
+      "bit_rate": "369044",
+      "probe_score": 100,
+      "tags": {
+        "minor_version": "512;512",
+        "major_brand": "isom;isom",
+        "compatible_brands": "isomiso2avc1mp41;isomiso2avc1mp41",
+        "hyperframes_version": "0.8.185",
+        "hyperframes_renderer": "hyperframes",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "decode": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "frame_motion": {
+    "frames": 120,
+    "unique_decoded_frames": 97,
+    "note": "Some repeats are intentional settled reading holds. Inspect the whole proof at normal speed."
+  },
+  "output": "/workspace/argon-runtime/compat/proof-work-0.8.185/runtime-proof.mp4"
+}

@@ -1,3 +1,5 @@
+> Kemas kini: sekatan fail gantian di bawah telah dipulihkan. Lihat [ARGON-RECOVERY-MS.md](ARGON-RECOVERY-MS.md) untuk status terkini dan ujian suara berjaya. CPython 3.11.18 asal masih belum dipulihkan.
+
 # Pemasangan Skill Argon
 
 Sumber: 63 bahagian RAR dimuat naik pengguna. Semua bahagian berjaya dipindahkan dan arkib dibaca tanpa ralat libarchive. Arkib mengandungi 2730 entri, 2,104,048,925 bait selepas ekstrak.

@@ -6,3 +6,5 @@ artifacts/
 **/.cache/
 **/__pycache__/
 **/*.pyc
+**/.bundle-extract.lock
+**/.bundle-ready.json

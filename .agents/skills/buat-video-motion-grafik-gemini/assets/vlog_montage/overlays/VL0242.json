@@ -1,0 +1,16 @@
+{
+  "id": "VL0242",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "projector_flicker",
+  "variant": 2,
+  "seed": 24523,
+  "palette": "amber",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

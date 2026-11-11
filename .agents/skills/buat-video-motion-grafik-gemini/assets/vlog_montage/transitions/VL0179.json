@@ -1,0 +1,20 @@
+{
+  "id": "VL0179",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "film_gate",
+  "parameters": {
+    "angle": 75,
+    "opening": 1.4,
+    "rail_delay": 0.5,
+    "perforations": 30
+  },
+  "duration": 1.1,
+  "fps": 30,
+  "feather": 0.04,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

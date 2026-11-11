@@ -1,0 +1,16 @@
+{
+  "id": "VL0215",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "prism_sweep",
+  "variant": 5,
+  "seed": 23686,
+  "palette": "violet",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

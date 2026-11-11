@@ -1,0 +1,16 @@
+{
+  "id": "VL0263",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "snowfall",
+  "variant": 3,
+  "seed": 25174,
+  "palette": "silver",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

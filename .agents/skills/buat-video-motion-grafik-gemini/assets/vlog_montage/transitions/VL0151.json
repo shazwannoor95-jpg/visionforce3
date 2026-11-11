@@ -1,0 +1,20 @@
+{
+  "id": "VL0151",
+  "type": "transition",
+  "schema_version": 1,
+  "family": "waves",
+  "parameters": {
+    "angle": 0,
+    "amplitude": 0.08,
+    "frequency": 12,
+    "phase": 0
+  },
+  "duration": 0.8,
+  "fps": 30,
+  "feather": 0.035,
+  "time_unit": "normalized",
+  "white_reveals": "B",
+  "composite": "A*(1-matte)+B*matte",
+  "implementation": "transition_engine.mask_frame",
+  "license": "Original; personal and commercial reuse and modification permitted."
+}

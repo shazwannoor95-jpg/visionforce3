@@ -1,0 +1,16 @@
+{
+  "id": "VL0232",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "dust_gate",
+  "variant": 2,
+  "seed": 24213,
+  "palette": "silver",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

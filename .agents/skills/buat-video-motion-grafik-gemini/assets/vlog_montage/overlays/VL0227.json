@@ -1,0 +1,16 @@
+{
+  "id": "VL0227",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "bokeh_drift",
+  "variant": 2,
+  "seed": 24058,
+  "palette": "amber",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

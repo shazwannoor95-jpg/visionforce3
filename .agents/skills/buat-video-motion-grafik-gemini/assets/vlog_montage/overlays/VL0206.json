@@ -1,0 +1,16 @@
+{
+  "id": "VL0206",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "cool_leak",
+  "variant": 1,
+  "seed": 23407,
+  "palette": "teal",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "VL0267",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "sparkle_trail",
+  "variant": 2,
+  "seed": 25298,
+  "palette": "rose",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

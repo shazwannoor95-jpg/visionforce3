@@ -1,0 +1,16 @@
+{
+  "id": "VL0300",
+  "type": "overlay",
+  "engine": "overlay_engine.frame",
+  "family": "speed_streaks",
+  "variant": 5,
+  "seed": 26321,
+  "palette": "violet",
+  "duration": 2,
+  "width": 640,
+  "height": 360,
+  "fps": 24,
+  "blend": "screen",
+  "loopable": true,
+  "original": true
+}

@@ -1,3 +1,5 @@
+> Kemas kini: sekatan fail gantian di bawah telah dipulihkan. Lihat [ARGON-RECOVERY-MS.md](ARGON-RECOVERY-MS.md) untuk status terkini dan ujian suara berjaya. CPython 3.11.18 asal masih belum dipulihkan.
+
 # Suara dan baki bundle Argon
 
 ## Kerja yang telah dilakukan

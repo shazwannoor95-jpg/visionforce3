@@ -1,0 +1,16 @@
+{
+  "ready": false,
+  "model_root": "/workspace/argon-runtime/vo-models",
+  "python": "/workspace/argon-runtime/vo-venv/bin/python",
+  "offline": true,
+  "checks": {
+    "melotts-ms/model.pth": true,
+    "melotts-ms/config.json": true,
+    "malay-bert/config.json": true,
+    "malay-bert/pytorch_model.bin": false,
+    "malay-bert/vocab.txt": true,
+    "malay-bert/tokenizer_config.json": true,
+    "malay-bert/special_tokens_map.json": true
+  },
+  "error": "Restore/verify all model parts with model_bundle.py first"
+}

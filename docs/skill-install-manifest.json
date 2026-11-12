@@ -282,5 +282,15 @@
       "run": "43037741035",
       "scope": "18 instructions, CRLF checkout; not all runtime capabilities"
     }
+  },
+  {
+    "name": "directing-stickman-videos",
+    "source": "kaomei/stickman-video-director",
+    "commit": "7af3957dff97914b2d762fb248ee2427d7fca72c",
+    "files": 448,
+    "instruction_sha256": "c538d98f4b9d4f4c7244857bf6797d591b32bdb858ba275bd48df591c5123a4d",
+    "status": "VERIFIED_INSTRUCTIONS",
+    "runtime_doctor": "PASS_LINUX",
+    "windows_runtime": "NOT_TESTED"
   }
 ]

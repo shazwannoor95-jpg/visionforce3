@@ -27,3 +27,7 @@ Sambungkan browser AI Studio kepada brief dan hasil projek
 ## v0.0.0.5 — DRAFT
 
 Tambah Google Gemini API key, teks dan TTS terus ke projek
+
+## v0.0.0.6 — DRAFT
+
+Pasang directing-stickman-videos dan panduan penggunaan

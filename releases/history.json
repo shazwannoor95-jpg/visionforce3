@@ -1,5 +1,16 @@
 [
   {
+    "task": "install-stickman-skill-20261112",
+    "build": 6,
+    "display": "v0.0.0.6",
+    "semver": "0.0.6",
+    "fileVersion": "0.0.0.6",
+    "title": "Pasang directing-stickman-videos dan panduan penggunaan",
+    "baseCommit": "9e1bc51b35f21e10ebca3cdd49fdfec1837ea460",
+    "createdAt": "2026-11-12T02:22:05.275907+00:00",
+    "status": "DRAFT"
+  },
+  {
     "task": "google-api-20261112",
     "build": 5,
     "display": "v0.0.0.5",

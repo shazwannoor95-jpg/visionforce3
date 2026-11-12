@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "node": true,
+    "ffmpeg": true,
+    "ffprobe": true,
+    "canvas": true,
+    "sharp": true,
+    "fonts": true,
+    "b4_hook_font": true
+  },
+  "gemini_key_present": false,
+  "network_checked": false,
+  "note": "Key presence is not quota/billing verification",
+  "skill": "directing-stickman-videos",
+  "version": "v0.0.0.6",
+  "source_commit": "7af3957dff97914b2d762fb248ee2427d7fca72c",
+  "upstream_files": 448,
+  "source_bytes": 55394059,
+  "hashes": "PASS",
+  "skill_links": "PASS",
+  "desktop_tests": 55,
+  "desktop_smoke_linux": "PASS",
+  "video_production": "NOT RUN",
+  "windows_build": "NOT RUN"
+}

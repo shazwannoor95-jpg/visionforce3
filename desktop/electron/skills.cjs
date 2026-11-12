@@ -1,5 +1,5 @@
 const fs=require('node:fs');const path=require('node:path');const crypto=require('node:crypto');
-const EXPECTED=['remotion-best-practices','remotion-captions','remotion-create','remotion-docs','remotion-interactivity','remotion-license','remotion-maps','remotion-markup','remotion-multimedia','remotion-render','remotion-saas','remotion-studio','remotion-upgrade','playwright-cli','playwright-component-testing','playwright-trace','buat-video-motion-grafik','buat-video-motion-grafik-gemini'];
+const EXPECTED=['remotion-best-practices','remotion-captions','remotion-create','remotion-docs','remotion-interactivity','remotion-license','remotion-maps','remotion-markup','remotion-multimedia','remotion-render','remotion-saas','remotion-studio','remotion-upgrade','playwright-cli','playwright-component-testing','playwright-trace','directing-stickman-videos','buat-video-motion-grafik','buat-video-motion-grafik-gemini'];
 const {TextDecoder}=require('node:util');
 const {parseDocument}=require('yaml');
 function frontmatter(raw, expectedId){
@@ -27,7 +27,7 @@ function audit(root){
  const rows=discover(root);const directories=fs.readdirSync(root,{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>x.name);
  const unexpected=directories.filter(id=>!EXPECTED.includes(id));
  const failed=rows.filter(r=>r.status!=='VERIFIED').map(r=>({id:r.id,file:r.file,reason:r.reason}));
- return {ok:rows.length===18&&directories.length===18&&!unexpected.length&&!failed.length,expected:18,folders:directories.length,verified:rows.filter(r=>r.status==='VERIFIED').length,unexpected,failed,rows};
+ return {ok:rows.length===EXPECTED.length&&directories.length===EXPECTED.length&&!unexpected.length&&!failed.length,expected:EXPECTED.length,folders:directories.length,verified:rows.filter(r=>r.status==='VERIFIED').length,unexpected,failed,rows};
 }
 class VisionForgeSkillRouter{
  select(prompt,skills,mode='auto'){
@@ -36,6 +36,7 @@ class VisionForgeSkillRouter{
  if(/sari|caption|subtitle/i.test(prompt))selected.push('remotion-captions');
  if(/atlas|kartun|infografik|motion/i.test(prompt))selected.push('buat-video-motion-grafik');
  if(/vox|papercut|bang motion|hyperframes|gemini/i.test(prompt))selected.push('buat-video-motion-grafik-gemini');
+ if(/stickman|stick figure/i.test(prompt))selected.push('directing-stickman-videos');
  if(mode==='browser')selected.push('playwright-cli');
  return {selected:skills.filter(s=>selected.includes(s.id)),status:'PLANNED',engine:mode==='browser'?'browser':'remotion',planner:'Router peraturan tempatan; bukan inferens AI.',cost:'Tiada panggilan berbayar dilakukan.',fallback:'Worker Cloud jika dikonfigurasi; tiada pemasangan model automatik.'};
  }

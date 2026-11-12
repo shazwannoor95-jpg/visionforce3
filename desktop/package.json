@@ -1,7 +1,7 @@
 {
   "name": "visionforge3-desktop",
   "productName": "VISIONFORGE 3",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "description": "Studio video VISIONFORGE 3",
   "author": "VISIONFORGE 3",
@@ -35,7 +35,7 @@
   "build": {
     "appId": "com.visionforge3.studio",
     "productName": "VISIONFORGE 3",
-    "buildVersion": "0.0.0.5",
+    "buildVersion": "0.0.0.6",
     "asar": true,
     "directories": {
       "output": "release"
@@ -69,11 +69,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "artifactName": "VISIONFORGE-3-v0.0.0.5-Setup-x64.exe",
+      "artifactName": "VISIONFORGE-3-v0.0.0.6-Setup-x64.exe",
       "deleteAppDataOnUninstall": false
     },
     "portable": {
-      "artifactName": "VISIONFORGE-3-v0.0.0.5-Portable-x64.exe"
+      "artifactName": "VISIONFORGE-3-v0.0.0.6-Portable-x64.exe"
     },
     "linux": {
       "target": "dir"

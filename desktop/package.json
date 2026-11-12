@@ -41,7 +41,7 @@
     "appId": "com.visionforge3.studio",
     "productName": "VISIONFORGE 3",
     "buildVersion": "0.0.0.7",
-    "asar": true,
+    "asar": false,
     "directories": {
       "output": "release"
     },
@@ -82,11 +82,7 @@
     },
     "linux": {
       "target": "dir"
-    },
-    "asarUnpack": [
-      "resources/skills/directing-stickman-videos/**",
-      "node_modules/**"
-    ]
+    }
   },
   "repository": {
     "type": "git",

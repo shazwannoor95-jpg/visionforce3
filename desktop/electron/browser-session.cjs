@@ -28,7 +28,7 @@ class BrowserSession{
  async probe(){
   const state=this.state();if(!state.open)return {...state,connection:'CLOSED'};
   const url=this.window.webContents.getURL();if(!permitted(url)||new URL(url).hostname!=='aistudio.google.com')return {...state,connection:'LOGIN_REQUIRED'};
-  try{const count=await this.window.webContents.executeJavaScript(`(${editorScript}).length`);return {...this.state(),connection:count===1?'EDITOR_FOUND':count>1?'EDITOR_AMBIGUOUS':'PAGE_NOT_READY'};}catch{return {...this.state(),connection:'PAGE_NOT_READY'};}
+  try{const denied=await this.window.webContents.executeJavaScript("document.body.innerText.includes('Failed to list API keys: permission denied')");if(denied)return {...this.state(),connection:'PAGE_PERMISSION_DENIED'};if(/\/(api-?keys?|apikey)(?:\/|$)/.test(new URL(url).pathname))return {...this.state(),connection:'API_KEY_MANAGEMENT'};const count=await this.window.webContents.executeJavaScript(`(${editorScript}).length`);return {...this.state(),connection:count===1?'EDITOR_FOUND':count>1?'EDITOR_AMBIGUOUS':'PAGE_NOT_READY'};}catch{return {...this.state(),connection:'PAGE_NOT_READY'};}
  }
  async fill(text){
   if(typeof text!=='string'||!text.trim()||text.length>20000)throw Error('Brief perlu 1–20000 aksara.');

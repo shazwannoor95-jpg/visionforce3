@@ -1,5 +1,16 @@
 [
   {
+    "task": "google-api-20261112",
+    "build": 5,
+    "display": "v0.0.0.5",
+    "semver": "0.0.5",
+    "fileVersion": "0.0.0.5",
+    "title": "Tambah Google Gemini API key, teks dan TTS terus ke projek",
+    "baseCommit": "3ebbb698aeda9edc38f3debc6c643c447591bad0",
+    "createdAt": "2026-11-12T00:52:34.118430+00:00",
+    "status": "DRAFT"
+  },
+  {
     "task": "browser-project-bridge-20261112",
     "build": 4,
     "display": "v0.0.0.4",

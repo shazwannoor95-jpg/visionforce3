@@ -23,3 +23,7 @@ Tambah kawalan sesi browser dan login manual AI Studio
 ## v0.0.0.4 — DRAFT
 
 Sambungkan browser AI Studio kepada brief dan hasil projek
+
+## v0.0.0.5 — DRAFT
+
+Tambah Google Gemini API key, teks dan TTS terus ke projek

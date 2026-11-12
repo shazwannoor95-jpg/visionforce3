@@ -1,11 +1,11 @@
 {
-  "task": "browser-project-bridge-20261112",
-  "build": 4,
-  "display": "v0.0.0.4",
-  "semver": "0.0.4",
-  "fileVersion": "0.0.0.4",
-  "title": "Sambungkan browser AI Studio kepada brief dan hasil projek",
-  "baseCommit": "51b3e0a9403c988067863d60c38b97a11c75e0ea",
-  "createdAt": "2026-11-12T00:25:56.309951+00:00",
+  "task": "google-api-20261112",
+  "build": 5,
+  "display": "v0.0.0.5",
+  "semver": "0.0.5",
+  "fileVersion": "0.0.0.5",
+  "title": "Tambah Google Gemini API key, teks dan TTS terus ke projek",
+  "baseCommit": "3ebbb698aeda9edc38f3debc6c643c447591bad0",
+  "createdAt": "2026-11-12T00:52:34.118430+00:00",
   "status": "DRAFT"
 }

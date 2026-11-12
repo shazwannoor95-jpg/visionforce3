@@ -1,0 +1,23 @@
+{
+  "platform": "win32",
+  "app": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VF With Spaces\\VISIONFORGE 3.exe",
+  "status": "PASS",
+  "checks": [
+    "simple upload-prompt-login-render-save-restart workflow with fixture auth/agent",
+    "Google provider UI; Windows encrypted key and cancel without generation",
+    "Stickman Studio B1 native preview/full 1080p30 with audio, captions and prop motion",
+    "Electron sebenar",
+    "browser open/reuse/close/reopen fixture; no provider login claimed",
+    "provider renderer no Node or preload",
+    "brief transfer and preserve existing input",
+    "selected answer import and persist after restart",
+    "speech page and WAV download import to project",
+    "cipta projek",
+    "mesej/chat autosave",
+    "restart recovery",
+    "19 skills",
+    "Version History",
+    "backup data",
+    "renderer tiada Node integration"
+  ]
+}

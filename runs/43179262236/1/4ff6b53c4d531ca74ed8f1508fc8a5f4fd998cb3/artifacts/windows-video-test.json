@@ -1,0 +1,10 @@
+{
+  "fps": "30/1",
+  "codec": "h264",
+  "width": 1920,
+  "status": "PASS",
+  "decoder": "ffmpeg -xerror",
+  "height": 1080,
+  "frames": "120",
+  "frameOutput": "rawvideo -> null"
+}

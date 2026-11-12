@@ -1,0 +1,189 @@
+{
+  "platform": "win32",
+  "status": "PASS",
+  "scope": "synthetic B1 technical fixture; automated fixture approval, not user film acceptance",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 30720,
+        "duration": "2.000000",
+        "bit_rate": "102716",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "60",
+        "nb_read_frames": "60",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc60.3.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "24000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 48000,
+        "duration": "2.000000",
+        "bit_rate": "100719",
+        "nb_frames": "48",
+        "nb_read_frames": "47",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ]
+  },
+  "fingerprint": "c1e4922d066cf02599deb89c5b7ec24c24cebedf84c649b549cb2912cc5c4e2a",
+  "preview_seconds": null,
+  "output": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vf-ui-iWb7z3\\projek\\renders\\fc4c97a0-e64a-4f3e-b62f-5cdfa69cad5a\\stickman\\e3f5f7f2-6e22-4294-9e85-9c00e816b554\\output\\film.mp4",
+  "output_sha256": "65baadcecf7de2f09f0100c179aa2c22a4fe3a0a35240fea96f0809c81fb191a",
+  "original_voice_sha256": "ec9c163f9da182d0c087d98a469c6c9ccf20af1a3223cf5cdecd93e8b5666ec9",
+  "original_voice_duration": 2,
+  "voice_rate": "unchanged; leading/trailing padding only",
+  "frames": 60,
+  "duration": 2,
+  "cache_hits": 1,
+  "shot_count": 1,
+  "full_decode": "pass",
+  "caption_count": 1,
+  "human_review": "required; technical checks are not acceptance",
+  "inputs": [
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app\\resources\\skills\\directing-stickman-videos\\assets\\fonts\\Caveat.ttf",
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988"
+    },
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\VFPlain\\resources\\app\\resources\\skills\\directing-stickman-videos\\assets\\fonts\\NotoSans.ttf",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    },
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vf-ui-iWb7z3\\projek\\renders\\fc4c97a0-e64a-4f3e-b62f-5cdfa69cad5a\\stickman\\e3f5f7f2-6e22-4294-9e85-9c00e816b554\\7b35d821-2f5f-4374-b600-bae52cf8ce76.wav",
+      "sha256": "0a2900bf82b7a1aa8b86d87ef8ad1b52cf66f2d30635c356fbee94250526aee5"
+    },
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vf-ui-iWb7z3\\projek\\renders\\fc4c97a0-e64a-4f3e-b62f-5cdfa69cad5a\\stickman\\e3f5f7f2-6e22-4294-9e85-9c00e816b554\\940293dd-6faa-4d15-ad8f-93b9d7e0e5b2.png",
+      "sha256": "1aa424659bb03ca07d496c6a0dab37dea2b56577e30c79dfe1c37166a9485984"
+    },
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vf-ui-iWb7z3\\projek\\renders\\fc4c97a0-e64a-4f3e-b62f-5cdfa69cad5a\\stickman\\e3f5f7f2-6e22-4294-9e85-9c00e816b554\\a283b3d7-03bf-487d-b682-1d895dbc2a6d.wav",
+      "sha256": "ec9c163f9da182d0c087d98a469c6c9ccf20af1a3223cf5cdecd93e8b5666ec9"
+    },
+    {
+      "path": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\vf-ui-iWb7z3\\projek\\renders\\fc4c97a0-e64a-4f3e-b62f-5cdfa69cad5a\\stickman\\e3f5f7f2-6e22-4294-9e85-9c00e816b554\\a913c27a-cd77-44b3-92be-33c12ef6d898.png",
+      "sha256": "3cc4a319f7bab85e56c27754a4c51f7ac13a29388d78d29157f81029d58baf72"
+    }
+  ],
+  "local_motion": {
+    "intervals": [
+      {
+        "id": "prop-0",
+        "start": 0,
+        "end": 1,
+        "reason": "Prop bergerak ke kanan untuk menunjukkan arah.",
+        "changed_pixels": 31175
+      }
+    ],
+    "windows": [
+      {
+        "start": 0,
+        "end": 2,
+        "id": "prop-0",
+        "changed_pixels": 31175
+      }
+    ],
+    "sample_step": 0.25,
+    "max_window": 2,
+    "limits": "Bounded isolated-layer pixel change, with text/shadows excluded and ancestors frozen; geometry is conservative. Causal action, final visibility/occlusion, semantic captions and sound still require playback review"
+  },
+  "audio_tracks": {
+    "ambience": 1,
+    "dialogue": 0,
+    "file_sfx": 0,
+    "cuts": 0
+  }
+}

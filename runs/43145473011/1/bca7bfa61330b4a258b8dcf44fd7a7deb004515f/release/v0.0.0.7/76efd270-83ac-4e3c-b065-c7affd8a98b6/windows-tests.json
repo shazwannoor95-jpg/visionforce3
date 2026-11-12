@@ -1,0 +1,16 @@
+{
+  "signatures": {
+    "VISIONFORGE-3-v0.0.0.7-Portable-x64.exe": "NotSigned",
+    "VISIONFORGE-3-v0.0.0.7-Setup-x64.exe": "NotSigned"
+  },
+  "status": "PASS",
+  "fileVersion": "0.0.0.7",
+  "checks": [
+    "packaged app",
+    "installed app: VFPlain",
+    "uninstall and preserve data: VFPlain",
+    "installed app: VF With Spaces",
+    "uninstall and preserve data: VF With Spaces",
+    "portable process, IPC and B1 render"
+  ]
+}

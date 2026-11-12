@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "stickman": {
+    "status": "PASS",
+    "scope": "synthetic fixture; automated test approval, not customer film review",
+    "frames": 60,
+    "full_decode": "pass",
+    "duration": 2
+  },
+  "platform": "win32",
+  "version": "v0.0.0.7",
+  "checks": [
+    "portable process",
+    "UI loaded",
+    "Stickman B1 preview and full render",
+    "19 skills",
+    "SQLite write",
+    "backup",
+    "Node isolation",
+    "IPC bootstrap"
+  ],
+  "backupId": "ed28af28-24ec-4692-9140-e65475c6ca1d"
+}

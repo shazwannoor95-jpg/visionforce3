@@ -60,6 +60,6 @@ try {
  while (!(Test-Path $env:VF_PORTABLE_SELF_TEST) -and (Get-Date) -lt $deadline) { Start-Sleep -Milliseconds 500 }
  if (!(Test-Path $env:VF_PORTABLE_SELF_TEST)) { throw 'Portable self-test tamat masa' }
  $result = Get-Content $env:VF_PORTABLE_SELF_TEST | ConvertFrom-Json
- if ($result.status -ne 'PASS' -or $result.platform -ne 'win32') { throw 'Portable self-test gagal' }
- $report.checks += 'portable process and IPC'; $report.status='PASS'; Save-Report
+ if ($result.status -ne 'PASS' -or $result.platform -ne 'win32' -or $result.stickman.status -ne 'PASS' -or $result.stickman.frames -ne 60) { throw 'Portable self-test gagal' }
+ $report.checks += 'portable process, IPC and B1 render'; $report.status='PASS'; Save-Report
 } catch { $report.status='FAIL';$report.error=$_.Exception.Message;Save-Report;throw }

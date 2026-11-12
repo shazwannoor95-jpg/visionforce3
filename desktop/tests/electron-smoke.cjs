@@ -7,7 +7,7 @@ const {_electron:electron}=require('playwright');const fs=require('node:fs');con
  assert.equal(await page.evaluate(()=>typeof window.require),'undefined');
  await page.getByRole('button',{name:'Skills (19)',exact:true}).click();await page.getByRole('heading',{name:'19 skills. Satu studio.'}).waitFor();assert.equal(await page.locator('.skill-grid article').count(),19);
  // Synthetic local B1 fixture; this is not generated narration or aesthetic approval.
- const stickFiles=require('./stickman-fixture.cjs').fixture(root);
+ const stickFiles=require('../electron/testing/stickman-fixture.cjs').fixture(root);
  await app.evaluate(({dialog},files)=>{globalThis.vfOpen=dialog.showOpenDialog;dialog.showOpenDialog=async()=>({canceled:false,filePaths:files});},Object.values(stickFiles));
  await page.getByRole('button',{name:'Studio',exact:true}).click();await page.getByRole('button',{name:'＋ Lampirkan fail',exact:true}).click();await page.getByText('fixture-actor.png',{exact:false}).first().waitFor();
  await app.evaluate(({dialog})=>{dialog.showOpenDialog=globalThis.vfOpen;delete globalThis.vfOpen;});

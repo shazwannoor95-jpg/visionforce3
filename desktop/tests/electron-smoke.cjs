@@ -10,8 +10,8 @@ const {_electron:electron}=require('playwright');const fs=require('node:fs');con
  await app.context().route('https://aistudio.google.com/**',route=>route.fulfill({contentType:'text/html',body:'<h1>Provider login fixture</h1><textarea aria-label="Prompt"></textarea><p id="answer">Jawapan fixture 42</p><a download="voice.wav" href="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=">Download audio</a>'}));
  await page.getByRole('button',{name:'Browser Automation',exact:true}).click();
  const browserButton=page.getByRole('button',{name:'Buka / Login Google AI Studio',exact:true});
- await browserButton.click();await page.getByText('BROWSER DIBUKA',{exact:true}).waitFor();
- const providerPage=app.windows().find(p=>p!==page);assert.ok(providerPage);await providerPage.getByRole('heading',{name:'Provider login fixture'}).waitFor();
+ const providerWindow=app.waitForEvent('window');await browserButton.click();const providerPage=await providerWindow;await page.getByText('BROWSER DIBUKA',{exact:true}).waitFor();
+ assert.ok(providerPage);await providerPage.getByRole('heading',{name:'Provider login fixture'}).waitFor();
  assert.equal(await providerPage.evaluate(()=>typeof window.require+':'+typeof window.visionforge),'undefined:undefined');
  await page.getByRole('button',{name:'Semak sambungan',exact:true}).click();await page.getByText('Ruang prompt dikesan — boleh pindahkan brief.',{exact:true}).waitFor();
  await page.getByLabel('Brief AI Studio',{exact:true}).fill('Brief bridge 42');await page.getByRole('button',{name:'Pindahkan brief ke AI Studio',exact:true}).click();

@@ -74,14 +74,28 @@ jobs:
           VF_VIDEO: ${{ steps.video.outcome }}
           VF_CHECKSUMS: ${{ steps.checksums.outcome }}
         run: node desktop/scripts/publish-ci-evidence.cjs
+      - name: Simpan Portable EXE
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: VISIONFORGE3-${{ github.run_id }}-${{ github.run_attempt }}-Portable
+          path: desktop/release/**/*Portable-x64.exe
+          if-no-files-found: error
+          retention-days: 30
+      - name: Simpan Installer EXE
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: VISIONFORGE3-${{ github.run_id }}-${{ github.run_attempt }}-Installer
+          path: desktop/release/**/*Setup-x64.exe
+          if-no-files-found: error
+          retention-days: 30
       - name: Simpan bukti walaupun ujian gagal
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: VISIONFORGE3-${{ github.run_id }}-${{ github.run_attempt }}
+          name: VISIONFORGE3-${{ github.run_id }}-${{ github.run_attempt }}-Proof
           path: |
-            desktop/release/**/*Setup-x64.exe
-            desktop/release/**/*Portable-x64.exe
             desktop/release/**/SHA256SUMS.txt
             artifacts/desktop/**
             desktop/release/**/windows-tests.json

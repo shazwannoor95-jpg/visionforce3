@@ -1,4 +1,21 @@
-# visionforce3
+# VISIONFORGE 3
+
+Aplikasi Windows untuk menghasilkan video penerangan daripada dokumen dan imej. Kerja semasa: **v0.0.0.8 DRAFT**, branch `feat/v41-simple-workflow`. Versi STABLE belum diterbitkan.
+
+1. Buka aplikasi, kemudian **Pilih fail untuk video**. Projek disimpan secara automatik.
+2. Tulis arahan, contohnya: `Buat video penerangan 30 saat Bahasa Melayu berdasarkan bahan ini. Format 16:9, gaya motion graphics yang kemas.`
+3. Tekan **Jana video**. Jika perlu, login rasmi Codex dengan akaun ChatGPT, atau sambungkan API OpenAI, Claude atau Gemini. Bahan dan prompt dikekalkan semasa menyambung.
+4. Tunggu video siap, tonton dan semak, kemudian **Simpan video**.
+
+Narasi ialah pilihan tambahan menggunakan Gemini API; laluan lalai menghasilkan video teks bergerak tanpa narasi. Tetapan teknikal dan aliran lama tersedia melalui **Lanjutan**.
+
+- [Panduan, sambungan agent dan batas sebenar v8](docs/SIMPLE-WORKFLOW-V8-MS.md)
+- [Windows Actions: build, ujian native dan muat turun EXE](https://github.com/shazwannoor95-jpg/visionforce3/actions/workflows/windows-desktop.yml)
+- [Stickman Studio v7](docs/STICKMAN-STUDIO-V7-MS.md)
+
+Desktop: `npm --prefix desktop ci`, `npm --prefix desktop run build`, `npm --prefix desktop test`, `npm --prefix desktop run smoke`. Smoke memerlukan desktop/display. Semua 19 skills dikekalkan. Semak bukti run bagi commit yang hendak dimuat turun; build sahaja tidak bermaksud penerimaan Windows lulus.
+
+Bahagian di bawah ialah laporan sejarah bagi versi terdahulu.
 
 ## VISIONFORGE 3 — asas V3.5
 

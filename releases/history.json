@@ -1,5 +1,16 @@
 [
   {
+    "task": "simple-video-workflow-20261112",
+    "build": 8,
+    "display": "v0.0.0.8",
+    "semver": "0.0.8",
+    "fileVersion": "0.0.0.8",
+    "title": "Ringkaskan upload-prompt-video dan sambungan agent sebenar",
+    "baseCommit": "bca7bfa61330b4a258b8dcf44fd7a7deb004515f",
+    "createdAt": "2026-11-12T06:50:17.823255+00:00",
+    "status": "DRAFT"
+  },
+  {
     "task": "stickman-app-integration-20261112",
     "build": 7,
     "display": "v0.0.0.7",

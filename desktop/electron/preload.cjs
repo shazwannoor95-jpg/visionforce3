@@ -1,6 +1,8 @@
 const {contextBridge,ipcRenderer}=require('electron');
 const invoke=(name,...args)=>ipcRenderer.invoke('vf:'+name,...args);
 contextBridge.exposeInMainWorld('visionforge',Object.freeze({
+ agentVoiceModel:model=>invoke('agentVoiceModel',model),
+ agentsState:()=>invoke('agentsState'),agentSelect:(id,model)=>invoke('agentSelect',id,model),agentLogin:method=>invoke('agentLogin',method),agentLoginCancel:()=>invoke('agentLoginCancel'),agentLogout:()=>invoke('agentLogout'),agentAuthPage:()=>invoke('agentAuthPage'),agentSave:value=>invoke('agentSave',value),workflowAttach:id=>invoke('workflowAttach',id),workflowRemove:(id,fileId)=>invoke('workflowRemove',id,fileId),workflowGet:id=>invoke('workflowGet',id),workflowStart:(id,prompt,options,ids)=>invoke('workflowStart',id,prompt,options,ids),workflowCancel:id=>invoke('workflowCancel',id),workflowExport:id=>invoke('workflowExport',id),
  saveCloud:origin=>invoke('saveCloud',origin),generate:(id,prompt)=>invoke('generate',id,prompt),pollRender:id=>invoke('pollRender',id),saveDraft:(id,text)=>invoke('saveDraft',id,text),bootstrap:()=>invoke('bootstrap'),createProject:name=>invoke('createProject',name),openProject:id=>invoke('openProject',id),
  send:(id,text)=>invoke('send',id,text),attach:id=>invoke('attach',id),backup:()=>invoke('backup'),restorePlan:id=>invoke('restorePlan',id),restore:id=>invoke('restore',id),
  stickmanPrompts:(id,model)=>invoke('stickmanPrompts',id,model),

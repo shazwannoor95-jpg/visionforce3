@@ -35,3 +35,12 @@ Pasang directing-stickman-videos dan panduan penggunaan
 ## v0.0.0.7 — DRAFT
 
 Integrasi Stickman Studio, projek, preview dan render B1 dalam aplikasi
+
+## v0.0.0.8 — DRAFT
+
+Ringkaskan upload-prompt-video dan sambungan agent sebenar
+
+- Skrin utama Bahan → Prompt → Video; projek automatik, login apabila perlu, sambung tugas selepas login, preview dan simpan MP4. Menu lama dipelihara melalui Lanjutan.
+- CLI rasmi Codex dibundel untuk login akaun ChatGPT; integrasi inferens API OpenAI/Claude/Gemini, key diuji sebelum disimpan, profil/storan OS khusus. Tiada pengambilan sesi browser peribadi.
+- Bacaan dokumen/imej, pelan agent dengan petikan sumber disahkan, renderer motion graphics setempat dan narasi Gemini pilihan. Bukti FFprobe/full decode, retry tanpa mengulang hasil siap, pembatalan dan pemulihan job terputus.
+- Schema 5 dengan snapshot migrasi; 19 skills, projek lama, backup/rollback dan ujian Windows sedia ada dikekalkan. Artifact Portable/Installer/Proof berasingan. [Panduan dan batas ujian](docs/SIMPLE-WORKFLOW-V8-MS.md).

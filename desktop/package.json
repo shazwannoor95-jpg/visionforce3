@@ -1,7 +1,7 @@
 {
   "name": "visionforge3-desktop",
   "productName": "VISIONFORGE 3",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": true,
   "description": "Studio video VISIONFORGE 3",
   "author": "VISIONFORGE 3",
@@ -20,6 +20,8 @@
   "dependencies": {
     "@ffprobe-installer/ffprobe": "2.1.2",
     "@napi-rs/canvas": "0.1.100",
+    "@openai/codex": "0.167.2",
+    "fflate": "0.8.2",
     "ffmpeg-static": "5.2.0",
     "pdf-parse": "1.1.1",
     "react": "19.2.0",
@@ -40,7 +42,7 @@
   "build": {
     "appId": "com.visionforge3.studio",
     "productName": "VISIONFORGE 3",
-    "buildVersion": "0.0.0.7",
+    "buildVersion": "0.0.0.8",
     "asar": false,
     "directories": {
       "output": "release"
@@ -74,11 +76,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "artifactName": "VISIONFORGE-3-v0.0.0.7-Setup-x64.exe",
+      "artifactName": "VISIONFORGE-3-v0.0.0.8-Setup-x64.exe",
       "deleteAppDataOnUninstall": false
     },
     "portable": {
-      "artifactName": "VISIONFORGE-3-v0.0.0.7-Portable-x64.exe"
+      "artifactName": "VISIONFORGE-3-v0.0.0.8-Portable-x64.exe"
     },
     "linux": {
       "target": "dir"

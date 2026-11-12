@@ -1,0 +1,55 @@
+
+> visionforge3-desktop@0.0.4 test
+> node --test tests/*.test.cjs
+
+✔ provider navigation restricts schemes and exact origins (3.0404ms)
+✔ system browser uses fixed provider URL only (1.3552ms)
+✔ closed bridge refuses prompt and selection (1.606ms)
+✔ invalid prompt is refused before touching provider page (0.9643ms)
+✔ Windows tilde literal dan percent-encoded merujuk path yang sama (2.3029ms)
+✔ POSIX filepath yang sama (0.3493ms)
+✔ IPC menolak sender lain (0.2425ms)
+✔ IPC menolak iframe (0.205ms)
+✔ IPC menolak HTTPS (0.2849ms)
+✔ IPC menolak HTML lain (0.2724ms)
+✔ IPC menolak UNC (0.2153ms)
+✔ IPC menolak query (0.2104ms)
+✔ IPC menolak encoded separator (0.3825ms)
+✔ IPC menolak URL tidak sah (0.3554ms)
+✔ LF (11.1758ms)
+✔ CRLF (0.9795ms)
+✔ UTF-8 BOM LF (0.7576ms)
+✔ UTF-8 BOM CRLF (0.6615ms)
+✔ ID skill tidak sepadan (1.3349ms)
+✔ frontmatter tidak sah "---\nname: remotion-create\ndescription: x" (0.3511ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.2402ms)
+✔ frontmatter tidak sah "---\n- a\n- b\n---" (1.1349ms)
+✔ frontmatter tidak sah "---\nname: [\ndescription: x\n---" (2.5414ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.9625ms)
+✔ frontmatter tidak sah "ate\ndescription: !!js/function \"bad\"\n---" (1.2138ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: []\n---" (0.6332ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: \"\"\n---" (0.5574ms)
+✔ frontmatter tidak sah "ion-create\nx: &x abc\ndescription: *x\n---" (1.6388ms)
+✔ metadata dalam body tidak boleh menggantikan header (0.4883ms)
+✔ UTF-8 rosak ditolak (0.2881ms)
+✔ SKILL.md tiada menghasilkan diagnostic ID dan sebab (3.2654ms)
+✔ 18 folder asal sah LF (59.4029ms)
+✔ 18 folder asal sah CRLF (71.1055ms)
+✔ 18 folder asal sah BOM_CRLF (72.9606ms)
+✔ projek dan mesej kekal selepas restart (120.8731ms)
+✔ backup, approval, checksum dan restore tidak memadam projek (198.2485ms)
+✔ schema masa depan tidak dibuka untuk downgrade (61.3799ms)
+✔ ID dan file import dihadkan (60.0892ms)
+✔ 18 skills dipadankan kepada ID sebenar dan katalog diasingkan (16.7707ms)
+✔ API key ditolak jika OS tidak menyulitkannya (0.8643ms)
+✔ Windows artifact names dan SemVer mengikut versi tugasan (0.8224ms)
+✔ migrasi schema membuat backup sebelum ALTER dan draf boleh dipulihkan (123.4201ms)
+✔ endpoint Cloud menolak HTTP luar, credentials dan redirect berparameter (0.8415ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 878.8316

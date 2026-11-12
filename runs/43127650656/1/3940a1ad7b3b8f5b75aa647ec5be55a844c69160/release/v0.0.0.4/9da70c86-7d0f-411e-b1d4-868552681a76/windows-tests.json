@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "packaged app",
+    "installed app: VFPlain",
+    "uninstall and preserve data: VFPlain"
+  ],
+  "fileVersion": "0.0.0.4",
+  "signatures": {
+    "VISIONFORGE-3-v0.0.0.4-Setup-x64.exe": "NotSigned",
+    "VISIONFORGE-3-v0.0.0.4-Portable-x64.exe": "NotSigned"
+  },
+  "error": "Smoke VF-With-Spaces gagal",
+  "status": "FAIL"
+}

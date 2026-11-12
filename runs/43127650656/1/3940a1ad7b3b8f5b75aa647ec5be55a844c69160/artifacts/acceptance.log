@@ -1,0 +1,32 @@
+(node:7492) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS Electron smoke win32
+VF_INSTALL_REQUEST /S /D="C:\Users\RUNNER~1\AppData\Local\Temp\VFPlain"
+(node:5588) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS Electron smoke win32
+VF_INSTALL_REQUEST /S /D="C:\Users\RUNNER~1\AppData\Local\Temp\VF With Spaces"
+(node:8704) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+VF_SMOKE_FAILURE {
+  "url": "file:///C:/Users/RUNNER~1/AppData/Local/Temp/VF%20With%20Spaces/resources/app.asar/dist/index.html",
+  "body": "V₃\nVISIONFORGE 3\nSTUDIO VIDEO\n＋ Video baharu\n◈Studio\n▤Projek\n▧Pustaka media\n✧Skills (18)\n◎AI Providers\n▣Browser Automation\n≋Render Queue\n⚙Settings\nPROJEK TERKINI\nProjek Smoke 42\n Ruang kerja tempatan\nv0.0.0.4 · DRAFT\nVISIONFORGE 3 / Browser Automation\nWindows + Cloud · Fasa asas\nBrowser Automation\nBROWSER DIBUKA\nLogin Google AI Studio\n\nBuka browser khusus VISIONFORGE dan login sendiri dalam tetingkap Google. Sesi disimpan pada peranti ini untuk dibuka semula.\n\nBuka / Login Google AI StudioTutup browserBuka dalam browser sistem\n\nHalaman login dibuka; login dahulu.\n\nSemak sambungan\nBrief dan hasil projek\n\nProjek aktif: Projek Smoke 42\n\nBrief untuk AI Studio\nGuna brief projekPindahkan brief ke AI Studio\n\nLangkah ini menghantar teks brief ke halaman Google. Semak teks sebelum meneruskan. Tiada Run ditekan secara automatik.\n\nAmbil teks jawapan yang dipilih\nPratonton jawapan\nSimpan jawapan ke projek\nSuara / TTS\nBuka Speech / TTS\n\nPilih mod satu pembicara di AI Studio, pindahkan skrip melalui Brief AI Studio, kemudian pilih suara dan tekan Run sendiri. Selepas selesai, tekan Download WAV/MP3 dalam browser aplikasi. Audio akan muncul di bawah untuk diimport ke projek aktif.\n\nAudio dari browser sistem: gunakan Lampirkan fail dalam Studio. Import audio tidak mencampurkan suara ke video secara automatik.\n\nJika Google menolak browser aplikasi, gunakan browser sistem. Sesi browser sistem berasingan daripada sesi VISIONFORGE.\n\nProfil Chrome peribadi tidak diambil. Pemindahan brief dan import jawapan tersedia melalui browser aplikasi. Run suara dan video masih manual; import audio melalui Lampirkan fail masih tersedia.",
+  "diagnostics": ""
+}
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(providerPage)
+
+    at D:\a\visionforce3\visionforce3\desktop\tests\electron-smoke.cjs:14:60 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+[31;1mException: [0mD:\a\visionforce3\visionforce3\desktop\scripts\windows-acceptance.ps1:13[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m  13 | [0m . oke.cjs; if ($LASTEXITCODE -ne 0) { [36;1mthrow "Smoke $name gagal"[0m } } fin .[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mSmoke VF-With-Spaces gagal[0m

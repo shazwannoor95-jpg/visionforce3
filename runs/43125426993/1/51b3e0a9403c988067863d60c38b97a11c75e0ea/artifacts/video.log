@@ -1,0 +1,168 @@
+
+added 246 packages, and audited 247 packages in 7s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[90mDownloading Chrome Headless Shell https://www.remotion.dev/chrome-headless-shell[39m
+Downloading from: https://remotion.media/chromium-headless-shell-win-x64-158.0.8127.2.zip?clear
+Getting Headless Shell - 9.6 Mb/131.1 Mb
+Getting Headless Shell - 19.1 Mb/131.1 Mb
+Getting Headless Shell - 28.6 Mb/131.1 Mb
+Getting Headless Shell - 38.2 Mb/131.1 Mb
+Getting Headless Shell - 47.7 Mb/131.1 Mb
+Getting Headless Shell - 57.3 Mb/131.1 Mb
+Getting Headless Shell - 66.8 Mb/131.1 Mb
+Getting Headless Shell - 76.4 Mb/131.1 Mb
+Getting Headless Shell - 85.9 Mb/131.1 Mb
+Getting Headless Shell - 95.5 Mb/131.1 Mb
+Getting Headless Shell - 105 Mb/131.1 Mb
+Getting Headless Shell - 114.6 Mb/131.1 Mb
+Getting Headless Shell - 124.1 Mb/131.1 Mb
+Got Headless Shell
+Bundling 6%
+Bundling 21%
+Bundling 32%
+Bundling 43%
+Bundling 54%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 80%
+Bundling 85%
+Bundling 91%
+Bundling 98%
+Bundling 100%
+Getting composition
+⚡️ Cached bundle. Subsequent renders will be faster.
+[90mComposition          VisionForge3[39m
+[90mCodec                h264[39m
+[90mOutput               D:\a\visionforce3\visionforce3/artifacts/desktop/windows-remotion.mp4[39m
+[90mConcurrency          2x[39m
+Rendered 0/120
+Rendered 1/120, time remaining: 27s
+Rendered 2/120, time remaining: 14s
+Rendered 3/120, time remaining: 11s
+Rendered 4/120, time remaining: 9s
+Rendered 5/120, time remaining: 8s
+Rendered 6/120, time remaining: 7s
+Rendered 7/120, time remaining: 6s
+Rendered 8/120, time remaining: 6s
+Rendered 9/120, time remaining: 6s
+Rendered 10/120, time remaining: 5s
+Rendered 11/120, time remaining: 5s
+Rendered 12/120, time remaining: 5s
+Rendered 13/120, time remaining: 5s
+Rendered 14/120, time remaining: 4s
+Rendered 15/120, time remaining: 4s
+Rendered 16/120, time remaining: 4s
+Rendered 17/120, time remaining: 4s
+Rendered 18/120, time remaining: 4s
+Rendered 19/120, time remaining: 4s
+Rendered 20/120, time remaining: 4s
+Rendered 21/120, time remaining: 4s
+Rendered 22/120, time remaining: 4s
+Rendered 23/120, time remaining: 4s
+Rendered 24/120, time remaining: 3s
+Rendered 25/120, time remaining: 3s
+Rendered 26/120, time remaining: 3s
+Rendered 27/120, time remaining: 3s
+Rendered 28/120, time remaining: 3s
+Rendered 29/120, time remaining: 3s
+Rendered 30/120, time remaining: 3s
+Rendered 31/120, time remaining: 3s
+Rendered 32/120, time remaining: 3s
+Rendered 33/120, time remaining: 3s
+Rendered 34/120, time remaining: 3s
+Rendered 35/120, time remaining: 3s
+Rendered 36/120, time remaining: 3s
+Rendered 37/120, time remaining: 3s
+Rendered 38/120, time remaining: 3s
+Rendered 39/120, time remaining: 3s
+Rendered 40/120, time remaining: 3s
+Rendered 41/120, time remaining: 3s
+Rendered 42/120, time remaining: 2s
+Rendered 43/120, time remaining: 2s
+Rendered 44/120, time remaining: 2s
+Rendered 45/120, time remaining: 2s
+Rendered 46/120, time remaining: 2s
+Rendered 47/120, time remaining: 2s
+Rendered 48/120, time remaining: 2s
+Rendered 49/120, time remaining: 2s
+Rendered 50/120, time remaining: 2s
+Rendered 51/120, time remaining: 2s
+Rendered 52/120, time remaining: 2s
+Rendered 53/120, time remaining: 2s
+Rendered 54/120, time remaining: 2s
+Rendered 55/120, time remaining: 2s
+Rendered 56/120, time remaining: 2s
+Rendered 57/120, time remaining: 2s
+Rendered 58/120, time remaining: 2s
+Rendered 59/120, time remaining: 2s
+Rendered 60/120, time remaining: 2s
+Rendered 61/120, time remaining: 2s
+Rendered 62/120, time remaining: 2s
+Rendered 63/120, time remaining: 2s
+Rendered 64/120, time remaining: 2s
+Rendered 65/120, time remaining: 2s
+Rendered 66/120, time remaining: 1s
+Rendered 67/120, time remaining: 1s
+Rendered 68/120, time remaining: 1s
+Rendered 69/120, time remaining: 1s
+Rendered 70/120, time remaining: 1s
+Rendered 71/120, time remaining: 1s
+Rendered 72/120, time remaining: 1s
+Rendered 73/120, time remaining: 1s
+Rendered 74/120, time remaining: 1s
+Rendered 75/120, time remaining: 1s
+Rendered 76/120, time remaining: 1s
+Rendered 77/120, time remaining: 1s
+Rendered 78/120, time remaining: 1s
+Rendered 79/120, time remaining: 1s
+Rendered 80/120, time remaining: 1s
+Rendered 81/120, time remaining: 1s
+Rendered 82/120, time remaining: 1s
+Rendered 83/120, time remaining: 1s
+Rendered 84/120, time remaining: 1s
+Rendered 85/120, time remaining: 1s
+Rendered 86/120, time remaining: 1s
+Rendered 87/120, time remaining: 1s
+Rendered 88/120, time remaining: 1s
+Rendered 89/120, time remaining: 1s
+Rendered 90/120, time remaining: 1s
+Rendered 91/120, time remaining: 1s
+Rendered 92/120, time remaining: 1s
+Rendered 93/120, time remaining: 0s
+Rendered 94/120, time remaining: 0s
+Rendered 95/120, time remaining: 0s
+Rendered 96/120, time remaining: 0s
+Rendered 97/120, time remaining: 0s
+Rendered 98/120, time remaining: 0s
+Rendered 99/120, time remaining: 0s
+Rendered 100/120, time remaining: 0s
+Rendered 101/120, time remaining: 0s
+Rendered 102/120, time remaining: 0s
+Rendered 103/120, time remaining: 0s
+Rendered 104/120, time remaining: 0s
+Rendered 104/120, time remaining: 0s
+Rendered 105/120, time remaining: 0s
+Rendered 106/120, time remaining: 0s
+Rendered 107/120, time remaining: 0s
+Rendered 108/120, time remaining: 0s
+Rendered 109/120, time remaining: 0s
+Rendered 110/120, time remaining: 0s
+Rendered 111/120, time remaining: 0s
+Rendered 112/120, time remaining: 0s
+Rendered 113/120, time remaining: 0s
+Rendered 114/120, time remaining: 0s
+Rendered 115/120, time remaining: 0s
+Rendered 116/120, time remaining: 0s
+Rendered 116/120, time remaining: 0s
+Rendered 117/120, time remaining: 0s
+Rendered 118/120, time remaining: 0s
+Rendered 119/120, time remaining: 0s
+Encoded 52/120
+Encoded 96/120
+Encoded 120/120
+[34m+                    D:\a\visionforce3\visionforce3/artifacts/desktop/windows-remotion.mp4[39m [90m488.9 kB[39m

@@ -1,0 +1,19 @@
+{
+  "platform": "win32",
+  "app": "D:\\a\\visionforce3\\visionforce3\\desktop\\node_modules\\electron\\dist\\electron.exe",
+  "status": "PASS",
+  "checks": [
+    "Electron sebenar",
+    "browser open/reuse/close/reopen fixture; no provider login claimed",
+    "provider renderer no Node or preload",
+    "brief transfer and preserve existing input",
+    "selected answer import and persist after restart",
+    "cipta projek",
+    "mesej/chat autosave",
+    "restart recovery",
+    "18 skills",
+    "Version History",
+    "backup data",
+    "renderer tiada Node integration"
+  ]
+}

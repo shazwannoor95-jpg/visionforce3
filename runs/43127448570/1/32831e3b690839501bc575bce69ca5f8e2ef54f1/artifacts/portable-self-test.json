@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "platform": "win32",
+  "version": "v0.0.0.4",
+  "checks": [
+    "portable process",
+    "UI loaded",
+    "18 skills",
+    "SQLite write",
+    "backup",
+    "Node isolation",
+    "IPC bootstrap"
+  ],
+  "backupId": "23aa1254-4def-483e-a9d1-5490d10fe269"
+}

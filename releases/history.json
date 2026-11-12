@@ -1,5 +1,16 @@
 [
   {
+    "task": "browser-project-bridge-20261112",
+    "build": 4,
+    "display": "v0.0.0.4",
+    "semver": "0.0.4",
+    "fileVersion": "0.0.0.4",
+    "title": "Sambungkan browser AI Studio kepada brief dan hasil projek",
+    "baseCommit": "51b3e0a9403c988067863d60c38b97a11c75e0ea",
+    "createdAt": "2026-11-12T00:25:56.309951+00:00",
+    "status": "DRAFT"
+  },
+  {
     "task": "browser-login-controls-20261112",
     "build": 3,
     "display": "v0.0.0.3",

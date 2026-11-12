@@ -19,3 +19,7 @@ Pembetulan v0.0.0.2: safe frontmatter UTF-8/BOM/LF/CRLF dan diagnostic 18 IDs; f
 ## v0.0.0.3 — DRAFT
 
 Tambah kawalan sesi browser dan login manual AI Studio
+
+## v0.0.0.4 — DRAFT
+
+Sambungkan browser AI Studio kepada brief dan hasil projek

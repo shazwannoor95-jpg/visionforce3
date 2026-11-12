@@ -1,0 +1,2 @@
+7bb9298dbfbcf11fc69cabe670e15c0d6de34f97c78c5fbd18cdd831d720bc4b  VISIONFORGE-3-v0.0.0.5-Portable-x64.exe
+aa45736b6bf381cb5baab162f6372699df30094237bcbdec44f88eeff665e93a  VISIONFORGE-3-v0.0.0.5-Setup-x64.exe

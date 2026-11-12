@@ -1,0 +1,67 @@
+
+> visionforge3-desktop@0.0.5 test
+> node --test tests/*.test.cjs
+
+✔ provider navigation restricts schemes and exact origins (2.271ms)
+✔ system browser uses fixed provider URL only (1.4005ms)
+✔ closed bridge refuses prompt and selection (1.8024ms)
+✔ invalid prompt is refused before touching provider page (0.81ms)
+✔ Windows tilde literal dan percent-encoded merujuk path yang sama (1.6906ms)
+✔ POSIX filepath yang sama (0.3567ms)
+✔ IPC menolak sender lain (0.2127ms)
+✔ IPC menolak iframe (0.226ms)
+✔ IPC menolak HTTPS (0.2202ms)
+✔ IPC menolak HTML lain (0.2108ms)
+✔ IPC menolak UNC (0.1624ms)
+✔ IPC menolak query (0.1336ms)
+✔ IPC menolak encoded separator (0.3594ms)
+✔ IPC menolak URL tidak sah (0.3047ms)
+✔ Google key persists separately with no plaintext or key in state (9.5661ms)
+✔ Google models request uses header only, fixed endpoint and no redirect (35.6157ms)
+✔ HTTP 400 produces safe actionable failure (3.5805ms)
+✔ HTTP 401 produces safe actionable failure (2.7285ms)
+✔ HTTP 403 produces safe actionable failure (3.2957ms)
+✔ HTTP 404 produces safe actionable failure (2.8534ms)
+✔ HTTP 429 produces safe actionable failure (2.6175ms)
+✔ HTTP 500 produces safe actionable failure (2.6295ms)
+✔ Google text generation request and output (3.155ms)
+✔ TTS PCM becomes mono 24kHz 16-bit WAV (3.4317ms)
+✔ invalid model and empty text cannot send a request (2.4641ms)
+✔ blocked, empty and malformed provider responses fail (9.6864ms)
+✔ LF (6.7064ms)
+✔ CRLF (0.816ms)
+✔ UTF-8 BOM LF (0.699ms)
+✔ UTF-8 BOM CRLF (0.424ms)
+✔ ID skill tidak sepadan (0.8392ms)
+✔ frontmatter tidak sah "---\nname: remotion-create\ndescription: x" (0.1796ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.1279ms)
+✔ frontmatter tidak sah "---\n- a\n- b\n---" (0.616ms)
+✔ frontmatter tidak sah "---\nname: [\ndescription: x\n---" (1.4925ms)
+✔ frontmatter tidak sah "name: remotion-create\ndescription: x\n---" (0.6595ms)
+✔ frontmatter tidak sah "ate\ndescription: !!js/function \"bad\"\n---" (0.8315ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: []\n---" (0.4369ms)
+✔ frontmatter tidak sah "ame: remotion-create\ndescription: \"\"\n---" (0.2911ms)
+✔ frontmatter tidak sah "ion-create\nx: &x abc\ndescription: *x\n---" (1.0357ms)
+✔ metadata dalam body tidak boleh menggantikan header (0.3014ms)
+✔ UTF-8 rosak ditolak (0.2281ms)
+✔ SKILL.md tiada menghasilkan diagnostic ID dan sebab (1.7379ms)
+✔ 18 folder asal sah LF (139.743ms)
+✔ 18 folder asal sah CRLF (65.5881ms)
+✔ 18 folder asal sah BOM_CRLF (72.0097ms)
+✔ projek dan mesej kekal selepas restart (164.6849ms)
+✔ backup, approval, checksum dan restore tidak memadam projek (235.0074ms)
+✔ schema masa depan tidak dibuka untuk downgrade (64.5613ms)
+✔ ID dan file import dihadkan (66.5087ms)
+✔ 18 skills dipadankan kepada ID sebenar dan katalog diasingkan (18.6173ms)
+✔ API key ditolak jika OS tidak menyulitkannya (1.0365ms)
+✔ Windows artifact names dan SemVer mengikut versi tugasan (0.9174ms)
+✔ migrasi schema membuat backup sebelum ALTER dan draf boleh dipulihkan (199.3272ms)
+✔ endpoint Cloud menolak HTTP luar, credentials dan redirect berparameter (1.5242ms)
+ℹ tests 55
+ℹ suites 0
+ℹ pass 55
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1013.1241

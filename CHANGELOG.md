@@ -31,3 +31,7 @@ Tambah Google Gemini API key, teks dan TTS terus ke projek
 ## v0.0.0.6 — DRAFT
 
 Pasang directing-stickman-videos dan panduan penggunaan
+
+## v0.0.0.7 — DRAFT
+
+Integrasi Stickman Studio, projek, preview dan render B1 dalam aplikasi

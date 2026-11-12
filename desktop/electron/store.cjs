@@ -1,6 +1,6 @@
 const {DatabaseSync}=require('node:sqlite');
 const fs=require('node:fs');const path=require('node:path');const crypto=require('node:crypto');
-const SCHEMA=3;
+const SCHEMA=4;
 function atomic(file,data){const temp=file+'.'+crypto.randomUUID()+'.tmp';fs.writeFileSync(temp,data,{flag:'wx'});fs.renameSync(temp,file);}
 function validId(id){if(typeof id!=='string'||!/^[a-f0-9-]{36}$/.test(id))throw Error('ID projek tidak sah');return id;}
 class ProjectStore{
@@ -9,12 +9,14 @@ class ProjectStore{
  if(v===0){this.db.exec("BEGIN; CREATE TABLE projects(id TEXT PRIMARY KEY,name TEXT NOT NULL,updated TEXT NOT NULL,messages TEXT NOT NULL,files TEXT NOT NULL); PRAGMA user_version=1; COMMIT;");}
  if(v<2){if(v===1){const folder=path.join(root,'migration-backups');fs.mkdirSync(folder,{recursive:true});this.db.exec("VACUUM INTO '"+path.join(folder,crypto.randomUUID()+'.sqlite').replaceAll("'","''")+"'");}this.db.exec("BEGIN; ALTER TABLE projects ADD COLUMN draft TEXT NOT NULL DEFAULT ''; PRAGMA user_version=2; COMMIT;");}
  if(v<3){if(v===2){const folder=path.join(root,'migration-backups');fs.mkdirSync(folder,{recursive:true});this.db.exec("VACUUM INTO '"+path.join(folder,crypto.randomUUID()+'.sqlite').replaceAll("'","''")+"'");}this.db.exec("BEGIN; ALTER TABLE projects ADD COLUMN render TEXT; PRAGMA user_version=3; COMMIT;");}
+ if(v<4){if(v===3){const folder=path.join(root,'migration-backups');fs.mkdirSync(folder,{recursive:true});this.db.exec("VACUUM INTO '"+path.join(folder,crypto.randomUUID()+'.sqlite').replaceAll("'","''")+"'");}this.db.exec("BEGIN; ALTER TABLE projects ADD COLUMN stickman TEXT; PRAGMA user_version=4; COMMIT;");}
  }
+ stickmanState(id,value){this.get(id);this.db.prepare('UPDATE projects SET stickman=?,updated=? WHERE id=?').run(JSON.stringify(value),new Date().toISOString(),id);return value;}
  renderState(id,value){this.get(id);this.db.prepare('UPDATE projects SET render=?,updated=? WHERE id=?').run(JSON.stringify(value),new Date().toISOString(),id);return this.get(id);}
  draft(id,text){if(typeof text!=='string'||text.length>10000)throw Error('Draf terlalu panjang');this.get(id);this.db.prepare('UPDATE projects SET draft=? WHERE id=?').run(text,id);return true;}
  list(){return this.db.prepare('SELECT id,name,updated,render FROM projects ORDER BY updated DESC').all().map(p=>({...p,render:p.render?JSON.parse(p.render):null}));}
  create(name){if(typeof name!=='string'||!name.trim()||name.length>150)throw Error('Nama projek diperlukan (maksimum 150 aksara).');const id=crypto.randomUUID();this.db.prepare('INSERT INTO projects(id,name,updated,messages,files) VALUES(?,?,?,?,?)').run(id,name.trim(),new Date().toISOString(),'[]','[]');return this.get(id);}
- get(id){const p=this.db.prepare('SELECT * FROM projects WHERE id=?').get(validId(id));if(!p)throw Error('Projek tidak dijumpai');return {...p,messages:JSON.parse(p.messages),files:JSON.parse(p.files),render:p.render?JSON.parse(p.render):null};}
+ get(id){const p=this.db.prepare('SELECT * FROM projects WHERE id=?').get(validId(id));if(!p)throw Error('Projek tidak dijumpai');return {...p,messages:JSON.parse(p.messages),files:JSON.parse(p.files),render:p.render?JSON.parse(p.render):null,stickman:p.stickman?JSON.parse(p.stickman):null};}
  message(id,text,role='user'){if(typeof text!=='string'||!text.trim()||text.length>10000)throw Error('Mesej tidak sah');const p=this.get(id);p.messages.push({id:crypto.randomUUID(),role,text,created:new Date().toISOString()});this.db.prepare('UPDATE projects SET messages=?,updated=? WHERE id=?').run(JSON.stringify(p.messages),new Date().toISOString(),id);return this.get(id);}
  attach(id,source){const p=this.get(id);const stat=fs.statSync(source);if(!stat.isFile()||stat.size>50*1024*1024)throw Error('Had fail 50 MiB');const ext=path.extname(source).toLowerCase();if(!['.pdf','.docx','.pptx','.txt','.md','.png','.jpg','.jpeg','.mp4','.wav','.mp3'].includes(ext))throw Error('Format fail tidak disokong');const directory=path.join(this.root,'media',id);fs.mkdirSync(directory,{recursive:true});const mediaId=crypto.randomUUID();const dest=path.join(directory,mediaId+ext);fs.copyFileSync(source,dest,fs.constants.COPYFILE_EXCL);const file={id:mediaId,name:path.basename(source),relative:path.relative(this.root,dest),size:stat.size};p.files.push(file);this.db.prepare('UPDATE projects SET files=?,updated=? WHERE id=?').run(JSON.stringify(p.files),new Date().toISOString(),id);return this.get(id);}
  resolveMedia(id,fileId){const p=this.get(id);const file=p.files.find(f=>f.id===fileId);if(!file)throw Error('Media tidak dijumpai');const target=path.resolve(this.root,file.relative);if(!target.startsWith(path.resolve(this.root)+path.sep))throw Error('Path media tidak sah');return target;}

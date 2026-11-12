@@ -27,7 +27,7 @@ jobs:
         id: dependencies
         working-directory: desktop
         run: npm ci
-      - name: Diagnostic 18 skills dan newline Windows
+      - name: Diagnostic 19 skills dan newline Windows
         id: diagnostic
         working-directory: desktop
         run: node scripts/diagnose-skills.cjs

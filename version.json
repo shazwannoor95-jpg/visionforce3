@@ -1,11 +1,11 @@
 {
-  "task": "install-stickman-skill-20261112",
-  "build": 6,
-  "display": "v0.0.0.6",
-  "semver": "0.0.6",
-  "fileVersion": "0.0.0.6",
-  "title": "Pasang directing-stickman-videos dan panduan penggunaan",
-  "baseCommit": "9e1bc51b35f21e10ebca3cdd49fdfec1837ea460",
-  "createdAt": "2026-11-12T02:22:05.275907+00:00",
+  "task": "stickman-app-integration-20261112",
+  "build": 7,
+  "display": "v0.0.0.7",
+  "semver": "0.0.7",
+  "fileVersion": "0.0.0.7",
+  "title": "Integrasi Stickman Studio, projek, preview dan render B1 dalam aplikasi",
+  "baseCommit": "7a6a28acb427bbfe7b40205159773da888bc8c3c",
+  "createdAt": "2026-11-12T02:32:24.435787+00:00",
   "status": "DRAFT"
 }

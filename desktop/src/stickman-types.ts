@@ -1,0 +1,3 @@
+export type StickmanScene={start:number;end:number;title:string;caption:string;actorId:string;propId:string;action:string;direction:string;sfx?:string};
+export type StickmanConfig={style:string;theme?:string;ratio:string;duration:number;source:string;proposal:string;narrationId:string;ambienceId?:string;mixedAudio?:boolean;scenes:StickmanScene[]};
+export type StickmanState={config:StickmanConfig;status:string;phase?:string;error?:string;approval?:{hash:string;at:string;scope:string}|null;run?:{folder:string;videoId?:string;report?:{duration:number;frames:number;full_decode:string;human_review:string}}|null};

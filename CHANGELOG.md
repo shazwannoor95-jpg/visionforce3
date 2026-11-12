@@ -15,3 +15,7 @@ Kerja sebelum ledger versi ini kekal dalam sejarah Git sedia ada; tidak diberi n
 Pulihkan CI Windows, audit frontmatter dan build EXE
 
 Pembetulan v0.0.0.2: safe frontmatter UTF-8/BOM/LF/CRLF dan diagnostic 18 IDs; fail-fast unit/typecheck; IPC Windows percent-encoding; quoting NSIS directory; portable IPC dan data retention; decoder QA menggunakan rawvideo yang disokong. Windows Installer/Portable serta MP4 lulus penerimaan native pada run 43037741035. Release belum diterbitkan sebagai STABLE.
+
+## v0.0.0.3 — DRAFT
+
+Tambah kawalan sesi browser dan login manual AI Studio

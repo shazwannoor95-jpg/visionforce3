@@ -1,5 +1,16 @@
 [
   {
+    "task": "browser-login-controls-20261112",
+    "build": 3,
+    "display": "v0.0.0.3",
+    "semver": "0.0.3",
+    "fileVersion": "0.0.0.3",
+    "title": "Tambah kawalan sesi browser dan login manual AI Studio",
+    "baseCommit": "2582cc76f5d0daad60f0e94801590d575d7a90ba",
+    "createdAt": "2026-11-12T00:09:20.810774+00:00",
+    "status": "DRAFT"
+  },
+  {
     "task": "windows-ci-recovery-20261111",
     "build": 2,
     "display": "v0.0.0.2",

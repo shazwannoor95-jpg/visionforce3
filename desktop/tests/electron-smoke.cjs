@@ -6,9 +6,20 @@ const {_electron:electron}=require('playwright');const fs=require('node:fs');con
  await page.getByLabel('Brief video').fill('Bina motion grafik dengan nombor rasmi 42.');await page.getByRole('button',{name:'Hantar brief ↗'}).click();await page.getByText('Brief disimpan.',{exact:false}).waitFor();
  assert.equal(await page.evaluate(()=>typeof window.require),'undefined');
  await page.getByRole('button',{name:'Skills (18)',exact:true}).click();await page.getByRole('heading',{name:'18 skills. Satu studio.'}).waitFor();assert.equal(await page.locator('.skill-grid article').count(),18);
+ // Local fixture proves browser controls and isolation, not real Google login.
+ await app.context().route('https://aistudio.google.com/**',route=>route.fulfill({contentType:'text/html',body:'<h1>Provider login fixture</h1>'}));
+ await page.getByRole('button',{name:'Browser Automation',exact:true}).click();
+ const browserButton=page.getByRole('button',{name:'Buka / Login Google AI Studio',exact:true});
+ await browserButton.click();await page.getByText('BROWSER DIBUKA',{exact:true}).waitFor();
+ const providerPage=app.windows().find(p=>p!==page);assert.ok(providerPage);await providerPage.getByRole('heading',{name:'Provider login fixture'}).waitFor();
+ assert.equal(await providerPage.evaluate(()=>typeof window.require+':'+typeof window.visionforge),'undefined:undefined');
+ await browserButton.click();assert.equal(app.windows().length,2);
+ await page.getByRole('button',{name:'Tutup browser',exact:true}).click();await page.getByText('BROWSER DITUTUP',{exact:true}).waitFor();
+ await browserButton.click();await page.getByText('BROWSER DIBUKA',{exact:true}).waitFor();
+ await page.getByRole('button',{name:'Tutup browser',exact:true}).click();await page.getByText('BROWSER DITUTUP',{exact:true}).waitFor();
  await page.getByRole('button',{name:'Settings',exact:true}).click();await page.getByRole('heading',{name:'Version History'}).waitFor();await page.getByRole('button',{name:'Backup sekarang',exact:true}).click();await page.getByText('Backup berjaya:',{exact:false}).waitFor();
  const out=process.env.VF_SMOKE_REPORT||path.resolve(__dirname,'../../artifacts/desktop');fs.mkdirSync(out,{recursive:true});await page.screenshot({path:path.join(out,'settings.png')});
  await app.close();app=await launch();const next=await app.firstWindow();await next.getByRole('button',{name:'Projek Smoke 42',exact:true}).click();await next.getByText('Bina motion grafik dengan nombor rasmi 42.',{exact:true}).waitFor();await next.screenshot({path:path.join(out,'studio.png')});
- fs.writeFileSync(path.join(out,'smoke.json'),JSON.stringify({platform:process.platform,app:executablePath,status:'PASS',checks:['Electron sebenar','cipta projek','mesej/chat autosave','restart recovery','18 skills','Version History','backup data','renderer tiada Node integration']},null,2));console.log('PASS Electron smoke '+process.platform);
+ fs.writeFileSync(path.join(out,'smoke.json'),JSON.stringify({platform:process.platform,app:executablePath,status:'PASS',checks:['Electron sebenar','browser open/reuse/close/reopen fixture; no provider login claimed','provider renderer no Node or preload','cipta projek','mesej/chat autosave','restart recovery','18 skills','Version History','backup data','renderer tiada Node integration']},null,2));console.log('PASS Electron smoke '+process.platform);
  }catch(error){const out=process.env.VF_SMOKE_REPORT||path.resolve(__dirname,'../../artifacts/desktop');fs.mkdirSync(out,{recursive:true});let body='';try{body=await page.locator('body').innerText({timeout:3000});await page.screenshot({path:path.join(out,'failure.png')});}catch{}console.error('VF_SMOKE_FAILURE',JSON.stringify({url:page?.url(),body,diagnostics:diagnostics.join('').slice(-10000)},null,2));throw error;}finally{if(app)await app.close();fs.rmSync(root,{recursive:true,force:true});}
 })().catch(e=>{console.error(e);process.exit(1);});

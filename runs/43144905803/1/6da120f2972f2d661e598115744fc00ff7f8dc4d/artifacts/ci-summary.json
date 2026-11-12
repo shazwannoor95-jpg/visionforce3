@@ -1,0 +1,21 @@
+{
+  "version": "v0.0.0.7",
+  "source": "6da120f2972f2d661e598115744fc00ff7f8dc4d",
+  "event": "push",
+  "runId": "43144905803",
+  "attempt": "1",
+  "url": "https://github.com/shazwannoor95-jpg/visionforce3/actions/runs/43144905803",
+  "platform": "win32",
+  "status": "FAIL",
+  "outcomes": {
+    "DEPENDENCIES": "PASS",
+    "DIAGNOSTIC": "PASS",
+    "UNIT": "PASS",
+    "TYPECHECK": "PASS",
+    "BUILD": "PASS",
+    "DEVELOPMENT": "FAIL",
+    "ACCEPTANCE": "NOT RUN",
+    "VIDEO": "NOT RUN",
+    "CHECKSUMS": "NOT RUN"
+  }
+}

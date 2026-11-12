@@ -1,0 +1,144 @@
+{
+  "platform": "win32",
+  "node": "24.22.1",
+  "autocrlf": "true",
+  "ok": true,
+  "verified": 19,
+  "failed": [],
+  "unexpected": [],
+  "files": [
+    {
+      "id": "remotion-best-practices",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 116,
+      "lf": 0
+    },
+    {
+      "id": "remotion-captions",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 42,
+      "lf": 0
+    },
+    {
+      "id": "remotion-create",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 75,
+      "lf": 0
+    },
+    {
+      "id": "remotion-docs",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 46,
+      "lf": 0
+    },
+    {
+      "id": "remotion-interactivity",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 332,
+      "lf": 0
+    },
+    {
+      "id": "remotion-license",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 15,
+      "lf": 0
+    },
+    {
+      "id": "remotion-maps",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 36,
+      "lf": 0
+    },
+    {
+      "id": "remotion-markup",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 334,
+      "lf": 0
+    },
+    {
+      "id": "remotion-multimedia",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 20,
+      "lf": 0
+    },
+    {
+      "id": "remotion-render",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 41,
+      "lf": 0
+    },
+    {
+      "id": "remotion-saas",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 33,
+      "lf": 0
+    },
+    {
+      "id": "remotion-studio",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 32,
+      "lf": 0
+    },
+    {
+      "id": "remotion-upgrade",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 31,
+      "lf": 0
+    },
+    {
+      "id": "playwright-cli",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 493,
+      "lf": 0
+    },
+    {
+      "id": "playwright-component-testing",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 136,
+      "lf": 0
+    },
+    {
+      "id": "playwright-trace",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 174,
+      "lf": 0
+    },
+    {
+      "id": "directing-stickman-videos",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 114,
+      "lf": 0
+    },
+    {
+      "id": "buat-video-motion-grafik",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 131,
+      "lf": 0
+    },
+    {
+      "id": "buat-video-motion-grafik-gemini",
+      "firstBytes": "2d2d2d0d0a6e616d",
+      "bom": false,
+      "crlf": 154,
+      "lf": 0
+    }
+  ]
+}

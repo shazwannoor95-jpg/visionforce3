@@ -1,2 +1,0 @@
-const {chromium}=require('playwright');
-(async()=>{const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});try{const page=await browser.newPage();await page.setContent('<h1>VISIONFORGE 3</h1><button onclick="this.textContent=\'OK\'">Test</button>');await page.getByRole('button').click();if(await page.getByRole('button').textContent()!=='OK')throw Error('Interaction failed');console.log('PASS: isolated Cloud Chromium DOM interaction');}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

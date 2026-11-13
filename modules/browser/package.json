@@ -1,1 +1,0 @@
-{"name":"visionforge3-browser","private":true,"scripts":{"smoke":"node smoke.cjs"},"devDependencies":{"playwright":"1.56.1"}}
